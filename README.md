@@ -49,4 +49,4 @@ Steps to Get Azul Plus Working Correctly:
 
 - Roads and Borders Remain Working, Its just for the Road Signs. Sorry:/ but its easily fixable if it annoys you.
 
-11. I also Added The orginal Metro maps If you just prefer that one. With full icon speed
+11. I also Added The original Metro maps If you just prefer that one. With full icon speed
