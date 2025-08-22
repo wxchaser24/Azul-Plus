@@ -1,0 +1,77 @@
+<SceneRefs resolution="0" version="2.10.6" nextRef="1" hasErrors="false">
+  <Metadata />
+  <Refs>
+    <Ref name="DataObject.1/2/2.1/2/2/1." key="{ref_0}" dataType="LocalAirQuality" desc="Primary Day" configurable="true" />
+  </Refs>
+  <StaticAssets>
+    <StaticAsset path="image/domestic/project_specific/Azul/BANNER_SHAPE2_1024x128.peak">
+      <UsedBy>1/1/1/1/1/1/1/1</UsedBy>
+      <UsedBy>1/1/1/1/1/1/1/2</UsedBy>
+      <UsedBy>1/1/1/1/1/1/1/3</UsedBy>
+      <UsedBy>1/1/1/1/1/1/1/4</UsedBy>
+      <UsedBy>1/1/1/1/1/1/2/2/2</UsedBy>
+      <UsedBy>1/2/1/2/1/1</UsedBy>
+      <UsedBy>1/2/1/2/3/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/HI_GLOSS.peak">
+      <UsedBy>1/1/1/1/1/1/1/5</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/project_specific/Azul/BANR_BLUE_512x128.peak">
+      <UsedBy>1/1/1/1/1/1/2/1/1</UsedBy>
+      <UsedBy>1/1/1/1/1/1/2/2/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-BoldCond.peak">
+      <UsedBy>1/1/1/1/1/1/2/2/3</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/FLARE_05_128x64.peak">
+      <UsedBy>1/1/1/1/1/1/2/2/4/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/crys_metal.peak">
+      <UsedBy>1/2/1/1/2</UsedBy>
+      <UsedBy>1/2/1/1/3</UsedBy>
+      <UsedBy>1/2/1/2/2/1</UsedBy>
+      <UsedBy>1/2/1/2/2/2</UsedBy>
+      <UsedBy>1/2/1/2/4/1</UsedBy>
+      <UsedBy>1/2/1/2/4/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/lightblue.peak">
+      <UsedBy>1/2/1/1/4</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-HeavyExt.peak">
+      <UsedBy>1/2/2/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-MediumExt.peak">
+      <UsedBy>1/2/2/1/2/1</UsedBy>
+      <UsedBy>1/2/2/1/3/2</UsedBy>
+      <UsedBy>1/2/2/1/5</UsedBy>
+      <UsedBy>1/2/2/1/6/1/1</UsedBy>
+      <UsedBy>1/2/2/1/6/1/2</UsedBy>
+      <UsedBy>1/2/2/1/6/1/3</UsedBy>
+      <UsedBy>1/2/2/1/6/1/4</UsedBy>
+      <UsedBy>1/2/2/1/6/1/5</UsedBy>
+      <UsedBy>1/2/2/1/6/1/6</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-MediumCond.peak">
+      <UsedBy>1/2/2/1/3/1</UsedBy>
+      <UsedBy>1/2/2/1/4/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/metal_4.peak">
+      <UsedBy>1/2/2/1/4/1/1</UsedBy>
+      <UsedBy>1/2/2/1/4/1/2</UsedBy>
+      <UsedBy>1/2/2/1/6/2/1</UsedBy>
+      <UsedBy>1/2/2/1/6/2/2</UsedBy>
+      <UsedBy>1/2/2/1/6/2/3</UsedBy>
+      <UsedBy>1/2/2/1/6/2/4</UsedBy>
+      <UsedBy>1/2/2/1/6/2/5</UsedBy>
+      <UsedBy>1/2/2/1/6/3/1/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/DINCE-Bold.peak">
+      <UsedBy>1/2/2/1/4/1/3</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/project_specific/Azul/triangle_shadow.peak">
+      <UsedBy>1/2/2/1/6/3/1/1</UsedBy>
+    </StaticAsset>
+  </StaticAssets>
+  <DynamicAssets />
+  <Export version="7.4.1.19905" user="SYSTEM" host="DESKTOP-IQMITL9" timestamp="2024-06-25 04:40:08" />
+</SceneRefs>

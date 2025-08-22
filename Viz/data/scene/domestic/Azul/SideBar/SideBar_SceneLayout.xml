@@ -1,0 +1,76 @@
+<SceneLayout version="1.2.16" type="viz" screenBoundingBox="0,0,0.2682748,0.9987013" hasErrors="false">
+  <Windows />
+  <DesignAutoLayouts>
+    <DesignAutoLayout path="1/1/1/4" layoutFrame="0" />
+  </DesignAutoLayouts>
+  <Scrollers />
+  <Audio />
+  <PlaylistScrollers />
+  <WarningPolygons />
+  <Maps>
+    <Map path="1/1/1" type="CWMClient" fileName="i2_US_30m_Topo_EC.cmr" />
+  </Maps>
+  <Movies />
+  <RoadLabelManagers>
+    <RoadLabelManager path="1/1/1/5/2/1" />
+  </RoadLabelManagers>
+  <MinMaxControllers />
+  <Timeline name="Default" start="0" duration="32">
+    <Event type="Pause" time="62" duration="3573" name="end" direction="Both" />
+    <Animation path="1/1/1/3/1/1" />
+    <Animation path="1/1/1/5/1/2" />
+    <Animation path="1/1/1/5/1/4" />
+    <Animation path="1/1/1/5/2/1/1" />
+    <Animation path="1/1/1/5/3/1/1/1" />
+    <Animation path="1/1/1/5/3/1/2" />
+    <Animation path="1/1/1/5/3/2/1/1" />
+    <Animation path="1/1/1/5/3/2/2" />
+    <Animation path="1/1/1/5/3/3/1/1" />
+    <Animation path="1/1/1/5/3/3/2" />
+    <Animation path="1/1/1/5/3/4/1/1" />
+    <Animation path="1/1/1/5/3/4/2" />
+    <Animation path="1/1/1/5/3/5/1/1" />
+    <Animation path="1/1/1/5/3/5/2" />
+    <Animation path="1/1/1/5/3/6/1/1" />
+    <Animation path="1/1/1/5/3/6/2" />
+    <Animation path="1/1/1/5/4/1" />
+    <Animation path="1/1/1/5/4/1/2" />
+    <Animation path="2" />
+    <Animation path="2/1/1/1/1" />
+    <Animation path="2/1/1/1/1/2" />
+    <Animation path="2/1/1/1/2" />
+    <Animation path="2/1/1/1/3" />
+    <Animation path="2/1/1/1/4" />
+    <Animation path="2/1/1/1/5" />
+    <Animation path="2/1/1/1/6" />
+    <Animation path="2/1/1/1/6/1" />
+    <Animation path="2/1/1/1/7" />
+    <Animation path="2/1/1/2/1/2" />
+    <Animation path="2/1/1/2/2/1" />
+    <Animation path="2/3" />
+  </Timeline>
+  <Timeline name="Looping" start="0" duration="43801366">
+    <Animation path="1/1/1/1/1" />
+    <Animation path="2/1/1/2/1" />
+    <Animation path="2/1/1/2/1/1/1" />
+    <Animation path="2/1/1/2/1/2/1" />
+    <Animation path="2/1/1/2/2/2" />
+    <Animation path="2/1/1/2/2/3" />
+    <Animation path="2/1/1/2/3" />
+    <Animation path="2/1/2/1/1" />
+    <Animation path="2/1/2/1/1/1/1" />
+    <Animation path="2/1/2/1/1/2/1" />
+    <Animation path="2/1/2/1/2/1" />
+    <Animation path="2/1/2/1/2/2" />
+    <Animation path="2/1/2/1/3" />
+    <Animation path="2/1/3/1/1" />
+    <Animation path="2/1/3/1/1/1/1" />
+    <Animation path="2/1/3/1/1/2/1" />
+    <Animation path="2/1/3/1/2/1" />
+    <Animation path="2/1/3/1/2/2" />
+    <Animation path="2/1/3/1/3" />
+    <Animation path="2/3/2" />
+  </Timeline>
+  <Timeline name="Navigator" start="0" duration="0" />
+  <Export version="2.6.0.15032" user="kpollak" host="SE-KPOLLAK" timestamp="2011-02-09 16:31:26" />
+</SceneLayout>

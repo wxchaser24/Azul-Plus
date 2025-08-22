@@ -1,0 +1,39 @@
+<Config name="default">
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default" />
+    </Rule>
+  </Ruleset>
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_34" value="" />
+      <ConfigItem key="ref_35" value="" />
+      <ConfigItem key="ref_36" value="" />
+      <ConfigItem key="ref_37" value="" />
+      <ConfigItem key="ref_40" value="LocalMapLayout_f9c82e68_9332_484c_a271_2555a25bf008" />
+    </ConfigItems>
+    <ConfigRecords>
+      <ConfigRecord key="LocalMapLayout_f9c82e68_9332_484c_a271_2555a25bf008">
+        <LocalMapLayout>
+          <maxLabels>12</maxLabels>
+        </LocalMapLayout>
+      </ConfigRecord>
+    </ConfigRecords>
+  </ConfigDef>
+</Config>

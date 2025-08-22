@@ -1,0 +1,13 @@
+<SceneRefs version="2.10.5" nextRef="0" hasErrors="false">
+  <Refs />
+  <StaticAssets>
+    <StaticAsset path="image/domestic/common/clouds2.peak">
+      <UsedBy>1/1/2/1/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/logos/TWC_HD_OR.peak">
+      <UsedBy>1/1/3/1/1/1/1</UsedBy>
+    </StaticAsset>
+  </StaticAssets>
+  <DynamicAssets />
+  <Export version="3.2.0.0" user="jriley" host="JRILEY-ML" timestamp="2013-09-05 19:23:27" />
+</SceneRefs>

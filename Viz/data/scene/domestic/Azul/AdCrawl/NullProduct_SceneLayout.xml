@@ -1,0 +1,14 @@
+<SceneLayout version="1.2.15" type="viz" screenBoundingBox="1,1,-1,-1" hasErrors="false">
+  <Windows />
+  <DesignAutoLayouts />
+  <Scrollers />
+  <Audio />
+  <PlaylistScrollers />
+  <WarningPolygons />
+  <Maps />
+  <Movies />
+  <RoadLabelManagers />
+  <MinMaxControllers />
+  <Timeline name="Default" start="0" duration="0" />
+  <Export version="1.0.0.0" user="jmenzies" host="GALLIFREY" timestamp="2010-03-19 20:17:03" />
+</SceneLayout>

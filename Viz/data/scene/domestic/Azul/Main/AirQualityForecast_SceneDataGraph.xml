@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataGraphOutput xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Primary Day</Label>
+      <Path>TopNode/Contents/air_quality_forecast/MainContent</Path>
+      <FullPath>1/2/2/1</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_0}" fieldName="actionDay" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="actionDayText" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="category" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="categoryIdx" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="date" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="index" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="pollutant" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="processTime" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>locName</Path>
+      <FullPath>1/2/2/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_0}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataParameter</PluginName>
+      <Path>valid_day/today</Path>
+      <FullPath>1/2/2/1/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_0}" fieldName="date" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="1/2/2/1/2/1" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DateTimeFormatter</PluginName>
+      <Path>valid_day/today</Path>
+      <FullPath>1/2/2/1/2/1</FullPath>
+      <InputFields>
+        <DataField key="1/2/2/1/2/1" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>pollutant/pollutant_data</Path>
+      <FullPath>1/2/2/1/3/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_0}" fieldName="pollutant" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_0}" fieldName="#misc_1" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>pollutant/pollutant_data</Path>
+      <FullPath>1/2/2/1/3/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_0}" fieldName="#misc_1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>ozone</Path>
+      <FullPath>1/2/2/1/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_0}" fieldName="actionDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_0}" fieldName="#misc_2" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSwitch</PluginName>
+      <Path>ozone</Path>
+      <FullPath>1/2/2/1/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_0}" fieldName="#misc_2" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>ozone/ozone_action_day</Path>
+      <FullPath>1/2/2/1/4/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_0}" fieldName="actionDayText" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>ColorBars_n_Arrow/bar_text</Path>
+      <FullPath>1/2/2/1/6/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_0}" fieldName="categoryIdx" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>ColorBars_n_Arrow/arrow</Path>
+      <FullPath>1/2/2/1/6/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_0}" fieldName="categoryIdx" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_0}" fieldName="arrow_pos" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="arrow_pos" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="arrow_pos" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="arrow_pos" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="arrow_pos" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="arrow_pos" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataKeyFrame</PluginName>
+      <Path>ColorBars_n_Arrow/arrow</Path>
+      <FullPath>1/2/2/1/6/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_0}" fieldName="arrow_pos" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+  </DataGraphNode>
+</DataGraphOutput>

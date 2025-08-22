@@ -1,0 +1,14 @@
+<SceneRefs version="2.10.5" nextRef="2" hasErrors="false">
+  <Refs>
+    <Ref name="DataTable.LocalEventTable.1/1/1.design1" key="{ref_1}" dataType="LocalEvent" template="1/3.design1" maxItems="1" desc="design1" configurable="true" />
+  </Refs>
+  <StaticAssets>
+    <StaticAsset path="font/domestic/HelveticaNeue-Bold.peak">
+      <UsedBy>1/1/1/1</UsedBy>
+      <UsedBy>1/3/2/1/1</UsedBy>
+      <UsedBy>1/3/2/2/1</UsedBy>
+    </StaticAsset>
+  </StaticAssets>
+  <DynamicAssets />
+  <Export version="2.3.0.14523" user="kpollak" host="SE-KPOLLAK" timestamp="2010-09-16 14:42:45" />
+</SceneRefs>

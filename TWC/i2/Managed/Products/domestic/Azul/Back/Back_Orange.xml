@@ -1,0 +1,53 @@
+<Product>
+  <ScenePath>domestic\Azul\Back\Back_Orange</ScenePath>
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="and" type="Boolean">
+            <Function name="and" type="Boolean">
+              <Function name="dateAfter" type="Boolean">
+                <Field name="date" source="DataSourceI2_system_0" type="Date" />
+                <Literal type="Date">
+                  <Value>9/7/2013 12:00:00 AM</Value>
+                </Literal>
+              </Function>
+              <Function name="dateBefore" type="Boolean">
+                <Field name="date" source="DataSourceI2_system_0" type="Date" />
+                <Literal type="Date">
+                  <Value>9/9/2013 12:00:00 AM</Value>
+                </Literal>
+              </Function>
+            </Function>
+            <Function name="timeOnOrAfter" type="Boolean">
+              <Field name="time" source="DataSourceI2_system_0" type="Time" />
+              <Literal type="Time">
+                <Value>04:58:00</Value>
+              </Literal>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="1" displayOrder="1" duration="2999970" min="180" max="2999970" step="30" repeatStart="0" repeatInterval="0" exclusiveProducts="Back,Back_Universal" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="1" displayOrder="1" duration="0" min="30" max="0" step="0" repeatStart="0" repeatInterval="0" exclusiveProducts="" />
+    </Rule>
+  </Ruleset>
+</Product>

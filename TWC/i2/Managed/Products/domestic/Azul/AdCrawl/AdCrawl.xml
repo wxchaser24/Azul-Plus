@@ -1,0 +1,40 @@
+<Product>
+  <ScenePath>domestic\Azul\AdCrawl\AdCrawl</ScenePath>
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+      <Ref name="DataSourceI2_LocalEvent_0" dataType="LocalEvent" key="AffiliateAds" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="not" type="Boolean">
+          <Function name="exists" type="Boolean">
+            <Literal type="String">
+              <Value>DataSourceI2_LocalEvent_0</Value>
+            </Literal>
+            <Literal type="String">
+              <Value>text</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="1" displayOrder="1" duration="0" min="0" max="0" step="0" repeatStart="0" repeatInterval="0" exclusiveProducts="" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="true" priority="1" displayOrder="1" duration="1950" min="30" max="3600" step="30" repeatStart="0" repeatInterval="0" exclusiveProducts="" />
+    </Rule>
+  </Ruleset>
+</Product>

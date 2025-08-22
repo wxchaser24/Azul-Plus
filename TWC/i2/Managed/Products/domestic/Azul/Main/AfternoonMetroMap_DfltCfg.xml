@@ -1,0 +1,45 @@
+<Config name="default">
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default" />
+    </Rule>
+  </Ruleset>
+   <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_9" value="Afternoon Commute 5PM" />
+      <ConfigItem key="ref_14" value="{PrimaryLatitudeLongitude_1}-50" />
+      <ConfigItem key="ref_15_0" value="{MetroMapCity1}-{First_5pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_15_1" value="{MetroMapCity2}-{First_5pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_15_2" value="{MetroMapCity3}-{First_5pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_15_3" value="{MetroMapCity7}-{First_5pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_15_4" value="{MetroMapCity8}-{First_5pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_15_5" value="{MetroMapCity4}-{First_5pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_15_6" value="{MetroMapCity5}-{First_5pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_15_7" value="{MetroMapCity6}-{First_5pm}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_5" value="LocalMapLayout_e27ff99e_80b5_4a81_8380_5c48cdfb455d" />
+    </ConfigItems>
+    <ConfigRecords>
+      <ConfigRecord key="LocalMapLayout_e27ff99e_80b5_4a81_8380_5c48cdfb455d">
+        <LocalMapLayout>
+          <maxLabels>15</maxLabels>
+        </LocalMapLayout>
+      </ConfigRecord>
+    </ConfigRecords>
+  </ConfigDef> 
+</Config>

@@ -1,0 +1,21 @@
+<Config name="default">
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_0" value="LocalMovieClip_799b7386_195a_4ff4_aeda_bff6fb3a03a6" />
+    </ConfigItems>
+    <ConfigRecords>
+      <ConfigRecord key="LocalMovieClip_799b7386_195a_4ff4_aeda_bff6fb3a03a6">
+        <LocalMovieClip>
+          <title>
+          </title>
+          <headline>
+          </headline>
+          <source>
+          </source>
+          <clipName>
+          </clipName>
+        </LocalMovieClip>
+      </ConfigRecord>
+    </ConfigRecords>
+  </ConfigDef>
+</Config>

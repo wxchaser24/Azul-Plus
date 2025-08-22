@@ -1,0 +1,8 @@
+<SceneRefs version="2.10.5" nextRef="3" hasErrors="false">
+  <Refs>
+    <Ref name="MultipleClipAudio.1.1/1." key="{ref_2}" dataType="LocalMultipleClipAudio" desc="Background Music Folder" configurable="true" noLookupRequired="true" catalogRoot="audio" />
+  </Refs>
+  <StaticAssets />
+  <DynamicAssets />
+  <Export version="1.0.0.0" user="jmenzies" host="DAGOBAH" timestamp="2010-08-27 16:38:25" />
+</SceneRefs>

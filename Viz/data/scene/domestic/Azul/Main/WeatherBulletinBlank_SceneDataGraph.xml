@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataGraphOutput xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Location (for future use?)</Label>
+      <Path>TopNode/Main/WeatherBulletin/Contents/BannerGroup/BANNER/BANNER/BANNER1/locName</Path>
+      <FullPath>1/1/1/1/1/1/1/2/2</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_0}" fieldName="locCity" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locCountry" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locCounty" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locDaylightSavingsActive" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locGMTDiff" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locNameCaps" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locState" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>locName</Path>
+      <FullPath>1/1/1/1/1/1/1/2/2/5</FullPath>
+      <InputFields>
+        <DataField key="{ref_0}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Headline 0 index</Label>
+      <Path>TopNode/Main/WeatherBulletin/Contents/DataGroup/Text_Groupings/Headline0</Path>
+      <FullPath>1/1/1/1/2/2/1</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_25}" fieldName="phenomena" dataType="DataPool" />
+        <DataField key="{ref_25}" fieldName="phenomenaSignificance" dataType="DataPool" />
+        <DataField key="{ref_25}" fieldName="priority" dataType="DataPool" />
+        <DataField key="{ref_25}" fieldName="significance" dataType="DataPool" />
+        <DataField key="{ref_25}" fieldName="text" dataType="DataPool" />
+        <DataField key="{ref_25}" fieldName="vocalClip0" dataType="DataPool" />
+        <DataField key="{ref_25}" fieldName="vocalClip0Length" dataType="DataPool" />
+        <DataField key="{ref_25}" fieldName="vocalClip1" dataType="DataPool" />
+        <DataField key="{ref_25}" fieldName="vocalClip1Length" dataType="DataPool" />
+        <DataField key="{ref_25}" fieldName="vocalClip2" dataType="DataPool" />
+        <DataField key="{ref_25}" fieldName="vocalClip2Length" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>HelveticaNeue-Bold</Path>
+      <FullPath>1/1/1/1/2/2/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_25}" fieldName="text" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Headline 1 index</Label>
+      <Path>TopNode/Main/WeatherBulletin/Contents/DataGroup/Text_Groupings/Headline1</Path>
+      <FullPath>1/1/1/1/2/2/2</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_23}" fieldName="phenomena" dataType="DataPool" />
+        <DataField key="{ref_23}" fieldName="phenomenaSignificance" dataType="DataPool" />
+        <DataField key="{ref_23}" fieldName="priority" dataType="DataPool" />
+        <DataField key="{ref_23}" fieldName="significance" dataType="DataPool" />
+        <DataField key="{ref_23}" fieldName="text" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>HelveticaNeue-Bold</Path>
+      <FullPath>1/1/1/1/2/2/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_23}" fieldName="text" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Headline 2 index</Label>
+      <Path>TopNode/Main/WeatherBulletin/Contents/DataGroup/Text_Groupings/Headline2</Path>
+      <FullPath>1/1/1/1/2/2/3</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_24}" fieldName="phenomena" dataType="DataPool" />
+        <DataField key="{ref_24}" fieldName="phenomenaSignificance" dataType="DataPool" />
+        <DataField key="{ref_24}" fieldName="priority" dataType="DataPool" />
+        <DataField key="{ref_24}" fieldName="significance" dataType="DataPool" />
+        <DataField key="{ref_24}" fieldName="text" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>HelveticaNeue-Bold</Path>
+      <FullPath>1/1/1/1/2/2/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_24}" fieldName="text" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+  </DataGraphNode>
+</DataGraphOutput>

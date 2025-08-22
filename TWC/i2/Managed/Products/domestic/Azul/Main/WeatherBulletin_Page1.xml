@@ -1,0 +1,25 @@
+<Product>
+  <ScenePath>domestic\Azul\Main\WeatherBulletin_Page1</ScenePath>
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+      <Ref name="DataSourceI2_LocalHeadline_0" dataType="LocalHeadline" key="0" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="10" displayOrder="10" duration="240" min="210" max="270" step="30" repeatStart="0" repeatInterval="0" exclusiveProducts="" />
+    </Rule>
+  </Ruleset>
+</Product>

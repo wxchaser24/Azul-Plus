@@ -1,0 +1,46 @@
+<Product>
+  <ScenePath>domestic\Azul\Main\36hrAnimatedForecast4</ScenePath>
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="or" type="Boolean">
+            <Function name="and" type="Boolean">
+              <Function name="greaterThan" type="Boolean">
+                <Field name="minute" source="DataSourceI2_system_0" type="Number" />
+                <Literal type="Number">
+                  <Value>0</Value>
+                </Literal>
+              </Function>
+              <Function name="lessThan" type="Boolean">
+                <Field name="minute" source="DataSourceI2_system_0" type="Number" />
+                <Literal type="Number">
+                  <Value>12</Value>
+                </Literal>
+              </Function>
+            </Function>
+            <Function name="and" type="Boolean">
+              <Function name="greaterThan" type="Boolean">
+                <Field name="minute" source="DataSourceI2_system_0" type="Number" />
+                <Literal type="Number">
+                  <Value>30</Value>
+                </Literal>
+              </Function>
+              <Function name="lessThan" type="Boolean">
+                <Field name="minute" source="DataSourceI2_system_0" type="Number" />
+                <Literal type="Number">
+                  <Value>42</Value>
+                </Literal>
+              </Function>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="true" priority="81" displayOrder="310" duration="1320" min="1320" max="3600" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="36hrAnimatedForecast2,36hrAnimatedForecast3,Detailed36hrTextForecast2,Detailed36hrTextForecast3,Detailed36hrTextForecast4" />
+    </Rule>
+  </Ruleset>
+</Product>

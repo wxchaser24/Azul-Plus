@@ -1,0 +1,132 @@
+<Config name="default">
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="if" type="Boolean">
+            <Function name="and" type="Boolean">
+              <Function name="or" type="Boolean">
+                <Function name="or" type="Boolean">
+                  <Function name="or" type="Boolean">
+                    <Function name="or" type="Boolean">
+                      <Function name="or" type="Boolean">
+                        <Function name="or" type="Boolean">
+                          <Function name="equal" type="Boolean">
+                            <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                            <Literal type="Number">
+                              <Value>0</Value>
+                            </Literal>
+                          </Function>
+                          <Function name="equal" type="Boolean">
+                            <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                            <Literal type="Number">
+                              <Value>1</Value>
+                            </Literal>
+                          </Function>
+                        </Function>
+                        <Function name="equal" type="Boolean">
+                          <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                          <Literal type="Number">
+                            <Value>2</Value>
+                          </Literal>
+                        </Function>
+                      </Function>
+                      <Function name="equal" type="Boolean">
+                        <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                        <Literal type="Number">
+                          <Value>3</Value>
+                        </Literal>
+                      </Function>
+                    </Function>
+                    <Function name="equal" type="Boolean">
+                      <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                      <Literal type="Number">
+                        <Value>4</Value>
+                      </Literal>
+                    </Function>
+                  </Function>
+                  <Function name="equal" type="Boolean">
+                    <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                    <Literal type="Number">
+                      <Value>5</Value>
+                    </Literal>
+                  </Function>
+                </Function>
+                <Function name="equal" type="Boolean">
+                  <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                  <Literal type="Number">
+                    <Value>6</Value>
+                  </Literal>
+                </Function>
+              </Function>
+              <Function name="and" type="Boolean">
+                <Function name="timeOnOrAfter" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>00:00:00</Value>
+                  </Literal>
+                </Function>
+                <Function name="timeBefore" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>05:00:00</Value>
+                  </Literal>
+                </Function>
+              </Function>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="ProductConfig_1" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default" />
+    </Rule>
+  </Ruleset>
+  <ConfigDef name="ProductConfig_1">
+    <ConfigItems>
+      <ConfigItem key="ref_0" value="{PrimaryLocation}-{DayMinusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_1" value="{PrimaryLocation}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_2" value="{PrimaryLocation}-{DayPlusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_3" value="{PrimaryLocation}-{DayPlusTwo}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_4" value="{PrimaryLocation}-{DayPlusThree}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_5" value="{PrimaryLocation}-{DayPlusFour}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_6" value="{PrimaryLocation}-{DayPlusFive}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_8" value="{PrimaryLocation}-{DayPlusSix}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_10" value="WxDotComPromoText" />
+      <ConfigItem key="ref_9" value="audio/domestic/vocalLocal/Cantore/Default_Phrases_7Day_Fcast/7DAY_DEFAULT1.wav" />
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_0" value="{PrimaryLocation}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_1" value="{PrimaryLocation}-{DayPlusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_2" value="{PrimaryLocation}-{DayPlusTwo}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_3" value="{PrimaryLocation}-{DayPlusThree}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_4" value="{PrimaryLocation}-{DayPlusFour}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_5" value="{PrimaryLocation}-{DayPlusFive}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_6" value="{PrimaryLocation}-{DayPlusSix}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_8" value="{PrimaryLocation}-{DayPlusSeven}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_10" value="WxDotComPromoText" />
+      <ConfigItem key="ref_9" value="audio/domestic/vocalLocal/Cantore/Default_Phrases_7Day_Fcast/7DAY_DEFAULT1.wav" />
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+</Config>

@@ -1,0 +1,20 @@
+<SceneRefs resolution="0" version="2.10.6" nextRef="3" hasErrors="false">
+  <Metadata />
+  <Refs />
+  <StaticAssets>
+    <StaticAsset path="image/domestic/backgrounds/BG_RoyalBlueClouds.peak">
+      <UsedBy>1/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/GlobeHaze.peak">
+      <UsedBy>1/1/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/experimental.peak">
+      <UsedBy>1/1/3</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-BoldCond.peak">
+      <UsedBy>1/1/4</UsedBy>
+    </StaticAsset>
+  </StaticAssets>
+  <DynamicAssets />
+  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-06-13 18:28:02" />
+</SceneRefs>

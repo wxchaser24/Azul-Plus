@@ -1,0 +1,75 @@
+<Product>
+  <ScenePath>domestic\Azul\Main\LocalObs</ScenePath>
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+      <Ref name="DataSourceI2_LocalObs_0" dataType="LocalObs" key="{PrimaryLocation}-ObsIconMapping-WxManMapping" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="contains" type="Boolean">
+            <Field name="keywords" source="DataSourceI2_system_0" type="StringList" />
+            <Literal type="StringList">
+              <Value>i1 2007 lot8s</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="true" priority="3" displayBucket="df528b91-a7e0-4d80-b406-be6db1e83ba4" displayIcon="fff4cf1b-ceb7-4f16-8e35-dd3d5de07be0" displayOrder="9" duration="400" min="150" max="430" step="30" repeatStart="0" repeatInterval="0" exclusiveProducts="" onlyShowInTransitionOnce="false" />
+    </Rule>
+    <Rule>
+     <Code>
+        <Function name="if" type="Boolean">
+          <Function name="or" type="Boolean">
+            <Function name="and" type="Boolean">
+              <Function name="greaterThan" type="Boolean">
+                <Field name="minute" source="DataSourceI2_system_0" type="Number" />
+                <Literal type="Number">
+                  <Value>1</Value>
+                </Literal>
+              </Function>
+              <Function name="lessThan" type="Boolean">
+                <Field name="minute" source="DataSourceI2_system_0" type="Number" />
+                <Literal type="Number">
+                  <Value>12</Value>
+                </Literal>
+              </Function>
+            </Function>
+            <Function name="and" type="Boolean">
+              <Function name="greaterThan" type="Boolean">
+                <Field name="minute" source="DataSourceI2_system_0" type="Number" />
+                <Literal type="Number">
+                  <Value>21</Value>
+                </Literal>
+              </Function>
+              <Function name="lessThan" type="Boolean">
+                <Field name="minute" source="DataSourceI2_system_0" type="Number" />
+                <Literal type="Number">
+                  <Value>42</Value>
+                </Literal>
+              </Function>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="true" priority="40" displayOrder="31" duration="420" min="400" max="420" step="30" repeatStart="0" repeatInterval="0" exclusiveProducts="" onlyShowInTransitionOnce="false" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="40" displayOrder="31" duration="420" min="400" max="420" step="30" repeatStart="0" repeatInterval="0" exclusiveProducts="" onlyShowInTransitionOnce="false" />
+    </Rule>
+  </Ruleset>
+</Product>

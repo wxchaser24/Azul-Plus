@@ -1,0 +1,20 @@
+<SceneLayout version="1.2.15" type="viz" screenBoundingBox="0,0,0.999269,0.9987013" hasErrors="false">
+  <Windows />
+  <DesignAutoLayouts />
+  <Scrollers />
+  <Audio />
+  <PlaylistScrollers />
+  <WarningPolygons />
+  <Maps />
+  <Movies />
+  <RoadLabelManagers />
+  <MinMaxControllers />
+  <Timeline name="Default" start="0" duration="14">
+    <Animation path="1/1/3" />
+    <Animation path="1/1/3/1" />
+    <Animation path="1/1/3/1/1/1" />
+    <Animation path="1/1/3/1/1/2" />
+  </Timeline>
+  <Timeline name="Looping" start="0" duration="0" />
+  <Export version="1.0.0.14050" user="kpollak" host="SE-KPOLLAK" timestamp="2010-05-17 17:54:12" />
+</SceneLayout>

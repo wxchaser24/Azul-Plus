@@ -1,0 +1,122 @@
+<SceneRefs resolution="0" version="2.10.6" nextRef="11" hasErrors="false">
+  <Metadata />
+  <Refs>
+    <Ref name="CWMClient.1/1.1/1/1." key="{ref_0}" dataType="LocalMapView" subType="Topo" desc="Map" configurable="true" mapSize="1360,646" />
+    <Ref name="DataObject.1/1/1/4.1/1/1/4/3." key="{ref_9}" dataType="LocalObs" template="1/1/1/3.RegularCityDesign" maxItems="-1" desc="Map Design (RegularCityDesign)" geoRefType="WPosition" configurable="true" />
+    <Ref name="DataObject.1/1/1/4.1/1/1/4/4." key="{ref_8}" dataType="LocalLocationProps" template="1/1/1/3.AirportDesign" maxItems="-1" desc="Map Design (AirportDesign)" geoRefType="WPosition" configurable="true" />
+  </Refs>
+  <StaticAssets>
+    <StaticAsset path="image/domestic/maps/i2_georef_basemap_do_not_delete256x256.peak">
+      <UsedBy>1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/interstate_clean_sign.peak">
+      <UsedBy>1/1/1/2/1/3/1/1</UsedBy>
+      <UsedBy>1/1/1/3/1/1</UsedBy>
+      <UsedBy>1/1/1/3/2/1</UsedBy>
+      <UsedBy>1/1/1/3/3/1</UsedBy>
+      <UsedBy>1/1/1/3/4/1</UsedBy>
+      <UsedBy>1/1/1/3/5/1</UsedBy>
+      <UsedBy>1/1/1/3/6/1</UsedBy>
+      <UsedBy>1/1/1/3/7/1</UsedBy>
+      <UsedBy>1/1/1/4/2/1/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-BoldCond.peak">
+      <UsedBy>1/1/1/2/1/3/1/2</UsedBy>
+      <UsedBy>1/1/1/3/1/2</UsedBy>
+      <UsedBy>1/1/1/3/2/2</UsedBy>
+      <UsedBy>1/1/1/3/3/2</UsedBy>
+      <UsedBy>1/1/1/3/4/2</UsedBy>
+      <UsedBy>1/1/1/3/5/2</UsedBy>
+      <UsedBy>1/1/1/3/6/2</UsedBy>
+      <UsedBy>1/1/1/3/7/2</UsedBy>
+      <UsedBy>1/1/1/3/8/2</UsedBy>
+      <UsedBy>1/1/1/3/9/2</UsedBy>
+      <UsedBy>1/1/1/3/10/2</UsedBy>
+      <UsedBy>1/1/1/3/11/2</UsedBy>
+      <UsedBy>1/1/1/3/12/2</UsedBy>
+      <UsedBy>1/1/1/3/13/2</UsedBy>
+      <UsedBy>1/1/1/3/14/2</UsedBy>
+      <UsedBy>1/1/1/3/15/2</UsedBy>
+      <UsedBy>1/1/1/3/16/2</UsedBy>
+      <UsedBy>1/1/1/3/17/2</UsedBy>
+      <UsedBy>1/1/1/3/18/2</UsedBy>
+      <UsedBy>1/1/1/3/19/2</UsedBy>
+      <UsedBy>1/1/1/3/20/2</UsedBy>
+      <UsedBy>1/1/1/3/21/2</UsedBy>
+      <UsedBy>1/1/1/3/22/2</UsedBy>
+      <UsedBy>1/1/1/3/23/2</UsedBy>
+      <UsedBy>1/1/1/3/24/2</UsedBy>
+      <UsedBy>1/1/1/3/25/2</UsedBy>
+      <UsedBy>1/1/1/3/26/2</UsedBy>
+      <UsedBy>1/1/1/3/27/2</UsedBy>
+      <UsedBy>1/1/1/4/2/1/1/2</UsedBy>
+      <UsedBy>1/1/1/4/2/1/2/2</UsedBy>
+      <UsedBy>2/2/1/1/2/1/3</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/us_highway_sign.peak">
+      <UsedBy>1/1/1/3/8/1</UsedBy>
+      <UsedBy>1/1/1/3/9/1</UsedBy>
+      <UsedBy>1/1/1/3/10/1</UsedBy>
+      <UsedBy>1/1/1/3/11/1</UsedBy>
+      <UsedBy>1/1/1/3/12/1</UsedBy>
+      <UsedBy>1/1/1/3/13/1</UsedBy>
+      <UsedBy>1/1/1/3/14/1</UsedBy>
+      <UsedBy>1/1/1/3/15/1</UsedBy>
+      <UsedBy>1/1/1/3/16/1</UsedBy>
+      <UsedBy>1/1/1/3/17/1</UsedBy>
+      <UsedBy>1/1/1/3/18/1</UsedBy>
+      <UsedBy>1/1/1/3/19/1</UsedBy>
+      <UsedBy>1/1/1/3/20/1</UsedBy>
+      <UsedBy>1/1/1/3/21/1</UsedBy>
+      <UsedBy>1/1/1/3/22/1</UsedBy>
+      <UsedBy>1/1/1/3/23/1</UsedBy>
+      <UsedBy>1/1/1/3/24/1</UsedBy>
+      <UsedBy>1/1/1/3/25/1</UsedBy>
+      <UsedBy>1/1/1/3/26/1</UsedBy>
+      <UsedBy>1/1/1/3/27/1</UsedBy>
+      <UsedBy>1/1/1/4/2/1/2/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/Cone.peak">
+      <UsedBy>1/1/1/4/3/1/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/02200.peak">
+      <UsedBy>1/1/1/4/3/1/3/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-Bold.peak">
+      <UsedBy>1/1/1/4/3/1/4</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/spheric.peak">
+      <UsedBy>1/1/1/4/4/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/plane.peak">
+      <UsedBy>1/1/1/4/4/1/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/project_specific/Azul/BANNER_SHAPE2_1024x128.peak">
+      <UsedBy>2/2/1/1/1/1</UsedBy>
+      <UsedBy>2/2/1/1/1/2</UsedBy>
+      <UsedBy>2/2/1/1/1/4</UsedBy>
+      <UsedBy>2/2/1/1/2/1/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/blue_exp.peak">
+      <UsedBy>2/2/1/1/1/3</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/project_specific/Azul/BANR_BLUE_1024x128.peak">
+      <UsedBy>2/2/1/1/2/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/FLARE_05_128x64.peak">
+      <UsedBy>2/2/1/1/2/1/4/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/crys_metal.peak">
+      <UsedBy>2/3/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/lightblue.peak">
+      <UsedBy>2/3/3</UsedBy>
+    </StaticAsset>
+  </StaticAssets>
+  <DynamicAssets>
+    <DynamicAsset path="image/domestic/icons/temo/">
+      <UsedBy>1/1/1/4/3/1/2/2</UsedBy>
+    </DynamicAsset>
+  </DynamicAssets>
+  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-07-02 13:04:51" />
+</SceneRefs>

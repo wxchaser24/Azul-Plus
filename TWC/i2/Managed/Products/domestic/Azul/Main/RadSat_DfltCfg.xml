@@ -1,0 +1,37 @@
+<Config name="default">
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default" />
+    </Rule>
+  </Ruleset>
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_7" value="{PrimaryLatitudeLongitude}-1250" />
+      <ConfigItem key="ref_16_0" value="" />
+      <ConfigItem key="ref_8" value="LocalMapLayout_138ccb2b_e853_4922_8aea_5db43db7131d" />
+    </ConfigItems>
+    <ConfigRecords>
+      <ConfigRecord key="LocalMapLayout_138ccb2b_e853_4922_8aea_5db43db7131d">
+        <LocalMapLayout>
+          <maxLabels>11</maxLabels>
+        </LocalMapLayout>
+      </ConfigRecord>
+    </ConfigRecords>
+  </ConfigDef>
+</Config>

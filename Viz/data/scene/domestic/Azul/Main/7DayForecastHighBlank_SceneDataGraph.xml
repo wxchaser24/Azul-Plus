@@ -1,0 +1,2098 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataGraphOutput xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Day1</Label>
+      <Path>TopNode/Main/7DayForecast/Contents/7Day/7Day/D1</Path>
+      <FullPath>1/1/1/1/2/2/2</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_7}" fieldName="DayNightIconVar" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="FcstDayTmValue" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="FcstNightTmValue" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="FcstValidLocal" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="FcstValidNightLocal" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="climoAvgHigh" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="climoAvgLow" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="cloudCodeDay" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="cloudCodeNight" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="dayForecast" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="forecast" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="golfIndex" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="golfIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="heatIndex" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="iconCodeVar" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="locObsStn" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="moonrise" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="moonset" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="nightForecast" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="nowOffset" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="nowTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="oneLineDayWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="oneLineNightWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="oneLineWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="precipChance" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="precipChanceAmt" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="precipChanceDay" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="precipChanceDayAmt" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="precipChanceNight" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="precipChanceNightAmt" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="precipType" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="precipTypeDay" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="precipTypeNight" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="processTime" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="relativeHumidDay" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="relativeHumidNight" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="sensibleDayFcst" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="sensibleFcst" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="sensibleNightFcst" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="severeWxQualifier" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="severeWxQualifierNight" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="shortDayFcst" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="shortFcst" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="shortNightFcst" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="skyIconCode" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="skyIconCodeDay" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="skyIconCodeNight" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="skyIconFileNameDay" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="skyIconFileNameNight" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="snowAccum" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="snowAccumDay" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="snowAccumNight" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="snowChanceDay" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="snowChanceDayAmt" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="snowChanceNight" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="snowChanceNightAmt" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="stationName" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="sunrise" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="sunriseAMPM" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="sunriseHour" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="sunriseMinute" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="sunriseSecond" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="sunriseTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="sunset" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="sunsetAMPM" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="sunsetHour" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="sunsetMinute" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="sunsetOffset" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="sunsetSecond" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="sunsetTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="tempHigh" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="tempLow" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="threeLineDayWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="threeLineDayWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="threeLineDayWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="threeLineNightWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="threeLineNightWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="threeLineNightWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="threeLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="threeLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="threeLineWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="twoLineDayWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="twoLineDayWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="twoLineNightWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="twoLineNightWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="twoLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="twoLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="uvIndex" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="uvIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="uvWarning" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="windChill" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="windChillDay" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="windChillNight" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="windDirValueDay" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="windDirValueNight" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="windDirectionDay" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="windDirectionNight" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="windSpeedDay" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="windSpeedNight" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="wxDayPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="wxDayPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="wxDayPhrasePart3" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="wxManCode" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="wxManCodeDay" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="wxManCodeNight" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="wxNightPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="wxNightPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="wxNightPhrasePart3" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="wxPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="wxPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="wxPhrasePart3" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>locName</Path>
+      <FullPath>1/1/1/1/2/2/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>dayOfWeek</Path>
+      <FullPath>1/1/1/1/2/2/2/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_7}" fieldName="#misc_2" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>dayOfWeek/boxes</Path>
+      <FullPath>1/1/1/1/2/2/2/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="#misc_2" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>dayOfWeek/D0</Path>
+      <FullPath>1/1/1/1/2/2/2/3/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataImage</PluginName>
+      <Path>skyIconCode</Path>
+      <FullPath>1/1/1/1/2/2/2/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="skyIconCodeDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase1</Path>
+      <FullPath>1/1/1/1/2/2/2/5/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="wxDayPhrasePart1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase2</Path>
+      <FullPath>1/1/1/1/2/2/2/5/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="wxDayPhrasePart2" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase3</Path>
+      <FullPath>1/1/1/1/2/2/2/5/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="wxDayPhrasePart3" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>PoP1/PoP1</Path>
+      <FullPath>1/1/1/1/2/2/2/6/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="precipChanceDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/tempHIGH</Path>
+      <FullPath>1/1/1/1/2/2/2/7/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="tempHigh" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/tempLO</Path>
+      <FullPath>1/1/1/1/2/2/2/7/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="tempLow" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataCondition</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay</Path>
+      <FullPath>1/1/1/1/2/2/2/8/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_7}" fieldName="#misc_3" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay</Path>
+      <FullPath>1/1/1/1/2/2/2/8/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="#misc_3" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/dayOfWeek</Path>
+      <FullPath>1/1/1/1/2/2/2/8/1/2/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition</Path>
+      <FullPath>1/1/1/1/2/2/2/8/1/2/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="#misc_6" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_7}" fieldName="#misc_4" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition</Path>
+      <FullPath>1/1/1/1/2/2/2/8/1/2/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="#misc_4" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition/condition_contd</Path>
+      <FullPath>1/1/1/1/2/2/2/8/1/2/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_7}" fieldName="#misc_6" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_7}" fieldName="#misc_4" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataAction</PluginName>
+      <Path>SevereWxQualifier/addl_info</Path>
+      <FullPath>1/1/1/1/2/2/2/8/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_7}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_7}" fieldName="#misc_6" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Day2</Label>
+      <Path>TopNode/Main/7DayForecast/Contents/7Day/7Day/D2</Path>
+      <FullPath>1/1/1/1/2/2/3</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_8}" fieldName="DayNightIconVar" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="FcstDayTmValue" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="FcstNightTmValue" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="FcstValidLocal" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="FcstValidNightLocal" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="climoAvgHigh" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="climoAvgLow" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="cloudCodeDay" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="cloudCodeNight" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="dayForecast" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="forecast" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="golfIndex" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="golfIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="heatIndex" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="iconCodeVar" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="locObsStn" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="moonrise" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="moonset" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="nightForecast" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="nowOffset" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="nowTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="oneLineDayWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="oneLineNightWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="oneLineWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="precipChance" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="precipChanceAmt" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="precipChanceDay" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="precipChanceDayAmt" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="precipChanceNight" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="precipChanceNightAmt" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="precipType" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="precipTypeDay" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="precipTypeNight" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="processTime" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="relativeHumidDay" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="relativeHumidNight" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="sensibleDayFcst" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="sensibleFcst" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="sensibleNightFcst" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="severeWxQualifier" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="severeWxQualifierNight" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="shortDayFcst" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="shortFcst" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="shortNightFcst" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="skyIconCode" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="skyIconCodeDay" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="skyIconCodeNight" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="skyIconFileNameDay" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="skyIconFileNameNight" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="snowAccum" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="snowAccumDay" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="snowAccumNight" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="snowChanceDay" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="snowChanceDayAmt" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="snowChanceNight" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="snowChanceNightAmt" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="stationName" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="sunrise" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="sunriseAMPM" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="sunriseHour" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="sunriseMinute" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="sunriseSecond" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="sunriseTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="sunset" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="sunsetAMPM" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="sunsetHour" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="sunsetMinute" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="sunsetOffset" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="sunsetSecond" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="sunsetTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="tempHigh" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="tempLow" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="threeLineDayWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="threeLineDayWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="threeLineDayWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="threeLineNightWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="threeLineNightWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="threeLineNightWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="threeLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="threeLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="threeLineWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="twoLineDayWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="twoLineDayWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="twoLineNightWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="twoLineNightWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="twoLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="twoLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="uvIndex" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="uvIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="uvWarning" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="windChill" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="windChillDay" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="windChillNight" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="windDirValueDay" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="windDirValueNight" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="windDirectionDay" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="windDirectionNight" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="windSpeedDay" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="windSpeedNight" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="wxDayPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="wxDayPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="wxDayPhrasePart3" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="wxManCode" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="wxManCodeDay" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="wxManCodeNight" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="wxNightPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="wxNightPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="wxNightPhrasePart3" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="wxPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="wxPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="wxPhrasePart3" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>dayOfWeek</Path>
+      <FullPath>1/1/1/1/2/2/3/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_8}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_8}" fieldName="#misc_2" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>dayOfWeek/boxes</Path>
+      <FullPath>1/1/1/1/2/2/3/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_8}" fieldName="#misc_2" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>dayOfWeek/D1</Path>
+      <FullPath>1/1/1/1/2/2/3/2/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_8}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataImage</PluginName>
+      <Path>skyIconCode</Path>
+      <FullPath>1/1/1/1/2/2/3/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_8}" fieldName="skyIconCodeDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase1</Path>
+      <FullPath>1/1/1/1/2/2/3/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_8}" fieldName="wxDayPhrasePart1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase2</Path>
+      <FullPath>1/1/1/1/2/2/3/4/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_8}" fieldName="wxDayPhrasePart2" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase3</Path>
+      <FullPath>1/1/1/1/2/2/3/4/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_8}" fieldName="wxDayPhrasePart3" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>PoP2/PoP2</Path>
+      <FullPath>1/1/1/1/2/2/3/5/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_8}" fieldName="precipChanceDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/tempHIGH</Path>
+      <FullPath>1/1/1/1/2/2/3/6/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_8}" fieldName="tempHigh" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/tempLO</Path>
+      <FullPath>1/1/1/1/2/2/3/6/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_8}" fieldName="tempLow" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataCondition</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay</Path>
+      <FullPath>1/1/1/1/2/2/3/7/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_8}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_8}" fieldName="#misc_3" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay</Path>
+      <FullPath>1/1/1/1/2/2/3/7/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_8}" fieldName="#misc_3" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/dayOfWeek</Path>
+      <FullPath>1/1/1/1/2/2/3/7/1/2/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_8}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition</Path>
+      <FullPath>1/1/1/1/2/2/3/7/1/2/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_8}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="#misc_6" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_8}" fieldName="#misc_4" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition</Path>
+      <FullPath>1/1/1/1/2/2/3/7/1/2/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_8}" fieldName="#misc_4" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition/condition_contd</Path>
+      <FullPath>1/1/1/1/2/2/3/7/1/2/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_8}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_8}" fieldName="#misc_6" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_8}" fieldName="#misc_4" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataAction</PluginName>
+      <Path>SevereWxQualifier/addl_info</Path>
+      <FullPath>1/1/1/1/2/2/3/7/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_8}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_8}" fieldName="#misc_6" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Day3</Label>
+      <Path>TopNode/Main/7DayForecast/Contents/7Day/7Day/D3</Path>
+      <FullPath>1/1/1/1/2/2/4</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_1}" fieldName="DayNightIconVar" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="FcstDayTmValue" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="FcstNightTmValue" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="FcstValidLocal" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="FcstValidNightLocal" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="climoAvgHigh" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="climoAvgLow" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="cloudCodeDay" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="cloudCodeNight" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="dayForecast" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="forecast" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="golfIndex" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="golfIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="heatIndex" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="iconCodeVar" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locObsStn" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="moonrise" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="moonset" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="nightForecast" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="nowOffset" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="nowTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="oneLineDayWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="oneLineNightWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="oneLineWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="precipChance" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="precipChanceAmt" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="precipChanceDay" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="precipChanceDayAmt" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="precipChanceNight" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="precipChanceNightAmt" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="precipType" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="precipTypeDay" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="precipTypeNight" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="processTime" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="relativeHumidDay" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="relativeHumidNight" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="sensibleDayFcst" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="sensibleFcst" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="sensibleNightFcst" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="severeWxQualifier" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="severeWxQualifierNight" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="shortDayFcst" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="shortFcst" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="shortNightFcst" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="skyIconCode" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="skyIconCodeDay" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="skyIconCodeNight" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="skyIconFileNameDay" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="skyIconFileNameNight" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="snowAccum" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="snowAccumDay" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="snowAccumNight" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="snowChanceDay" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="snowChanceDayAmt" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="snowChanceNight" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="snowChanceNightAmt" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="stationName" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="sunrise" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="sunriseAMPM" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="sunriseHour" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="sunriseMinute" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="sunriseSecond" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="sunriseTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="sunset" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="sunsetAMPM" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="sunsetHour" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="sunsetMinute" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="sunsetOffset" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="sunsetSecond" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="sunsetTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="tempHigh" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="tempLow" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="threeLineDayWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="threeLineDayWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="threeLineDayWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="threeLineNightWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="threeLineNightWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="threeLineNightWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="threeLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="threeLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="threeLineWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="twoLineDayWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="twoLineDayWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="twoLineNightWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="twoLineNightWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="twoLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="twoLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="uvIndex" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="uvIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="uvWarning" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="windChill" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="windChillDay" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="windChillNight" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="windDirValueDay" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="windDirValueNight" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="windDirectionDay" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="windDirectionNight" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="windSpeedDay" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="windSpeedNight" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="wxDayPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="wxDayPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="wxDayPhrasePart3" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="wxManCode" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="wxManCodeDay" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="wxManCodeNight" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="wxNightPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="wxNightPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="wxNightPhrasePart3" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="wxPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="wxPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="wxPhrasePart3" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>dayOfWeek</Path>
+      <FullPath>1/1/1/1/2/2/4/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_1}" fieldName="#misc_2" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>dayOfWeek/boxes</Path>
+      <FullPath>1/1/1/1/2/2/4/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="#misc_2" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>dayOfWeek/D2</Path>
+      <FullPath>1/1/1/1/2/2/4/2/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataImage</PluginName>
+      <Path>skyIconCode</Path>
+      <FullPath>1/1/1/1/2/2/4/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="skyIconCodeDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase1</Path>
+      <FullPath>1/1/1/1/2/2/4/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="wxDayPhrasePart1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase2</Path>
+      <FullPath>1/1/1/1/2/2/4/4/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="wxDayPhrasePart2" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase3</Path>
+      <FullPath>1/1/1/1/2/2/4/4/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="wxDayPhrasePart3" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>PoP3/PoP3</Path>
+      <FullPath>1/1/1/1/2/2/4/5/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="precipChanceDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/tempHIGH</Path>
+      <FullPath>1/1/1/1/2/2/4/6/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="tempHigh" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/tempLO</Path>
+      <FullPath>1/1/1/1/2/2/4/6/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="tempLow" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataCondition</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay</Path>
+      <FullPath>1/1/1/1/2/2/4/7/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_1}" fieldName="#misc_3" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay</Path>
+      <FullPath>1/1/1/1/2/2/4/7/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="#misc_3" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/dayOfWeek</Path>
+      <FullPath>1/1/1/1/2/2/4/7/1/2/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition</Path>
+      <FullPath>1/1/1/1/2/2/4/7/1/2/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="#misc_6" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_1}" fieldName="#misc_4" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition</Path>
+      <FullPath>1/1/1/1/2/2/4/7/1/2/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="#misc_4" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition/condition_contd</Path>
+      <FullPath>1/1/1/1/2/2/4/7/1/2/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="#misc_6" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_1}" fieldName="#misc_4" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataAction</PluginName>
+      <Path>SevereWxQualifier/addl_info</Path>
+      <FullPath>1/1/1/1/2/2/4/7/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_1}" fieldName="#misc_6" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Day4</Label>
+      <Path>TopNode/Main/7DayForecast/Contents/7Day/7Day/D4</Path>
+      <FullPath>1/1/1/1/2/2/5</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_2}" fieldName="DayNightIconVar" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="FcstDayTmValue" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="FcstNightTmValue" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="FcstValidLocal" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="FcstValidNightLocal" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="climoAvgHigh" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="climoAvgLow" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="cloudCodeDay" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="cloudCodeNight" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="dayForecast" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="forecast" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="golfIndex" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="golfIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="heatIndex" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="iconCodeVar" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locObsStn" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="moonrise" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="moonset" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="nightForecast" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="nowOffset" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="nowTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="oneLineDayWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="oneLineNightWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="oneLineWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="precipChance" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="precipChanceAmt" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="precipChanceDay" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="precipChanceDayAmt" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="precipChanceNight" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="precipChanceNightAmt" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="precipType" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="precipTypeDay" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="precipTypeNight" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="processTime" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="relativeHumidDay" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="relativeHumidNight" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="sensibleDayFcst" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="sensibleFcst" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="sensibleNightFcst" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="severeWxQualifier" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="severeWxQualifierNight" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="shortDayFcst" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="shortFcst" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="shortNightFcst" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="skyIconCode" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="skyIconCodeDay" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="skyIconCodeNight" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="skyIconFileNameDay" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="skyIconFileNameNight" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="snowAccum" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="snowAccumDay" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="snowAccumNight" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="snowChanceDay" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="snowChanceDayAmt" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="snowChanceNight" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="snowChanceNightAmt" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="stationName" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="sunrise" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="sunriseAMPM" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="sunriseHour" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="sunriseMinute" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="sunriseSecond" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="sunriseTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="sunset" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="sunsetAMPM" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="sunsetHour" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="sunsetMinute" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="sunsetOffset" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="sunsetSecond" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="sunsetTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="tempHigh" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="tempLow" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="threeLineDayWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="threeLineDayWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="threeLineDayWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="threeLineNightWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="threeLineNightWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="threeLineNightWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="threeLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="threeLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="threeLineWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="twoLineDayWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="twoLineDayWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="twoLineNightWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="twoLineNightWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="twoLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="twoLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="uvIndex" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="uvIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="uvWarning" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="windChill" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="windChillDay" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="windChillNight" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="windDirValueDay" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="windDirValueNight" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="windDirectionDay" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="windDirectionNight" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="windSpeedDay" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="windSpeedNight" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="wxDayPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="wxDayPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="wxDayPhrasePart3" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="wxManCode" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="wxManCodeDay" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="wxManCodeNight" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="wxNightPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="wxNightPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="wxNightPhrasePart3" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="wxPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="wxPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="wxPhrasePart3" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>dayOfWeek</Path>
+      <FullPath>1/1/1/1/2/2/5/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_2}" fieldName="#misc_2" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>dayOfWeek/boxes</Path>
+      <FullPath>1/1/1/1/2/2/5/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="#misc_2" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>dayOfWeek/D3</Path>
+      <FullPath>1/1/1/1/2/2/5/2/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataImage</PluginName>
+      <Path>skyIconCode</Path>
+      <FullPath>1/1/1/1/2/2/5/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="skyIconCodeDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase1</Path>
+      <FullPath>1/1/1/1/2/2/5/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="wxDayPhrasePart1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase2</Path>
+      <FullPath>1/1/1/1/2/2/5/4/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="wxDayPhrasePart2" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase3</Path>
+      <FullPath>1/1/1/1/2/2/5/4/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="wxDayPhrasePart3" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>PoP4/PoP4</Path>
+      <FullPath>1/1/1/1/2/2/5/5/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="precipChanceDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/tempHIGH</Path>
+      <FullPath>1/1/1/1/2/2/5/6/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="tempHigh" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/tempLO</Path>
+      <FullPath>1/1/1/1/2/2/5/6/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="tempLow" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataCondition</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay</Path>
+      <FullPath>1/1/1/1/2/2/5/7/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_2}" fieldName="#misc_3" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay</Path>
+      <FullPath>1/1/1/1/2/2/5/7/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="#misc_3" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/dayOfWeek</Path>
+      <FullPath>1/1/1/1/2/2/5/7/1/2/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition</Path>
+      <FullPath>1/1/1/1/2/2/5/7/1/2/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="#misc_6" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_2}" fieldName="#misc_4" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition</Path>
+      <FullPath>1/1/1/1/2/2/5/7/1/2/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="#misc_4" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition/condition_contd</Path>
+      <FullPath>1/1/1/1/2/2/5/7/1/2/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="#misc_6" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_2}" fieldName="#misc_4" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataAction</PluginName>
+      <Path>SevereWxQualifier/addl_info</Path>
+      <FullPath>1/1/1/1/2/2/5/7/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_2}" fieldName="#misc_6" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Day5</Label>
+      <Path>TopNode/Main/7DayForecast/Contents/7Day/7Day/D5</Path>
+      <FullPath>1/1/1/1/2/2/6</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_3}" fieldName="DayNightIconVar" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="FcstDayTmValue" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="FcstNightTmValue" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="FcstValidLocal" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="FcstValidNightLocal" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="climoAvgHigh" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="climoAvgLow" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="cloudCodeDay" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="cloudCodeNight" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="dayForecast" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="forecast" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="golfIndex" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="golfIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="heatIndex" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="iconCodeVar" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locObsStn" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="moonrise" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="moonset" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="nightForecast" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="nowOffset" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="nowTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="oneLineDayWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="oneLineNightWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="oneLineWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="precipChance" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="precipChanceAmt" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="precipChanceDay" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="precipChanceDayAmt" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="precipChanceNight" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="precipChanceNightAmt" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="precipType" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="precipTypeDay" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="precipTypeNight" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="processTime" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="relativeHumidDay" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="relativeHumidNight" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="sensibleDayFcst" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="sensibleFcst" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="sensibleNightFcst" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="severeWxQualifier" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="severeWxQualifierNight" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="shortDayFcst" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="shortFcst" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="shortNightFcst" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="skyIconCode" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="skyIconCodeDay" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="skyIconCodeNight" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="skyIconFileNameDay" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="skyIconFileNameNight" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="snowAccum" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="snowAccumDay" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="snowAccumNight" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="snowChanceDay" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="snowChanceDayAmt" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="snowChanceNight" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="snowChanceNightAmt" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="stationName" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="sunrise" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="sunriseAMPM" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="sunriseHour" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="sunriseMinute" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="sunriseSecond" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="sunriseTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="sunset" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="sunsetAMPM" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="sunsetHour" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="sunsetMinute" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="sunsetOffset" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="sunsetSecond" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="sunsetTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="tempHigh" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="tempLow" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="threeLineDayWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="threeLineDayWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="threeLineDayWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="threeLineNightWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="threeLineNightWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="threeLineNightWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="threeLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="threeLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="threeLineWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="twoLineDayWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="twoLineDayWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="twoLineNightWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="twoLineNightWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="twoLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="twoLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="uvIndex" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="uvIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="uvWarning" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="windChill" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="windChillDay" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="windChillNight" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="windDirValueDay" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="windDirValueNight" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="windDirectionDay" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="windDirectionNight" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="windSpeedDay" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="windSpeedNight" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="wxDayPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="wxDayPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="wxDayPhrasePart3" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="wxManCode" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="wxManCodeDay" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="wxManCodeNight" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="wxNightPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="wxNightPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="wxNightPhrasePart3" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="wxPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="wxPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="wxPhrasePart3" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>dayOfWeek</Path>
+      <FullPath>1/1/1/1/2/2/6/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_3}" fieldName="#misc_2" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>dayOfWeek/boxes</Path>
+      <FullPath>1/1/1/1/2/2/6/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="#misc_2" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>dayOfWeek/D4</Path>
+      <FullPath>1/1/1/1/2/2/6/2/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataImage</PluginName>
+      <Path>skyIconCode</Path>
+      <FullPath>1/1/1/1/2/2/6/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="skyIconCodeDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase1</Path>
+      <FullPath>1/1/1/1/2/2/6/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="wxDayPhrasePart1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase2</Path>
+      <FullPath>1/1/1/1/2/2/6/4/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="wxDayPhrasePart2" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase3</Path>
+      <FullPath>1/1/1/1/2/2/6/4/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="wxDayPhrasePart3" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>PoP5/PoP5</Path>
+      <FullPath>1/1/1/1/2/2/6/5/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="precipChanceDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/tempHIGH</Path>
+      <FullPath>1/1/1/1/2/2/6/6/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="tempHigh" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/tempLO</Path>
+      <FullPath>1/1/1/1/2/2/6/6/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="tempLow" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataCondition</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay</Path>
+      <FullPath>1/1/1/1/2/2/6/7/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_3}" fieldName="#misc_3" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay</Path>
+      <FullPath>1/1/1/1/2/2/6/7/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="#misc_3" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/dayOfWeek</Path>
+      <FullPath>1/1/1/1/2/2/6/7/1/2/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition</Path>
+      <FullPath>1/1/1/1/2/2/6/7/1/2/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="#misc_6" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_3}" fieldName="#misc_4" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition</Path>
+      <FullPath>1/1/1/1/2/2/6/7/1/2/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="#misc_4" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition/condition_contd</Path>
+      <FullPath>1/1/1/1/2/2/6/7/1/2/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="#misc_6" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_3}" fieldName="#misc_4" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataAction</PluginName>
+      <Path>SevereWxQualifier/addl_info</Path>
+      <FullPath>1/1/1/1/2/2/6/7/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_3}" fieldName="#misc_6" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Day6</Label>
+      <Path>TopNode/Main/7DayForecast/Contents/7Day/7Day/D6</Path>
+      <FullPath>1/1/1/1/2/2/7</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_4}" fieldName="DayNightIconVar" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="FcstDayTmValue" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="FcstNightTmValue" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="FcstValidLocal" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="FcstValidNightLocal" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="climoAvgHigh" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="climoAvgLow" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="cloudCodeDay" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="cloudCodeNight" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="dayForecast" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="forecast" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="golfIndex" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="golfIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="heatIndex" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="iconCodeVar" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="locObsStn" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="moonrise" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="moonset" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="nightForecast" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="nowOffset" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="nowTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="oneLineDayWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="oneLineNightWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="oneLineWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="precipChance" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="precipChanceAmt" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="precipChanceDay" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="precipChanceDayAmt" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="precipChanceNight" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="precipChanceNightAmt" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="precipType" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="precipTypeDay" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="precipTypeNight" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="processTime" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="relativeHumidDay" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="relativeHumidNight" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="sensibleDayFcst" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="sensibleFcst" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="sensibleNightFcst" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="severeWxQualifier" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="severeWxQualifierNight" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="shortDayFcst" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="shortFcst" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="shortNightFcst" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="skyIconCode" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="skyIconCodeDay" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="skyIconCodeNight" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="skyIconFileNameDay" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="skyIconFileNameNight" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="snowAccum" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="snowAccumDay" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="snowAccumNight" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="snowChanceDay" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="snowChanceDayAmt" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="snowChanceNight" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="snowChanceNightAmt" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="stationName" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="sunrise" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="sunriseAMPM" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="sunriseHour" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="sunriseMinute" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="sunriseSecond" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="sunriseTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="sunset" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="sunsetAMPM" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="sunsetHour" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="sunsetMinute" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="sunsetOffset" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="sunsetSecond" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="sunsetTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="tempHigh" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="tempLow" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="threeLineDayWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="threeLineDayWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="threeLineDayWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="threeLineNightWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="threeLineNightWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="threeLineNightWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="threeLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="threeLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="threeLineWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="twoLineDayWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="twoLineDayWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="twoLineNightWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="twoLineNightWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="twoLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="twoLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="uvIndex" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="uvIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="uvWarning" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="windChill" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="windChillDay" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="windChillNight" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="windDirValueDay" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="windDirValueNight" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="windDirectionDay" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="windDirectionNight" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="windSpeedDay" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="windSpeedNight" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="wxDayPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="wxDayPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="wxDayPhrasePart3" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="wxManCode" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="wxManCodeDay" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="wxManCodeNight" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="wxNightPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="wxNightPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="wxNightPhrasePart3" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="wxPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="wxPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="wxPhrasePart3" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>dayOfWeek</Path>
+      <FullPath>1/1/1/1/2/2/7/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_4}" fieldName="#misc_2" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>dayOfWeek/boxes</Path>
+      <FullPath>1/1/1/1/2/2/7/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="#misc_2" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>dayOfWeek/D5</Path>
+      <FullPath>1/1/1/1/2/2/7/2/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataImage</PluginName>
+      <Path>skyIconCode</Path>
+      <FullPath>1/1/1/1/2/2/7/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="skyIconCodeDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase1</Path>
+      <FullPath>1/1/1/1/2/2/7/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="wxDayPhrasePart1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase2</Path>
+      <FullPath>1/1/1/1/2/2/7/4/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="wxDayPhrasePart2" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase3</Path>
+      <FullPath>1/1/1/1/2/2/7/4/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="wxDayPhrasePart3" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>PoP6/PoP6</Path>
+      <FullPath>1/1/1/1/2/2/7/5/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="precipChanceDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/tempHIGH</Path>
+      <FullPath>1/1/1/1/2/2/7/6/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="tempHigh" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/tempLO</Path>
+      <FullPath>1/1/1/1/2/2/7/6/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="tempLow" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataCondition</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay</Path>
+      <FullPath>1/1/1/1/2/2/7/7/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_4}" fieldName="#misc_3" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay</Path>
+      <FullPath>1/1/1/1/2/2/7/7/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="#misc_3" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/dayOfWeek</Path>
+      <FullPath>1/1/1/1/2/2/7/7/1/2/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition</Path>
+      <FullPath>1/1/1/1/2/2/7/7/1/2/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="#misc_6" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_4}" fieldName="#misc_4" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition</Path>
+      <FullPath>1/1/1/1/2/2/7/7/1/2/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="#misc_4" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition/condition_contd</Path>
+      <FullPath>1/1/1/1/2/2/7/7/1/2/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="#misc_6" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_4}" fieldName="#misc_4" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataAction</PluginName>
+      <Path>SevereWxQualifier/addl_info</Path>
+      <FullPath>1/1/1/1/2/2/7/7/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_4}" fieldName="#misc_6" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Day7</Label>
+      <Path>TopNode/Main/7DayForecast/Contents/7Day/7Day/D7</Path>
+      <FullPath>1/1/1/1/2/2/8</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_5}" fieldName="DayNightIconVar" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="FcstDayTmValue" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="FcstNightTmValue" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="FcstValidLocal" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="FcstValidNightLocal" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="climoAvgHigh" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="climoAvgLow" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="cloudCodeDay" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="cloudCodeNight" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="dayForecast" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="forecast" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="golfIndex" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="golfIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="heatIndex" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="iconCodeVar" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="locObsStn" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="moonrise" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="moonset" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="nightForecast" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="nowOffset" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="nowTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="oneLineDayWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="oneLineNightWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="oneLineWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="precipChance" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="precipChanceAmt" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="precipChanceDay" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="precipChanceDayAmt" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="precipChanceNight" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="precipChanceNightAmt" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="precipType" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="precipTypeDay" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="precipTypeNight" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="processTime" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="relativeHumidDay" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="relativeHumidNight" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="sensibleDayFcst" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="sensibleFcst" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="sensibleNightFcst" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="severeWxQualifier" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="severeWxQualifierNight" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="shortDayFcst" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="shortFcst" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="shortNightFcst" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="skyIconCode" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="skyIconCodeDay" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="skyIconCodeNight" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="skyIconFileNameDay" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="skyIconFileNameNight" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="snowAccum" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="snowAccumDay" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="snowAccumNight" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="snowChanceDay" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="snowChanceDayAmt" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="snowChanceNight" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="snowChanceNightAmt" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="stationName" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="sunrise" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="sunriseAMPM" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="sunriseHour" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="sunriseMinute" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="sunriseSecond" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="sunriseTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="sunset" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="sunsetAMPM" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="sunsetHour" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="sunsetMinute" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="sunsetOffset" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="sunsetSecond" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="sunsetTotalMinutes" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="tempHigh" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="tempLow" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="threeLineDayWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="threeLineDayWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="threeLineDayWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="threeLineNightWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="threeLineNightWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="threeLineNightWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="threeLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="threeLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="threeLineWxPhrase3" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="twoLineDayWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="twoLineDayWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="twoLineNightWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="twoLineNightWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="twoLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="twoLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="uvIndex" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="uvIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="uvWarning" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="windChill" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="windChillDay" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="windChillNight" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="windDirValueDay" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="windDirValueNight" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="windDirectionDay" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="windDirectionNight" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="windSpeedDay" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="windSpeedNight" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="wxDayPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="wxDayPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="wxDayPhrasePart3" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="wxManCode" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="wxManCodeDay" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="wxManCodeNight" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="wxNightPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="wxNightPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="wxNightPhrasePart3" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="wxPhrasePart1" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="wxPhrasePart2" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="wxPhrasePart3" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>dayOfWeek</Path>
+      <FullPath>1/1/1/1/2/2/8/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_5}" fieldName="#misc_2" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>dayOfWeek/boxes</Path>
+      <FullPath>1/1/1/1/2/2/8/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="#misc_2" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>dayOfWeek/D6</Path>
+      <FullPath>1/1/1/1/2/2/8/2/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataImage</PluginName>
+      <Path>skyIconCode</Path>
+      <FullPath>1/1/1/1/2/2/8/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="skyIconCodeDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase1</Path>
+      <FullPath>1/1/1/1/2/2/8/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="wxDayPhrasePart1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase2</Path>
+      <FullPath>1/1/1/1/2/2/8/4/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="wxDayPhrasePart2" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>wxPhraseParts/wx_phrase3</Path>
+      <FullPath>1/1/1/1/2/2/8/4/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="wxDayPhrasePart3" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>PoP7/PoP7</Path>
+      <FullPath>1/1/1/1/2/2/8/5/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="precipChanceDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/tempHIGH</Path>
+      <FullPath>1/1/1/1/2/2/8/6/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="tempHigh" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataCondition</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay</Path>
+      <FullPath>1/1/1/1/2/2/8/7/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_5}" fieldName="#misc_3" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay</Path>
+      <FullPath>1/1/1/1/2/2/8/7/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="#misc_3" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/dayOfWeek</Path>
+      <FullPath>1/1/1/1/2/2/8/7/1/2/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="dayOfWeek" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition</Path>
+      <FullPath>1/1/1/1/2/2/8/7/1/2/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="#misc_6" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_5}" fieldName="#misc_4" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition</Path>
+      <FullPath>1/1/1/1/2/2/8/7/1/2/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="#misc_4" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>SevereWxQualifier/severeWxQualifyerDay/1-SevereWxQualifyer-GROUP/condition/condition_contd</Path>
+      <FullPath>1/1/1/1/2/2/8/7/1/2/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="dayOfWeek" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="#misc_6" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_5}" fieldName="#misc_4" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataAction</PluginName>
+      <Path>SevereWxQualifier/addl_info</Path>
+      <FullPath>1/1/1/1/2/2/8/7/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="severeWxQualifierDay" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_5}" fieldName="#misc_6" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Local Event Type</Label>
+      <Path>TopNode/Main/7DayForecast/Contents/7Day/7Day/Default_Box</Path>
+      <FullPath>1/1/1/1/2/2/9</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_27}" fieldName="defaultFile" dataType="DataPool" />
+        <DataField key="{ref_27}" fieldName="filePrefix" dataType="DataPool" />
+        <DataField key="{ref_27}" fieldName="text" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>text</Path>
+      <FullPath>1/1/1/1/2/2/9/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_27}" fieldName="text" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+  </DataGraphNode>
+</DataGraphOutput>

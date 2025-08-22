@@ -1,0 +1,47 @@
+<Config name="default">
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default" />
+    </Rule>
+  </Ruleset>
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_0" value="{PrimaryLatitudeLongitude_1}-50" />
+      <ConfigItem key="ref_9_0" value="{MetroMapCity1}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_9_1" value="{MetroMapCity2}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_9_2" value="{MetroMapCity3}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_9_3" value="{MetroMapCity4}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_9_4" value="{MetroMapCity5}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_9_5" value="{MetroMapCity7}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_9_6" value="{MetroMapCity8}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_9_7" value="{MetroMapCity6}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_8_0" value="" />
+      <ConfigItem key="ref_8_1" value="" />
+      <ConfigItem key="ref_8_2" value="" />
+      <ConfigItem key="ref_2" value="LocalMapLayout_e0bcde4f_422a_45c7_aa91_615508a68db8" />
+    </ConfigItems>
+    <ConfigRecords>
+      <ConfigRecord key="LocalMapLayout_e0bcde4f_422a_45c7_aa91_615508a68db8">
+        <LocalMapLayout>
+          <maxLabels>15</maxLabels>
+        </LocalMapLayout>
+      </ConfigRecord>
+    </ConfigRecords>
+  </ConfigDef>
+</Config>

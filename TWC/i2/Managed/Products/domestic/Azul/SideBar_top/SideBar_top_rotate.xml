@@ -1,0 +1,24 @@
+<Product>
+  <ScenePath>domestic\Azul\SideBar_top\SideBar_top_rotate</ScenePath>
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="true" priority="2" displayOrder="1" duration="3600" min="60" max="5400" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="SideBar_top,SideBar_top_NearbyCity1,SideBar_top_NearbyCity2,SideBar_top_NearbyCity3" />
+    </Rule>
+  </Ruleset>
+</Product>

@@ -1,6 +1,3 @@
-# Azul-Plus Made By WxChaser
-WxChaser's Custom Azul as Seen on Youtube.
-
 Whats Included.
 Metro Forecast and Observation Map
 Regional Observation Map

@@ -1,0 +1,267 @@
+<Config name="default">
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+      <Ref name="DataSourceI2_LocalDaypartCompositeFcst_0" dataType="LocalDaypartCompositeFcst" key="{PrimaryLocation}-{Next_12_Hours}-FcstIconMapping-WxManMapping" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="and" type="Boolean">
+            <Function name="if" type="Boolean">
+              <Function name="and" type="Boolean">
+                <Function name="or" type="Boolean">
+                  <Function name="or" type="Boolean">
+                    <Function name="or" type="Boolean">
+                      <Function name="or" type="Boolean">
+                        <Function name="or" type="Boolean">
+                          <Function name="or" type="Boolean">
+                            <Function name="equal" type="Boolean">
+                              <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                              <Literal type="Number">
+                                <Value>0</Value>
+                              </Literal>
+                            </Function>
+                            <Function name="equal" type="Boolean">
+                              <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                              <Literal type="Number">
+                                <Value>1</Value>
+                              </Literal>
+                            </Function>
+                          </Function>
+                          <Function name="equal" type="Boolean">
+                            <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                            <Literal type="Number">
+                              <Value>2</Value>
+                            </Literal>
+                          </Function>
+                        </Function>
+                        <Function name="equal" type="Boolean">
+                          <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                          <Literal type="Number">
+                            <Value>3</Value>
+                          </Literal>
+                        </Function>
+                      </Function>
+                      <Function name="equal" type="Boolean">
+                        <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                        <Literal type="Number">
+                          <Value>4</Value>
+                        </Literal>
+                      </Function>
+                    </Function>
+                    <Function name="equal" type="Boolean">
+                      <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                      <Literal type="Number">
+                        <Value>5</Value>
+                      </Literal>
+                    </Function>
+                  </Function>
+                  <Function name="equal" type="Boolean">
+                    <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                    <Literal type="Number">
+                      <Value>6</Value>
+                    </Literal>
+                  </Function>
+                </Function>
+                <Function name="and" type="Boolean">
+                  <Function name="timeOnOrAfter" type="Boolean">
+                    <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                    <Literal type="Time">
+                      <Value>00:00:00</Value>
+                    </Literal>
+                  </Function>
+                  <Function name="timeBefore" type="Boolean">
+                    <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                    <Literal type="Time">
+                      <Value>05:00:00</Value>
+                    </Literal>
+                  </Function>
+                </Function>
+              </Function>
+            </Function>
+            <Function name="not" type="Boolean">
+              <Function name="if" type="Boolean">
+                <Function name="exists" type="Boolean">
+                  <Literal type="String">
+                    <Value>DataSourceI2_LocalDaypartCompositeFcst_0</Value>
+                  </Literal>
+                  <Literal type="String">
+                    <Value>tempLow</Value>
+                  </Literal>
+                </Function>
+              </Function>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="ProductConfig_1" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="and" type="Boolean">
+            <Function name="if" type="Boolean">
+              <Function name="and" type="Boolean">
+                <Function name="or" type="Boolean">
+                  <Function name="or" type="Boolean">
+                    <Function name="or" type="Boolean">
+                      <Function name="or" type="Boolean">
+                        <Function name="or" type="Boolean">
+                          <Function name="or" type="Boolean">
+                            <Function name="equal" type="Boolean">
+                              <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                              <Literal type="Number">
+                                <Value>0</Value>
+                              </Literal>
+                            </Function>
+                            <Function name="equal" type="Boolean">
+                              <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                              <Literal type="Number">
+                                <Value>1</Value>
+                              </Literal>
+                            </Function>
+                          </Function>
+                          <Function name="equal" type="Boolean">
+                            <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                            <Literal type="Number">
+                              <Value>2</Value>
+                            </Literal>
+                          </Function>
+                        </Function>
+                        <Function name="equal" type="Boolean">
+                          <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                          <Literal type="Number">
+                            <Value>3</Value>
+                          </Literal>
+                        </Function>
+                      </Function>
+                      <Function name="equal" type="Boolean">
+                        <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                        <Literal type="Number">
+                          <Value>4</Value>
+                        </Literal>
+                      </Function>
+                    </Function>
+                    <Function name="equal" type="Boolean">
+                      <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                      <Literal type="Number">
+                        <Value>5</Value>
+                      </Literal>
+                    </Function>
+                  </Function>
+                  <Function name="equal" type="Boolean">
+                    <Field name="day" source="DataSourceI2_system_0" type="Number" />
+                    <Literal type="Number">
+                      <Value>6</Value>
+                    </Literal>
+                  </Function>
+                </Function>
+                <Function name="and" type="Boolean">
+                  <Function name="timeOnOrAfter" type="Boolean">
+                    <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                    <Literal type="Time">
+                      <Value>12:00:00</Value>
+                    </Literal>
+                  </Function>
+                  <Function name="timeBefore" type="Boolean">
+                    <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                    <Literal type="Time">
+                      <Value>17:00:00</Value>
+                    </Literal>
+                  </Function>
+                </Function>
+              </Function>
+            </Function>
+            <Function name="not" type="Boolean">
+              <Function name="if" type="Boolean">
+                <Function name="exists" type="Boolean">
+                  <Literal type="String">
+                    <Value>DataSourceI2_LocalDaypartCompositeFcst_0</Value>
+                  </Literal>
+                  <Literal type="String">
+                    <Value>tempHigh</Value>
+                  </Literal>
+                </Function>
+              </Function>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="ProductConfig_2" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default" />
+    </Rule>
+  </Ruleset>
+  <ConfigDef name="ProductConfig_1">
+    <ConfigItems>
+      <ConfigItem key="ref_34" value="{PrimaryLocation}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_35" value="{PrimaryLocation}-{Next_12_to_24_Hours}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_36" value="{PrimaryLocation}-{Next_24_to_36_Hours}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_37" value="{PrimaryLatitudeLongitude}-120" />
+      <ConfigItem key="ref_38_0" value="{LocalRadarCity1}" />
+      <ConfigItem key="ref_38_1" value="{NearbyLocation1}" />
+      <ConfigItem key="ref_38_2" value="{NearbyLocation2}" />
+      <ConfigItem key="ref_40" value="LocalMapLayout_709904de_dddb_4ac3_a704_f517e15a33c3" />
+    </ConfigItems>
+    <ConfigRecords>
+      <ConfigRecord key="LocalMapLayout_709904de_dddb_4ac3_a704_f517e15a33c3">
+        <LocalMapLayout>
+          <maxLabels>5</maxLabels>
+        </LocalMapLayout>
+      </ConfigRecord>
+    </ConfigRecords>
+  </ConfigDef>
+  <ConfigDef name="ProductConfig_2">
+    <ConfigItems>
+      <ConfigItem key="ref_34" value="{PrimaryLocation}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_35" value="{PrimaryLocation}-{Next_12_to_24_Hours}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_36" value="{PrimaryLocation}-{Next_24_to_36_Hours}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_37" value="{PrimaryLatitudeLongitude}-120" />
+      <ConfigItem key="ref_38_0" value="{LocalRadarCity1}" />
+      <ConfigItem key="ref_38_1" value="{NearbyLocation1}" />
+      <ConfigItem key="ref_38_2" value="{NearbyLocation2}" />
+      <ConfigItem key="ref_40" value="LocalMapLayout_525ccadc_cb96_44f2_9619_1a0ab2cd8693" />
+    </ConfigItems>
+    <ConfigRecords>
+      <ConfigRecord key="LocalMapLayout_525ccadc_cb96_44f2_9619_1a0ab2cd8693">
+        <LocalMapLayout>
+          <maxLabels>5</maxLabels>
+        </LocalMapLayout>
+      </ConfigRecord>
+    </ConfigRecords>
+  </ConfigDef>
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_34" value="{PrimaryLocation}-ObsIconMapping-WxManMapping" />
+      <ConfigItem key="ref_35" value="{PrimaryLocation}-{Next_12_Hours}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_36" value="{PrimaryLocation}-{Next_12_to_24_Hours}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_37" value="{PrimaryLatitudeLongitude}-120" />
+      <ConfigItem key="ref_38_0" value="{LocalRadarCity1}" />
+      <ConfigItem key="ref_38_1" value="{NearbyLocation1}" />
+      <ConfigItem key="ref_38_2" value="{NearbyLocation2}" />
+      <ConfigItem key="ref_40" value="LocalMapLayout_4e880669_9502_4451_8aa6_b7730c06ec5a" />
+    </ConfigItems>
+    <ConfigRecords>
+      <ConfigRecord key="LocalMapLayout_4e880669_9502_4451_8aa6_b7730c06ec5a">
+        <LocalMapLayout>
+          <maxLabels>5</maxLabels>
+        </LocalMapLayout>
+      </ConfigRecord>
+    </ConfigRecords>
+  </ConfigDef>
+</Config>

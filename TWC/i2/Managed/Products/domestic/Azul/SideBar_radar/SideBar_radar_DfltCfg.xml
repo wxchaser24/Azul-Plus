@@ -1,0 +1,40 @@
+<Config name="default">
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default" />
+    </Rule>
+  </Ruleset>
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_0" value="{PrimaryLatitudeLongitude}-120" />
+      <ConfigItem key="ref_1_0" value="{LocalRadarCity1}" />
+      <ConfigItem key="ref_1_1" value="{MetroMapCity1}" />
+      <ConfigItem key="ref_1_2" value="{MetroMapCity2}" />
+      <ConfigItem key="ref_1_3" value="{MetroMapCity3}" />
+      <ConfigItem key="ref_3" value="LocalMapLayout_40a119d8_65a8_42fb_b91f_15f0bef927fc" />
+    </ConfigItems>
+    <ConfigRecords>
+      <ConfigRecord key="LocalMapLayout_40a119d8_65a8_42fb_b91f_15f0bef927fc">
+        <LocalMapLayout>
+          <maxLabels>7</maxLabels>
+        </LocalMapLayout>
+      </ConfigRecord>
+    </ConfigRecords>
+  </ConfigDef>
+</Config>

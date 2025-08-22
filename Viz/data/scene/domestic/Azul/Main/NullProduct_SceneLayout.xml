@@ -1,0 +1,12 @@
+<SceneLayout version="1.2.14" type="viz" screenBoundingBox="0.3596491,0.08311688,0.5833333,0.674026">
+  <Windows />
+  <DesignAutoLayouts />
+  <Scrollers />
+  <Audio />
+  <PlaylistScrollers />
+  <WarningPolygons />
+  <Maps />
+  <Movies />
+  <RoadLabelManagers />
+  <Timeline name="Default" start="0" duration="0" />
+</SceneLayout>

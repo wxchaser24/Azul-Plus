@@ -1,0 +1,87 @@
+<SceneLayout version="1.2.16" type="viz" screenBoundingBox="0.2127193,0.02077922,0.7558479,0.7376623" hasErrors="false">
+  <Windows />
+  <DesignAutoLayouts />
+  <Scrollers />
+  <Audio>
+    <Audio path="1/1/1/1/3" refName="DataObject.1/1/1/1.1/1/1/1/2." startFrame="60" endFrame="69" track="1" level="1" mix="0.2" balance="0" truncate="False" />
+  </Audio>
+  <PlaylistScrollers />
+  <WarningPolygons />
+  <Maps />
+  <Movies />
+  <RoadLabelManagers />
+  <MinMaxControllers />
+  <DataWriters />
+  <ScenePreload>
+    <ScenePreload path="1/1" useStartTime="True" />
+  </ScenePreload>
+  <Timeline name="Default" start="0" duration="79">
+    <Event type="Pause" time="60" duration="50" name="InfoPage1" direction="Both" />
+    <Event type="Pause" time="69" duration="50" name="InfoPage2" direction="Both" />
+    <Animation path="1/1/1/1" />
+    <Animation path="1/1/1/1/1/1" />
+    <Animation path="1/1/1/1/1/1/1/1/1" />
+    <Animation path="1/1/1/1/1/1/1/1/2" />
+    <Animation path="1/1/1/1/1/1/1/2" />
+    <Animation path="1/1/1/1/2/1/1" />
+    <Animation path="1/1/1/1/2/1/1/1/2" />
+    <Animation path="1/1/1/1/2/2" />
+    <Animation path="1/1/1/1/2/2/3" />
+    <Animation path="1/1/1/1/2/2/4" />
+    <Animation path="1/1/1/1/2/3/1/1" />
+    <Animation path="1/1/1/1/2/3/2/1" />
+    <Animation path="1/1/1/1/2/3/2/1/1" />
+    <Animation path="1/1/1/1/2/3/2/1/1/3/1" />
+    <Animation path="1/1/1/1/2/3/2/1/1/3/2/1" />
+    <Animation path="1/1/1/1/2/3/2/1/2" />
+    <Animation path="1/1/1/1/2/3/2/1/2/3/1" />
+    <Animation path="1/1/1/1/2/3/2/1/2/3/2/1" />
+    <Animation path="1/1/1/1/2/3/2/1/2/3/2/2" />
+    <Animation path="1/1/1/1/2/3/2/1/3" />
+    <Animation path="1/1/1/1/2/3/2/1/3/2" />
+    <Animation path="1/1/1/1/2/3/2/1/3/3/1" />
+    <Animation path="1/1/1/1/2/3/2/1/3/3/2/1/1" />
+    <Animation path="1/1/1/1/2/3/2/1/3/3/2/2/1" />
+    <Animation path="1/1/1/1/2/3/2/1/3/3/2/2/2" />
+    <Animation path="1/1/1/1/2/3/2/1/3/3/2/2/3" />
+    <Animation path="1/1/1/1/2/3/2/1/4" />
+    <Animation path="1/1/1/1/2/3/2/1/4/3/1" />
+    <Animation path="1/1/1/1/2/3/2/1/4/3/2/1/1" />
+    <Animation path="1/1/1/1/2/3/2/1/4/3/2/1/2" />
+    <Animation path="1/1/1/1/2/3/2/1/4/3/2/2" />
+    <Animation path="1/1/1/1/2/3/2/2/1" />
+    <Animation path="1/1/1/1/2/3/2/2/1/3/1" />
+    <Animation path="1/1/1/1/2/3/2/2/1/3/2/1" />
+    <Animation path="1/1/1/1/2/3/2/2/2" />
+    <Animation path="1/1/1/1/2/3/2/2/2/3/1" />
+    <Animation path="1/1/1/1/2/3/2/2/2/3/2/1" />
+    <Animation path="1/1/1/1/2/3/2/2/3" />
+    <Animation path="1/1/1/1/2/3/2/2/3/2" />
+    <Animation path="1/1/1/1/2/3/2/2/3/3/1" />
+    <Animation path="1/1/1/1/2/3/2/2/3/3/2/1" />
+    <Animation path="1/1/1/1/2/3/2/2/3/3/2/2" />
+    <Animation path="1/1/1/1/2/3/2/2/3/3/3/1" />
+    <Animation path="1/1/1/1/2/3/2/2/4" />
+    <Animation path="1/1/1/1/2/3/2/2/4/2" />
+    <Animation path="1/1/1/1/2/3/2/2/4/3/1" />
+    <Animation path="1/1/1/1/2/3/2/2/4/3/2" />
+    <Animation path="1/1/1/1/2/3/2/2/4/3/3/1/1" />
+    <Animation path="1/1/1/1/2/3/2/2/4/3/3/2" />
+    <Animation path="1/1/1/1/2/4" />
+    <Animation path="1/1/1/1/2/4/2/1/2" />
+  </Timeline>
+  <Timeline name="Looping" start="0" duration="399995985">
+    <Animation path="1/1/1/1/2/4/1/1" />
+    <Animation path="1/1/1/1/2/4/2/1/2/1" />
+    <Animation path="1/1/1/1/2/4/3" />
+  </Timeline>
+  <Timeline name="Audio" start="0" duration="90">
+    <Track channel="1">
+      <Clips>
+        <Clip time="0" duration="90" clipStart="0" clipEnd="3">
+        </Clip>
+      </Clips>
+    </Track>
+  </Timeline>
+  <Export version="2.13.2.15701" user="kpollak" host="ATL-KPOLLAK1" timestamp="2011-11-02 13:21:22" />
+</SceneLayout>

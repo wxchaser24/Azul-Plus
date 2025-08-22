@@ -1,0 +1,124 @@
+<SceneRefs version="2.10.5" nextRef="19" hasErrors="false">
+  <Refs>
+    <Ref name="DataObject.1/1/2/1/1.1/1/2/1/1/1." key="{ref_0}" dataType="LocalHourlyFcst" desc="Primary Hourly 1" sequence="1.0" configurable="true" />
+    <Ref name="DataObject.1/1/2/1/1.1/1/2/1/1/2." key="{ref_1}" dataType="LocalHourlyFcst" desc="Primary Hourly 2" sequence="1.1" configurable="true" />
+    <Ref name="DataObject.1/1/2/1/1.1/1/2/1/1/3." key="{ref_16}" dataType="LocalHourlyFcst" desc="Primary Hourly 3" sequence="1.2" configurable="true" />
+    <Ref name="DataObject.1/1/2/1/1.1/1/2/1/1/4." key="{ref_3}" dataType="LocalHourlyFcst" desc="Primary Hourly 4" sequence="1.3" configurable="true" />
+    <Ref name="DataObject.1/1/2/1/1.1/1/2/1/1/5." key="{ref_4}" dataType="LocalHourlyFcst" desc="Primary Hourly 5" sequence="1.4" configurable="true" />
+    <Ref name="DataObject.1/1/2/1/1.1/1/2/1/1/6." key="{ref_5}" dataType="LocalHourlyFcst" desc="Primary Hourly 6" sequence="1.5" configurable="true" />
+    <Ref name="DataObject.1/1/2/1/1.1/1/2/1/1/7." key="{ref_6}" dataType="LocalHourlyFcst" desc="Primary Hourly 7" sequence="1.6" configurable="true" />
+    <Ref name="DataObject.1/1/2/1/1.1/1/2/1/1/8." key="{ref_18}" dataType="LocalHourlyFcst" desc="Primary Hourly 8" sequence="1.7" configurable="true" />
+    <Ref name="DataObject.1/1/2/1/1.1/1/2/1/1/9." key="{ref_8}" dataType="LocalHourlyFcst" desc="Primary Hourly 9" sequence="1.8" configurable="true" />
+    <Ref name="DataObject.1/1/2/1/1.1/1/2/1/1/10." key="{ref_9}" dataType="LocalHourlyFcst" desc="Primary Hourly 10" sequence="1.9" configurable="true" />
+  </Refs>
+  <StaticAssets>
+    <StaticAsset path="image/domestic/common/BANNER_SHAPE2_1024x128.peak">
+      <UsedBy>1/1/1/1/1/1/1/1/1</UsedBy>
+      <UsedBy>1/1/1/1/1/1/1/1/2</UsedBy>
+      <UsedBy>1/1/1/1/1/1/1/1/3</UsedBy>
+      <UsedBy>1/1/1/1/1/1/1/1/4</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/HI_GLOSS.peak">
+      <UsedBy>1/1/1/1/1/1/1/1/5</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/project_specific/Azul/BANR_BLUE_512x128.peak">
+      <UsedBy>1/1/1/1/1/1/1/2/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/project_specific/Azul/BANR_BLUE_1024x128.peak">
+      <UsedBy>1/1/1/1/1/1/1/2/2/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/project_specific/Azul/BANNER_SHAPE2_1024x128.peak">
+      <UsedBy>1/1/1/1/1/1/1/2/2/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-BoldCond.peak">
+      <UsedBy>1/1/1/1/1/1/1/2/2/3</UsedBy>
+      <UsedBy>1/1/2/1/1/1/3</UsedBy>
+      <UsedBy>1/1/2/1/1/2/2</UsedBy>
+      <UsedBy>1/1/2/1/1/3/2</UsedBy>
+      <UsedBy>1/1/2/1/1/4/2</UsedBy>
+      <UsedBy>1/1/2/1/1/5/2</UsedBy>
+      <UsedBy>1/1/2/1/1/6/2</UsedBy>
+      <UsedBy>1/1/2/1/1/7/2</UsedBy>
+      <UsedBy>1/1/2/1/1/8/2</UsedBy>
+      <UsedBy>1/1/2/1/1/9/2</UsedBy>
+      <UsedBy>1/1/2/1/1/10/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/FLARE_05_128x64.peak">
+      <UsedBy>1/1/1/1/1/1/1/2/2/4/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/crys_metal.peak">
+      <UsedBy>1/1/1/1/2/1/2</UsedBy>
+      <UsedBy>1/1/1/1/2/1/4</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/crystal_bubble.peak">
+      <UsedBy>1/1/1/1/2/1/3</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/CON_SOFT.peak">
+      <UsedBy>1/1/1/1/3/1/1</UsedBy>
+      <UsedBy>1/1/1/1/3/1/2</UsedBy>
+      <UsedBy>1/1/1/1/3/2/1</UsedBy>
+      <UsedBy>1/1/1/1/3/2/2</UsedBy>
+      <UsedBy>1/1/1/1/3/3/1</UsedBy>
+      <UsedBy>1/1/1/1/3/3/2</UsedBy>
+      <UsedBy>1/1/1/1/3/4/1</UsedBy>
+      <UsedBy>1/1/1/1/3/4/2</UsedBy>
+      <UsedBy>1/1/1/1/3/5/1</UsedBy>
+      <UsedBy>1/1/1/1/3/5/2</UsedBy>
+      <UsedBy>1/1/1/1/3/6/1</UsedBy>
+      <UsedBy>1/1/1/1/3/6/2</UsedBy>
+      <UsedBy>1/1/1/1/3/7/1</UsedBy>
+      <UsedBy>1/1/1/1/3/7/2</UsedBy>
+      <UsedBy>1/1/1/1/3/8/1</UsedBy>
+      <UsedBy>1/1/1/1/3/8/2</UsedBy>
+      <UsedBy>1/1/1/1/3/9/1</UsedBy>
+      <UsedBy>1/1/1/1/3/9/2</UsedBy>
+      <UsedBy>1/1/1/1/3/10/1</UsedBy>
+      <UsedBy>1/1/1/1/3/10/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-HeavyExt.peak">
+      <UsedBy>1/1/2/1/1/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-Bold.peak">
+      <UsedBy>1/1/2/1/1/1/5/1</UsedBy>
+      <UsedBy>1/1/2/1/1/2/4/1</UsedBy>
+      <UsedBy>1/1/2/1/1/3/4/1</UsedBy>
+      <UsedBy>1/1/2/1/1/4/4/1</UsedBy>
+      <UsedBy>1/1/2/1/1/5/4/1</UsedBy>
+      <UsedBy>1/1/2/1/1/6/4/1</UsedBy>
+      <UsedBy>1/1/2/1/1/7/4/1</UsedBy>
+      <UsedBy>1/1/2/1/1/8/4/1</UsedBy>
+      <UsedBy>1/1/2/1/1/9/4/1</UsedBy>
+      <UsedBy>1/1/2/1/1/10/4/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/spring.peak">
+      <UsedBy>1/1/2/1/1/1/6</UsedBy>
+      <UsedBy>1/1/2/1/1/2/5</UsedBy>
+      <UsedBy>1/1/2/1/1/3/5</UsedBy>
+      <UsedBy>1/1/2/1/1/4/5</UsedBy>
+      <UsedBy>1/1/2/1/1/5/5</UsedBy>
+      <UsedBy>1/1/2/1/1/6/5</UsedBy>
+      <UsedBy>1/1/2/1/1/7/5</UsedBy>
+      <UsedBy>1/1/2/1/1/8/5</UsedBy>
+      <UsedBy>1/1/2/1/1/9/5</UsedBy>
+      <UsedBy>1/1/2/1/1/10/5</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/orange2_512x64.peak">
+      <UsedBy>1/1/2/1/1/11/1</UsedBy>
+    </StaticAsset>
+  </StaticAssets>
+  <DynamicAssets>
+    <DynamicAsset path="image/domestic/icons/temo/">
+      <UsedBy>1/1/2/1/1/1/4</UsedBy>
+      <UsedBy>1/1/2/1/1/2/3</UsedBy>
+      <UsedBy>1/1/2/1/1/3/3</UsedBy>
+      <UsedBy>1/1/2/1/1/4/3</UsedBy>
+      <UsedBy>1/1/2/1/1/5/3</UsedBy>
+      <UsedBy>1/1/2/1/1/6/3</UsedBy>
+      <UsedBy>1/1/2/1/1/7/3</UsedBy>
+      <UsedBy>1/1/2/1/1/8/3</UsedBy>
+      <UsedBy>1/1/2/1/1/9/3</UsedBy>
+      <UsedBy>1/1/2/1/1/10/3</UsedBy>
+    </DynamicAsset>
+  </DynamicAssets>
+  <Export version="2.13.2.15701" user="kpollak" host="ATL-KPOLLAK1" timestamp="2011-11-02 13:18:28" />
+</SceneRefs>

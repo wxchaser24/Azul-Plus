@@ -1,0 +1,66 @@
+<Config name="default">
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="greaterThan" type="Boolean">
+            <Field name="minute" source="DataSourceI2_system_0" type="Number" />
+            <Literal type="Number">
+              <Value>46</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="ProductConfig_1" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default" />
+    </Rule>
+  </Ruleset>
+  <ConfigDef name="ProductConfig_1">
+    <ConfigItems>
+      <ConfigItem key="ref_0" value="{PrimaryLocation}-{HourPlusTwo}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_1" value="{PrimaryLocation}-{HourPlusThree}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_16" value="{PrimaryLocation}-{HourPlusFour}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_3" value="{PrimaryLocation}-{HourPlusFive}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_4" value="{PrimaryLocation}-{HourPlusSix}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_5" value="{PrimaryLocation}-{HourPlusSeven}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_6" value="{PrimaryLocation}-{HourPlusEight}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_18" value="{PrimaryLocation}-{HourPlusNine}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_8" value="{PrimaryLocation}-{HourPlusTen}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_9" value="{PrimaryLocation}-{HourPlusEleven}-FcstIconMapping-WxManMapping" />
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_0" value="{PrimaryLocation}-{HourPlusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_1" value="{PrimaryLocation}-{HourPlusTwo}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_16" value="{PrimaryLocation}-{HourPlusThree}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_3" value="{PrimaryLocation}-{HourPlusFour}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_4" value="{PrimaryLocation}-{HourPlusFive}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_5" value="{PrimaryLocation}-{HourPlusSix}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_6" value="{PrimaryLocation}-{HourPlusSeven}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_18" value="{PrimaryLocation}-{HourPlusEight}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_8" value="{PrimaryLocation}-{HourPlusNine}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_9" value="{PrimaryLocation}-{HourPlusTen}-FcstIconMapping-WxManMapping" />
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+</Config>

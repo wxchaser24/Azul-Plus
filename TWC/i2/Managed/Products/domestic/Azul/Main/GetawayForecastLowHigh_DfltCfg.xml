@@ -1,0 +1,84 @@
+<Config name="default">
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="and" type="Boolean">
+            <Function name="timeOnOrAfter" type="Boolean">
+              <Field name="time" source="DataSourceI2_system_0" type="Time" />
+              <Literal type="Time">
+                <Value>00:00:00</Value>
+              </Literal>
+            </Function>
+            <Function name="timeBefore" type="Boolean">
+              <Field name="time" source="DataSourceI2_system_0" type="Time" />
+              <Literal type="Time">
+                <Value>05:00:00</Value>
+              </Literal>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default1" />
+    </Rule>	
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default" />
+    </Rule>
+  </Ruleset>
+  <ConfigDef name="default1">
+    <ConfigItems>
+      <ConfigItem key="ref_0" value="{SummerGetawayLocation1}-{DayMinusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_15" value="{SummerGetawayLocation2}-{DayMinusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_2" value="{SummerGetawayLocation3}-{DayMinusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_3" value="{SummerGetawayLocation1}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_16" value="{SummerGetawayLocation1}-{DayPlusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_5" value="{SummerGetawayLocation1}-{DayPlusTwo}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_6" value="{SummerGetawayLocation2}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_7" value="{SummerGetawayLocation2}-{DayPlusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_8" value="{SummerGetawayLocation2}-{DayPlusTwo}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_9" value="{SummerGetawayLocation3}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_10" value="{SummerGetawayLocation3}-{DayPlusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_11" value="{SummerGetawayLocation3}-{DayPlusTwo}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_12" value="www.keywest.com" />
+      <ConfigItem key="ref_13" value="www.visitfortmyers.com" />
+      <ConfigItem key="ref_14" value="www.visitorlando.com" />
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>  
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_0" value="{SummerGetawayLocation1}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_15" value="{SummerGetawayLocation2}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_2" value="{SummerGetawayLocation3}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_3" value="{SummerGetawayLocation1}-{DayPlusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_16" value="{SummerGetawayLocation1}-{DayPlusTwo}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_5" value="{SummerGetawayLocation1}-{DayPlusThree}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_6" value="{SummerGetawayLocation2}-{DayPlusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_7" value="{SummerGetawayLocation2}-{DayPlusTwo}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_8" value="{SummerGetawayLocation2}-{DayPlusThree}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_9" value="{SummerGetawayLocation3}-{DayPlusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_10" value="{SummerGetawayLocation3}-{DayPlusTwo}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_11" value="{SummerGetawayLocation3}-{DayPlusThree}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_12" value="www.keywest.com" />
+      <ConfigItem key="ref_13" value="www.visitfortmyers.com" />
+      <ConfigItem key="ref_14" value="www.visitorlando.com" />
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+</Config>

@@ -1,0 +1,145 @@
+<Product>
+  <ScenePath>domestic\Azul\Main\MarineForecast</ScenePath>
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+      <Ref name="DataSourceI2_LocalMarineTextFcst_0" dataType="LocalMarineTextFcst" key="{PrimaryLocation}-0" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="contains" type="Boolean">
+            <Field name="keywords" source="DataSourceI2_system_0" type="StringList" />
+            <Literal type="StringList">
+              <Value>test</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="132" displayOrder="200" duration="240" min="210" max="300" step="30" repeatStart="0" repeatInterval="0" exclusiveProducts="" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="contains" type="Boolean">
+            <Field name="keywords" source="DataSourceI2_system_0" type="StringList" />
+            <Literal type="StringList">
+              <Value>Configure H/E Playlist</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="132" displayOrder="200" duration="300" min="240" max="360" step="30" repeatStart="0" repeatInterval="0" exclusiveProducts="" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="and" type="Boolean">
+            <Function name="and" type="Boolean">
+              <Function name="contains" type="Boolean">
+                <Field name="keywords" source="DataSourceI2_system_0" type="StringList" />
+                <Literal type="StringList">
+                  <Value>Marine Forecast</Value>
+                </Literal>
+              </Function>
+              <Function name="contains" type="Boolean">
+                <Field name="keywords" source="DataSourceI2_system_0" type="StringList" />
+                <Literal type="StringList">
+                  <Value>Large Area Served</Value>
+                </Literal>
+              </Function>
+            </Function>
+            <Function name="and" type="Boolean">
+              <Function name="and" type="Boolean">
+                <Function name="timeOnOrAfter" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>04:00:00</Value>
+                  </Literal>
+                </Function>
+                <Function name="timeBefore" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>13:00:00</Value>
+                  </Literal>
+                </Function>
+              </Function>
+              <Function name="if" type="Boolean">
+                <Function name="if" type="Boolean">
+                  <Function name="exists" type="Boolean">
+                    <Literal type="String">
+                      <Value>DataSourceI2_LocalMarineTextFcst_0</Value>
+                    </Literal>
+                    <Literal type="String">
+                      <Value>text</Value>
+                    </Literal>
+                  </Function>
+                </Function>
+              </Function>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="true" priority="132" displayOrder="200" duration="210" min="210" max="240" step="30" repeatStart="0" repeatInterval="0" exclusiveProducts="" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="and" type="Boolean">
+            <Function name="contains" type="Boolean">
+              <Field name="keywords" source="DataSourceI2_system_0" type="StringList" />
+              <Literal type="StringList">
+                <Value>Marine Forecast</Value>
+              </Literal>
+            </Function>
+            <Function name="and" type="Boolean">
+              <Function name="and" type="Boolean">
+                <Function name="timeOnOrAfter" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>04:00:00</Value>
+                  </Literal>
+                </Function>
+                <Function name="timeBefore" type="Boolean">
+                  <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                  <Literal type="Time">
+                    <Value>13:00:00</Value>
+                  </Literal>
+                </Function>
+              </Function>
+              <Function name="if" type="Boolean">
+                <Function name="if" type="Boolean">
+                  <Function name="exists" type="Boolean">
+                    <Literal type="String">
+                      <Value>DataSourceI2_LocalMarineTextFcst_0</Value>
+                    </Literal>
+                    <Literal type="String">
+                      <Value>text</Value>
+                    </Literal>
+                  </Function>
+                </Function>
+              </Function>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="true" priority="132" displayOrder="200" duration="240" min="210" max="300" step="30" repeatStart="0" repeatInterval="0" exclusiveProducts="" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="132" displayOrder="200" duration="300" min="240" max="360" step="30" repeatStart="0" repeatInterval="0" exclusiveProducts="" />
+    </Rule>
+  </Ruleset>
+</Product>

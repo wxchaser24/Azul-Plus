@@ -1,0 +1,39 @@
+<Config name="default">
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default" />
+    </Rule>
+  </Ruleset>
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_0" value="LocalMovieClip_e5e80636_d2b0_4fe7_bc5b_8146752ca148" />
+    </ConfigItems>
+    <ConfigRecords>
+      <ConfigRecord key="LocalMovieClip_e5e80636_d2b0_4fe7_bc5b_8146752ca148">
+        <LocalMovieClip>
+          <title>Epic Conditions</title>
+          <headline>Extreme snowboarding.</headline>
+          <source>
+          </source>
+          <clipName>domestic/16x9/EpicConditions_10sec_1280x720_ver1.wmv</clipName>
+        </LocalMovieClip>
+      </ConfigRecord>
+    </ConfigRecords>
+  </ConfigDef>
+</Config>

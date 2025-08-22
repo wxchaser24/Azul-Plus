@@ -1,0 +1,116 @@
+<SceneRefs version="2.10.5" nextRef="41" hasErrors="false">
+  <Refs>
+    <Ref name="DataObject.2/1.2/1/1." key="{ref_34}" dataType="LocalObs" desc="Observation City Location" configurable="true" />
+    <Ref name="DataObject.2/1.2/1/2." key="{ref_35}" dataType="LocalDaypartCompositeFcst" desc="Forecast City Location" sequence="1.0" configurable="true" />
+    <Ref name="DataObject.2/1.2/1/3." key="{ref_36}" dataType="LocalDaypartCompositeFcst" desc="Forecast City Location - next time period" sequence="1.1" configurable="true" />
+    <Ref name="CWMClient.1/1.1/1/1." key="{ref_37}" dataType="LocalMapView" subType="Topo" desc="Map" mapSize="518,356" />
+    <Ref name="ImageClip.1/1/1/1.1/1/1/1/1." key="{ref_37}" dataType="LocalImageSequence" subType="Radar" desc="Map" configurable="true" mapSize="518,356" />
+    <Ref name="DataObject.1/1/1/5.1/1/1/5/3." key="{ref_38}" dataType="LocalLocationProps" template="1/1/1/4.LocationDesigns" maxItems="-1" desc="Map Design (LocationDesigns)" geoRefType="WPosition" configurable="true" />
+    <Ref name="DataObject.1/1/1/5.1/1/1/5/4." key="{ref_39}" dataType="LocalLocationProps" template="1/1/1/4.AirportLocatorDotDesign" maxItems="-1" desc="Map Design (AirportLocatorDotDesign)" geoRefType="WPosition" configurable="true" />
+    <Ref name="DesignAutoLayout.1/1/1.1/1/1/4." key="{ref_40}" dataType="LocalMapLayout" desc="Map Properties" configurable="true" linkedMap="CWMClient.1/1.1/1/1." />
+  </Refs>
+  <StaticAssets>
+    <StaticAsset path="image/domestic/maps/i2_georef_basemap_do_not_delete256x256.peak">
+      <UsedBy>1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/interstate_clean_sign.peak">
+      <UsedBy>1/1/1/4/1/1</UsedBy>
+      <UsedBy>1/1/1/4/2/1</UsedBy>
+      <UsedBy>1/1/1/4/3/1</UsedBy>
+      <UsedBy>1/1/1/4/4/1</UsedBy>
+      <UsedBy>1/1/1/4/5/1</UsedBy>
+      <UsedBy>1/1/1/4/6/1</UsedBy>
+      <UsedBy>1/1/1/4/7/1</UsedBy>
+      <UsedBy>1/1/1/5/2/1/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-BoldCond.peak">
+      <UsedBy>1/1/1/4/1/2</UsedBy>
+      <UsedBy>1/1/1/4/2/2</UsedBy>
+      <UsedBy>1/1/1/4/3/2</UsedBy>
+      <UsedBy>1/1/1/4/4/2</UsedBy>
+      <UsedBy>1/1/1/4/5/2</UsedBy>
+      <UsedBy>1/1/1/4/6/2</UsedBy>
+      <UsedBy>1/1/1/4/7/2</UsedBy>
+      <UsedBy>1/1/1/5/2/1/1/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-Bold.peak">
+      <UsedBy>1/1/1/5/3/1/1/1</UsedBy>
+      <UsedBy>1/1/1/5/3/2/1/1</UsedBy>
+      <UsedBy>1/1/1/5/3/3/1/1</UsedBy>
+      <UsedBy>1/1/1/5/3/4/1/1</UsedBy>
+      <UsedBy>1/1/1/5/3/5/1/1</UsedBy>
+      <UsedBy>1/1/1/5/3/6/1/1</UsedBy>
+      <UsedBy>2/1/1/2/2/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/square_trans.peak">
+      <UsedBy>1/1/1/5/3/1/2/1</UsedBy>
+      <UsedBy>1/1/1/5/3/2/2/1</UsedBy>
+      <UsedBy>1/1/1/5/3/3/2/1</UsedBy>
+      <UsedBy>1/1/1/5/3/4/2/1</UsedBy>
+      <UsedBy>1/1/1/5/3/5/2/1</UsedBy>
+      <UsedBy>1/1/1/5/3/6/2/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/spheric.peak">
+      <UsedBy>1/1/1/5/4/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/plane.peak">
+      <UsedBy>1/1/1/5/4/1/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/project_specific/AzulLDL/WeatherManWorld_BG.peak">
+      <UsedBy>2/1/1/1/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/experimental.peak">
+      <UsedBy>2/1/1/1/1/2</UsedBy>
+      <UsedBy>2/3/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/alpha_wx_window2.peak">
+      <UsedBy>2/1/1/1/2</UsedBy>
+      <UsedBy>2/1/1/1/5/2</UsedBy>
+      <UsedBy>2/1/1/1/6/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/project_specific/Azul/BANNER_SHAPE2_1024x128.peak">
+      <UsedBy>2/1/1/1/3</UsedBy>
+      <UsedBy>2/1/1/1/5/1</UsedBy>
+      <UsedBy>2/1/1/1/6/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/17mai.peak">
+      <UsedBy>2/1/1/1/4</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/alpha_wx_left.peak">
+      <UsedBy>2/1/1/1/7/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/AkzidenzGroteskBE-BoldCn-Regular.peak">
+      <UsedBy>2/1/1/2/2/2</UsedBy>
+      <UsedBy>2/1/1/2/3</UsedBy>
+      <UsedBy>2/1/2/1/2/1</UsedBy>
+      <UsedBy>2/1/2/1/3</UsedBy>
+      <UsedBy>2/1/3/1/2/1</UsedBy>
+      <UsedBy>2/1/3/1/3</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-HeavyExt.peak">
+      <UsedBy>2/1/1/2/2/3/1/2/1</UsedBy>
+      <UsedBy>2/1/2/1/2/2/1/2/1</UsedBy>
+      <UsedBy>2/1/2/1/2/2/2/2/1</UsedBy>
+      <UsedBy>2/1/3/1/2/2/1/2/1</UsedBy>
+      <UsedBy>2/1/3/1/2/2/2/2/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-LightCond.peak">
+      <UsedBy>2/1/1/2/2/3/1/2/2</UsedBy>
+      <UsedBy>2/1/2/1/2/2/1/2/2</UsedBy>
+      <UsedBy>2/1/2/1/2/2/2/2/2</UsedBy>
+      <UsedBy>2/1/3/1/2/2/1/2/2</UsedBy>
+      <UsedBy>2/1/3/1/2/2/2/2/2</UsedBy>
+    </StaticAsset>
+  </StaticAssets>
+  <DynamicAssets>
+    <DynamicAsset path="image/domestic/icons/temo/">
+      <UsedBy>2/1/1/2/1/1</UsedBy>
+      <UsedBy>2/1/1/2/1/2</UsedBy>
+      <UsedBy>2/1/2/1/1/1</UsedBy>
+      <UsedBy>2/1/2/1/1/2</UsedBy>
+      <UsedBy>2/1/3/1/1/1</UsedBy>
+      <UsedBy>2/1/3/1/1/2</UsedBy>
+    </DynamicAsset>
+  </DynamicAssets>
+  <Export version="2.6.0.15032" user="kpollak" host="SE-KPOLLAK" timestamp="2011-02-09 16:23:54" />
+</SceneRefs>

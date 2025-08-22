@@ -1,0 +1,45 @@
+<Product>
+  <ScenePath>domestic\Azul\SideBar_top\SideBar_top</ScenePath>
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="or" type="Boolean">
+            <Function name="contains" type="Boolean">
+              <Field name="keywords" source="DataSourceI2_system_0" type="StringList" />
+              <Literal type="StringList">
+                <Value>Large Area Served</Value>
+              </Literal>
+            </Function>
+            <Function name="contains" type="Boolean">
+              <Field name="keywords" source="DataSourceI2_system_0" type="StringList" />
+              <Literal type="StringList">
+                <Value>Sidebar Rotate</Value>
+              </Literal>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="true" priority="1" displayOrder="1" duration="450" min="60" max="450" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="SideBar_top_rotate" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="1" displayOrder="1" duration="0" min="60" max="0" step="0" repeatStart="0" repeatInterval="0" exclusiveProducts="" />
+    </Rule>
+  </Ruleset>
+</Product>

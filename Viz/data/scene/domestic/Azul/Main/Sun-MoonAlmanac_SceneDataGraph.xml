@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataGraphOutput xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Primary Sun Day 0</Label>
+      <Path>TopNode/Main/Sun-MoonAlmanac/Contents/Data/mainBoxes/SR_SS_Moon/_SR_SS/Sunrise_Sunset/Data/Day1</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/2</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_0}" fieldName="date" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="moonrise" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="moonset" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="sunrise" dataType="DataPool" />
+        <DataField key="{ref_0}" fieldName="sunset" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>locName</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_0}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataParameter</PluginName>
+      <Path>day1</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/2/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_0}" fieldName="date" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/2/2" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DateTimeFormatter</PluginName>
+      <Path>day1</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/2/2</FullPath>
+      <InputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/2/2" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataParameter</PluginName>
+      <Path>sunrise</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/2/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_0}" fieldName="sunrise" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/2/3" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DateTimeFormatter</PluginName>
+      <Path>sunrise</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/2/3</FullPath>
+      <InputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/2/3" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataParameter</PluginName>
+      <Path>sunset</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/2/4</FullPath>
+      <InputFields>
+        <DataField key="{ref_0}" fieldName="sunset" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/2/4" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DateTimeFormatter</PluginName>
+      <Path>sunset</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/2/4</FullPath>
+      <InputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/2/4" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Primary Sun Day 1</Label>
+      <Path>TopNode/Main/Sun-MoonAlmanac/Contents/Data/mainBoxes/SR_SS_Moon/_SR_SS/Sunrise_Sunset/Data/Day2</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/3</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_1}" fieldName="date" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="moonrise" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="moonset" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="sunrise" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="sunset" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataParameter</PluginName>
+      <Path>day2</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="date" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/3/1" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DateTimeFormatter</PluginName>
+      <Path>day2</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/3/1</FullPath>
+      <InputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/3/1" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataParameter</PluginName>
+      <Path>sunrise</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/3/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="sunrise" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/3/2" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DateTimeFormatter</PluginName>
+      <Path>sunrise</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/3/2</FullPath>
+      <InputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/3/2" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataParameter</PluginName>
+      <Path>sunset</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/3/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="sunset" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/3/3" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DateTimeFormatter</PluginName>
+      <Path>sunset</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/3/3</FullPath>
+      <InputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/3/3" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Primary Moon 1</Label>
+      <Path>TopNode/Main/Sun-MoonAlmanac/Contents/Data/mainBoxes/SR_SS_Moon/_SR_SS/Sunrise_Sunset/Data/TopLeftMoonPhase</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/4</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_2}" fieldName="date" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="icon" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="phase" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>PhaseName</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="phase" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_2}" fieldName="#misc_1" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>PhaseName</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="#misc_1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataParameter</PluginName>
+      <Path>Date</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/4/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="date" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/4/2" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DateTimeFormatter</PluginName>
+      <Path>Date</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/4/2</FullPath>
+      <InputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/4/2" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataImage</PluginName>
+      <Path>TopLeftMoon</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/4/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_2}" fieldName="icon" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Primary Moon 2</Label>
+      <Path>TopNode/Main/Sun-MoonAlmanac/Contents/Data/mainBoxes/SR_SS_Moon/_SR_SS/Sunrise_Sunset/Data/TopRightPhase</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/5</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_3}" fieldName="date" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="icon" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_3}" fieldName="phase" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>PhaseName</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/5/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="phase" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_3}" fieldName="#misc_1" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>PhaseName</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/5/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="#misc_1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataParameter</PluginName>
+      <Path>Date</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/5/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="date" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/5/2" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DateTimeFormatter</PluginName>
+      <Path>Date</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/5/2</FullPath>
+      <InputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/5/2" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataImage</PluginName>
+      <Path>TopRightMoon</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/5/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_3}" fieldName="icon" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Primary Moon 3</Label>
+      <Path>TopNode/Main/Sun-MoonAlmanac/Contents/Data/mainBoxes/SR_SS_Moon/_SR_SS/Sunrise_Sunset/Data/BottomLeftPhase</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/6</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_4}" fieldName="date" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="icon" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_4}" fieldName="phase" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>PhaseName</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/6/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="phase" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_4}" fieldName="#misc_1" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>PhaseName</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/6/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="#misc_1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataParameter</PluginName>
+      <Path>Date</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/6/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="date" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/6/2" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DateTimeFormatter</PluginName>
+      <Path>Date</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/6/2</FullPath>
+      <InputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/6/2" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataImage</PluginName>
+      <Path>BottomLeftMoon</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/6/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_4}" fieldName="icon" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Primary Moon 4</Label>
+      <Path>TopNode/Main/Sun-MoonAlmanac/Contents/Data/mainBoxes/SR_SS_Moon/_SR_SS/Sunrise_Sunset/Data/BottomRightPhase</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/7</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_5}" fieldName="date" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="icon" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_5}" fieldName="phase" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataActionTable</PluginName>
+      <Path>PhaseName</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/7/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="phase" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_5}" fieldName="#misc_1" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>PhaseName</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/7/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="#misc_1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataParameter</PluginName>
+      <Path>Date</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/7/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="date" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/7/2" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DateTimeFormatter</PluginName>
+      <Path>Date</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/7/2</FullPath>
+      <InputFields>
+        <DataField key="1/1/1/1/2/1/2/1/1/2/7/2" fieldName="DateTimeFormatter" dataType="FunctionParameter" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataImage</PluginName>
+      <Path>BottomRightMoon</Path>
+      <FullPath>1/1/1/1/2/1/2/1/1/2/7/3</FullPath>
+      <InputFields>
+        <DataField key="{ref_5}" fieldName="icon" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+  </DataGraphNode>
+</DataGraphOutput>

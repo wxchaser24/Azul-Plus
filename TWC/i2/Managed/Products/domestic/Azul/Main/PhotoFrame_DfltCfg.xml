@@ -1,0 +1,21 @@
+<Config name="default">
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_4" value="LocalExternalPhoto_d176d1d6_ccad_4e96_a146_519f9e44d5fd" />
+    </ConfigItems>
+    <ConfigRecords>
+      <ConfigRecord key="LocalExternalPhoto_d176d1d6_ccad_4e96_a146_519f9e44d5fd">
+        <LocalExternalPhoto>
+          <title>
+          </title>
+          <headline>
+          </headline>
+          <source>
+          </source>
+          <fileName>
+          </fileName>
+        </LocalExternalPhoto>
+      </ConfigRecord>
+    </ConfigRecords>
+  </ConfigDef>
+</Config>

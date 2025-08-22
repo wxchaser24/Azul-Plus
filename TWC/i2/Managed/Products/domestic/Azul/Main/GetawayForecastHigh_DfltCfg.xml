@@ -1,0 +1,40 @@
+<Config name="default">
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default" />
+    </Rule>
+  </Ruleset>
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_34" value="{SummerGetawayLocation1}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_35" value="{SummerGetawayLocation1}-{DayPlusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_36" value="{SummerGetawayLocation1}-{DayPlusTwo}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_6" value="{SummerGetawayLocation2}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_7" value="{SummerGetawayLocation2}-{DayPlusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_8" value="{SummerGetawayLocation2}-{DayPlusTwo}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_9" value="{SummerGetawayLocation3}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_10" value="{SummerGetawayLocation3}-{DayPlusOne}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_27" value="{SummerGetawayLocation3}-{DayPlusTwo}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_12" value="www.keywest.com" />
+      <ConfigItem key="ref_13" value="www.visitfortmyers.com" />
+      <ConfigItem key="ref_14" value="www.visitorlando.com" />
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+</Config>

@@ -1,0 +1,34 @@
+<Config name="default">
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default" />
+    </Rule>
+  </Ruleset>
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_0" value="{PrimaryLocation}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <ConfigItem key="ref_1" value="N.Y. Yankees vs. L.A. Angels" />
+      <ConfigItem key="ref_6" value="Los Angeles, CA" />
+      <ConfigItem key="ref_3" value="7:10 PM" />
+      <ConfigItem key="ref_4" value=" Angel Stadium" />
+      <ConfigItem key="ref_5" value="Baseball_Turner_Field" />
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+</Config>

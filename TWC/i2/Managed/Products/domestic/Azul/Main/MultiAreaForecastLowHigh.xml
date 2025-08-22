@@ -1,0 +1,172 @@
+<Product>
+  <ScenePath>domestic\Azul\Main\MultiAreaForecastLowHigh</ScenePath>
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+      <Ref name="DataSourceI2_LocalDailyFcst_0" dataType="LocalDailyFcst" key="{PrimaryLocation}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <Ref name="DataSourceI2_LocalDailyFcst_1" dataType="LocalDailyFcst" key="{NearbyLocation1}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <Ref name="DataSourceI2_LocalDailyFcst_2" dataType="LocalDailyFcst" key="{NearbyLocation2}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <Ref name="DataSourceI2_LocalDailyFcst_3" dataType="LocalDailyFcst" key="{NearbyLocation3}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+      <Ref name="DataSourceI2_LocalDailyFcst_4" dataType="LocalDailyFcst" key="{NearbyLocation4}-{DayPlusZero}-FcstIconMapping-WxManMapping" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="contains" type="Boolean">
+            <Field name="keywords" source="DataSourceI2_system_0" type="StringList" />
+            <Literal type="StringList">
+              <Value>test</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="1" displayOrder="1" duration="0" min="30" max="0" step="0" repeatStart="0" repeatInterval="0" exclusiveProducts="" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="contains" type="Boolean">
+            <Field name="keywords" source="DataSourceI2_system_0" type="StringList" />
+            <Literal type="StringList">
+              <Value>No NowAnimation Full frame</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="true" priority="125" displayOrder="260" duration="300" min="210" max="300" step="30" repeatStart="0" repeatInterval="0" exclusiveProducts="MultiAreaForecastHigh,NearbyAreaForecast,NearbyAreaForecast2,NearbyAreaForecast3" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="contains" type="Boolean">
+            <Field name="keywords" source="DataSourceI2_system_0" type="StringList" />
+            <Literal type="StringList">
+              <Value>Configure H/E Playlist</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="115" displayOrder="260" duration="300" min="210" max="300" step="30" repeatStart="0" repeatInterval="0" exclusiveProducts="MultiAreaForecastHigh" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="and" type="Boolean">
+            <Function name="and" type="Boolean">
+              <Function name="timeOnOrAfter" type="Boolean">
+                <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                <Literal type="Time">
+                  <Value>12:00:00</Value>
+                </Literal>
+              </Function>
+              <Function name="timeBefore" type="Boolean">
+                <Field name="time" source="DataSourceI2_system_0" type="Time" />
+                <Literal type="Time">
+                  <Value>17:00:00</Value>
+                </Literal>
+              </Function>
+            </Function>
+            <Function name="or" type="Boolean">
+              <Function name="not" type="Boolean">
+                <Function name="if" type="Boolean">
+                  <Function name="exists" type="Boolean">
+                    <Literal type="String">
+                      <Value>DataSourceI2_LocalDailyFcst_0</Value>
+                    </Literal>
+                    <Literal type="String">
+                      <Value>tempHigh</Value>
+                    </Literal>
+                  </Function>
+                </Function>
+              </Function>
+              <Function name="or" type="Boolean">
+                <Function name="not" type="Boolean">
+                  <Function name="if" type="Boolean">
+                    <Function name="exists" type="Boolean">
+                      <Literal type="String">
+                        <Value>DataSourceI2_LocalDailyFcst_1</Value>
+                      </Literal>
+                      <Literal type="String">
+                        <Value>tempHigh</Value>
+                      </Literal>
+                    </Function>
+                  </Function>
+                </Function>
+                <Function name="or" type="Boolean">
+                  <Function name="not" type="Boolean">
+                    <Function name="if" type="Boolean">
+                      <Function name="exists" type="Boolean">
+                        <Literal type="String">
+                          <Value>DataSourceI2_LocalDailyFcst_2</Value>
+                        </Literal>
+                        <Literal type="String">
+                          <Value>tempHigh</Value>
+                        </Literal>
+                      </Function>
+                    </Function>
+                  </Function>
+                  <Function name="or" type="Boolean">
+                    <Function name="not" type="Boolean">
+                      <Function name="if" type="Boolean">
+                        <Function name="exists" type="Boolean">
+                          <Literal type="String">
+                            <Value>DataSourceI2_LocalDailyFcst_3</Value>
+                          </Literal>
+                          <Literal type="String">
+                            <Value>tempHigh</Value>
+                          </Literal>
+                        </Function>
+                      </Function>
+                    </Function>
+                    <Function name="not" type="Boolean">
+                      <Function name="if" type="Boolean">
+                        <Function name="exists" type="Boolean">
+                          <Literal type="String">
+                            <Value>DataSourceI2_LocalDailyFcst_4</Value>
+                          </Literal>
+                          <Literal type="String">
+                            <Value>tempHigh</Value>
+                          </Literal>
+                        </Function>
+                      </Function>
+                    </Function>
+                  </Function>
+                </Function>
+              </Function>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="115" displayOrder="260" duration="300" min="210" max="300" step="30" repeatStart="0" repeatInterval="0" exclusiveProducts="MultiAreaForecastHigh,NearbyAreaForecast,NearbyAreaForecast2,NearbyAreaForecast3" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="timeOnOrAfter" type="Boolean">
+            <Field name="time" source="DataSourceI2_system_0" type="Time" />
+            <Literal type="Time">
+              <Value>17:00:00</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="115" displayOrder="260" duration="300" min="210" max="300" step="30" repeatStart="0" repeatInterval="0" exclusiveProducts="MultiAreaForecastHigh,NearbyAreaForecast,NearbyAreaForecast2,NearbyAreaForecast3" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="115" displayOrder="260" duration="300" min="210" max="300" step="30" repeatStart="0" repeatInterval="0" exclusiveProducts="MultiAreaForecastHigh" />
+    </Rule>
+  </Ruleset>
+</Product>

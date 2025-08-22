@@ -1,0 +1,17 @@
+<SceneRefs resolution="0" version="2.10.6" nextRef="0" hasErrors="false">
+  <Metadata />
+  <Refs />
+  <StaticAssets>
+    <StaticAsset path="image/domestic/common/clouds2.peak">
+      <UsedBy>1/1/2/1/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-Bold.peak">
+      <UsedBy>1/1/3/1/1/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/TWC_HD_NEW.peak">
+      <UsedBy>1/1/3/1/1/1/2</UsedBy>
+    </StaticAsset>
+  </StaticAssets>
+  <DynamicAssets />
+  <Export version="7.4.1.19905" user="SYSTEM" host="I2ADMIN-9IFRV8Q" timestamp="2023-12-22 07:24:39" />
+</SceneRefs>

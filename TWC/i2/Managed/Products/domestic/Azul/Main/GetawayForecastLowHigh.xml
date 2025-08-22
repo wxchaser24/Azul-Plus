@@ -1,0 +1,58 @@
+<Product>
+  <ScenePath>domestic\Azul\Main\GetawayForecastLowHigh</ScenePath>
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="timeOnOrAfter" type="Boolean">
+            <Field name="time" source="DataSourceI2_system_0" type="Time" />
+            <Literal type="Time">
+              <Value>15:00:00</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="109" displayOrder="160" duration="300" min="240" max="300" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="GetawayForecastHigh" />
+    </Rule>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="and" type="Boolean">
+            <Function name="timeOnOrAfter" type="Boolean">
+              <Field name="time" source="DataSourceI2_system_0" type="Time" />
+              <Literal type="Time">
+                <Value>00:00:00</Value>
+              </Literal>
+            </Function>
+            <Function name="timeBefore" type="Boolean">
+              <Field name="time" source="DataSourceI2_system_0" type="Time" />
+              <Literal type="Time">
+                <Value>03:00:00</Value>
+              </Literal>
+            </Function>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="109" displayOrder="160" duration="300" min="240" max="300" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="GetawayForecastHigh" />
+    </Rule>		
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <PlaylistProps active="false" priority="109" displayOrder="160" duration="300" min="240" max="300" step="30" repeatStart="0" repeatInterval="1" exclusiveProducts="GetawayForecastHigh" />
+    </Rule>	
+  </Ruleset>
+</Product>

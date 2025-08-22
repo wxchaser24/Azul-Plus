@@ -1,0 +1,63 @@
+<SceneRefs version="2.10.5" nextRef="6" hasErrors="false">
+  <Refs>
+    <Ref name="DataObject.1/1.1/1/2." key="{ref_1}" dataType="LocalTextLabel" desc="Weather Event Title" configurable="true" noLookupRequired="true" allowNewLine="false" />
+    <Ref name="DataObject.1/1.1/1/3." key="{ref_2}" dataType="LocalTextLabel" desc="Weather Event Location" configurable="true" noLookupRequired="true" allowNewLine="false" />
+    <Ref name="DataObject.1/1.1/1/4." key="{ref_3}" dataType="LocalTextLabel" desc="Weather Event Date/Time" configurable="true" noLookupRequired="true" allowNewLine="false" />
+    <Ref name="DataObject.1/1.1/1/5." key="{ref_5}" dataType="LocalTextLabel" desc="Weather Event Text" configurable="true" noLookupRequired="true" allowNewLine="false" />
+  </Refs>
+  <StaticAssets>
+    <StaticAsset path="image/domestic/common/Gray2.peak">
+      <UsedBy>1/1/1/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/reflect_climo1.peak">
+      <UsedBy>1/1/1/1/2</UsedBy>
+      <UsedBy>1/1/5/1/1/1/1/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/project_specific/Azul/BANNER_SHAPE2_1024x128.peak">
+      <UsedBy>1/1/2/1/1/1/1/1/1/1</UsedBy>
+      <UsedBy>1/1/2/1/1/1/1/1/1/2</UsedBy>
+      <UsedBy>1/1/2/1/1/1/1/1/1/4</UsedBy>
+      <UsedBy>1/1/4/1/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/blue_exp.peak">
+      <UsedBy>1/1/2/1/1/1/1/1/1/3</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/project_specific/Azul/BANR_BLUE_1024x128.peak">
+      <UsedBy>1/1/2/1/1/1/1/1/2/1/1</UsedBy>
+      <UsedBy>1/1/3/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/BANNER_SHAPE2_1024x128.peak">
+      <UsedBy>1/1/2/1/1/1/1/1/2/1/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/TEX_flash_white.peak">
+      <UsedBy>1/1/2/1/1/1/1/1/2/1/3/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-BoldCond.peak">
+      <UsedBy>1/1/2/1/1/2/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-MediumExt.peak">
+      <UsedBy>1/1/3/1/2</UsedBy>
+      <UsedBy>1/1/4/1/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/metal_4.peak">
+      <UsedBy>1/1/4/1/1/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/crystal_64.peak">
+      <UsedBy>1/1/4/1/1/3</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/crys_metal.peak">
+      <UsedBy>1/1/5/1/1/1/1/1/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/CON_SOFTblu2.peak">
+      <UsedBy>1/1/5/1/1/1/1/1/3</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-Condensed.peak">
+      <UsedBy>1/1/5/1/1/1/2/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/twc_flare_mid.peak">
+      <UsedBy>1/1/5/1/1/1/2/1/2</UsedBy>
+    </StaticAsset>
+  </StaticAssets>
+  <DynamicAssets />
+  <Export version="2.6.0.15032" user="kpollak" host="SE-KPOLLAK" timestamp="2011-03-17 13:08:48" />
+</SceneRefs>

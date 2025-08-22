@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataGraphOutput xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Map Design (LocationDesigns)</Label>
+      <Path>Map/GeoReferenceMap/GeoReferenceMap/Designs/LocationDesigns</Path>
+      <FullPath>1/1/1/5/3</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_1}" fieldName="locCity" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locCountry" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locCounty" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locDaylightSavingsActive" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locGMTDiff" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locNameCaps" dataType="DataPool" />
+        <DataField key="{ref_1}" fieldName="locState" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>TextRight/Text/locName</Path>
+      <FullPath>1/1/1/5/3/1/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>TextUpperRight/Text/locName</Path>
+      <FullPath>1/1/1/5/3/2/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>TextLowerRight/Text/locName</Path>
+      <FullPath>1/1/1/5/3/3/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>TextLeft/Text/locName</Path>
+      <FullPath>1/1/1/5/3/4/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>TextUpperLeft/Text/locName</Path>
+      <FullPath>1/1/1/5/3/5/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>TextLowerLeft/Text/locName</Path>
+      <FullPath>1/1/1/5/3/6/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_1}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>Map Design (AirportLocatorDotDesign)</Label>
+      <Path>Map/GeoReferenceMap/GeoReferenceMap/Designs/AirportLocatorDotDesign</Path>
+      <FullPath>1/1/1/5/4</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_2}" fieldName="locCity" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locCountry" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locCounty" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locDaylightSavingsActive" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locGMTDiff" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locNameCaps" dataType="DataPool" />
+        <DataField key="{ref_2}" fieldName="locState" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+  </DataGraphNode>
+</DataGraphOutput>

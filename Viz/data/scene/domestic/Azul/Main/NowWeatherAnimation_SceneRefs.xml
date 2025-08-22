@@ -1,0 +1,83 @@
+<SceneRefs version="2.10.5" nextRef="2" hasErrors="false">
+  <Refs>
+    <Ref name="DataObject.1/1/1/1.1/1/1/1/2." key="{ref_1}" dataType="LocalObsAudio" desc="Primary Obs Now" configurable="true" />
+  </Refs>
+  <StaticAssets>
+    <StaticAsset path="image/domestic/project_specific/Azul/BANNER_SHAPE2_1024x128.peak">
+      <UsedBy>1/1/1/1/1/1/1/1/1</UsedBy>
+      <UsedBy>1/1/1/1/1/1/1/1/2</UsedBy>
+      <UsedBy>1/1/1/1/2/1/1/1/1</UsedBy>
+      <UsedBy>1/1/1/1/2/2/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/project_specific/Azul/BANR_BLUE_1024x128.peak">
+      <UsedBy>1/1/1/1/1/1/1/2/1/1</UsedBy>
+      <UsedBy>1/1/1/1/2/2/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-BoldCond.peak">
+      <UsedBy>1/1/1/1/2/1/1/1/2</UsedBy>
+      <UsedBy>1/1/1/1/2/2/3</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/1/1/3/1</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/1/1/3/2/1</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/1/2/3/1</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/1/2/3/2/1</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/1/2/3/2/2</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/1/3/3/1</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/1/3/3/2/1/1</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/1/3/3/2/2/1</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/1/3/3/2/2/2</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/1/3/3/2/2/3</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/1/4/3/1</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/1/4/3/2/1/2</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/1/4/3/2/2</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/2/1/3/1</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/2/1/3/2/1</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/2/2/3/1</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/2/2/3/2/1</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/2/3/3/1</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/2/3/3/2/1</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/2/3/3/2/2</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/2/3/3/3/1</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/2/4/3/1</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/2/4/3/3/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-HeavyExt.peak">
+      <UsedBy>1/1/1/1/2/2/4</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/reflect_climo1.peak">
+      <UsedBy>1/1/1/1/2/3/1/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/crys_metal.peak">
+      <UsedBy>1/1/1/1/2/3/1/1/2</UsedBy>
+      <UsedBy>1/1/1/1/2/3/1/1/3</UsedBy>
+      <UsedBy>1/1/1/1/2/4/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/teal_to_transBOX_128x128.peak">
+      <UsedBy>1/1/1/1/2/3/2/1/1/2</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/1/2/2</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/1/3/2</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/1/4/2</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/2/1/2</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/2/2/2</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/2/3/2</UsedBy>
+      <UsedBy>1/1/1/1/2/3/2/2/4/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-HeavyCond.peak">
+      <UsedBy>1/1/1/1/2/3/2/1/4/3/2/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-Condensed.peak">
+      <UsedBy>1/1/1/1/2/3/2/2/4/3/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/FLARE_05_128x64.peak">
+      <UsedBy>1/1/1/1/2/4/3/1</UsedBy>
+    </StaticAsset>
+  </StaticAssets>
+  <DynamicAssets>
+    <DynamicAsset path="geom/domestic/icons/common/">
+      <UsedBy>1/1/1/1/2/3/2/2/4/3/3/1/1</UsedBy>
+    </DynamicAsset>
+    <DynamicAsset path="geom/domestic/icons/weather_animations/">
+      <UsedBy>1/1/1/1/2/4/2/1/2/1</UsedBy>
+    </DynamicAsset>
+  </DynamicAssets>
+  <Export version="2.13.2.15701" user="kpollak" host="ATL-KPOLLAK1" timestamp="2011-11-02 13:21:22" />
+</SceneRefs>

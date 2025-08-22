@@ -1,0 +1,1181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataGraphOutput xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>L1</Label>
+      <Path>TopNode/Main/LocalObs/Contents/LocalObs/Page1/Page1/L1</Path>
+      <FullPath>1/1/1/1/2/4/1/1</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_108}" fieldName="DayNightIconVar" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="Qual100Text" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="Qual32Text" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="Qual50Text" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="QualSeverity" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="altimeter" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="avgMTDPrecip" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="avgYTDPrecip" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="climoAvgHigh" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="climoAvgLow" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="cloudCeiling" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="cloudCode" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="dayOrNight" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="dewPoint" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="heatIndex" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="iconCodeVar" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="locObsStn" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="oneLineWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="precip1h" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="precip24h" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="precip3hTo6h" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="precipMonth" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="precipYear" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="pressure" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="pressureTrend" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="procTm" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="relativeHumid" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="skyIconCode" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="snowDepth" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="snowIncrease" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="snowfall1h" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="snowfall6h" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="snowfallMonth" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="snowfallSeason" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="snowfallYear" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="stationName" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="sunrise" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="sunset" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="swellDirection" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="swellHeight" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="swellPeriod" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="temp" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="temp24hMax" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="temp24hMin" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="temp6hMax" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="temp6hMin" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="tempFeelsLike" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="twoLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="twoLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="uvIndex" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="uvIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="uvWarning" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="visibility" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="waterTemp" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="waveHeight" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="wavePeriod" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="windChill" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="windDirValue" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="windDirection" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="windGust" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="windSpeed" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="windWaveHeight" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="windWavePeriod" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="wx" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="wxManCode" dataType="DataPool" />
+        <DataField key="{ref_108}" fieldName="wxManVar" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Location/Location</Path>
+      <FullPath>1/1/1/1/2/4/1/1/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_108}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataImage</PluginName>
+      <Path>skyIconCode</Path>
+      <FullPath>1/1/1/1/2/4/1/1/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_108}" fieldName="skyIconCode" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataCondition</PluginName>
+      <Path>WndGroup/Selector</Path>
+      <FullPath>1/1/1/1/2/4/1/1/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_108}" fieldName="windSpeed" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_108}" fieldName="#misc_1" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>WndGroup/Selector</Path>
+      <FullPath>1/1/1/1/2/4/1/1/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_108}" fieldName="#misc_1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>WndGroup/Selector/0/WndSpeed</Path>
+      <FullPath>1/1/1/1/2/4/1/1/3/1/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_108}" fieldName="windSpeed" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>WndGroup/Selector/0/WndDirection</Path>
+      <FullPath>1/1/1/1/2/4/1/1/3/1/2/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_108}" fieldName="windDirection" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/temp</Path>
+      <FullPath>1/1/1/1/2/4/1/1/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_108}" fieldName="temp" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>L2</Label>
+      <Path>TopNode/Main/LocalObs/Contents/LocalObs/Page1/Page1/L2</Path>
+      <FullPath>1/1/1/1/2/4/1/2</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_131}" fieldName="DayNightIconVar" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="Qual100Text" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="Qual32Text" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="Qual50Text" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="QualSeverity" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="altimeter" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="avgMTDPrecip" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="avgYTDPrecip" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="climoAvgHigh" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="climoAvgLow" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="cloudCeiling" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="cloudCode" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="dayOrNight" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="dewPoint" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="heatIndex" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="iconCodeVar" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="locObsStn" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="oneLineWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="precip1h" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="precip24h" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="precip3hTo6h" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="precipMonth" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="precipYear" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="pressure" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="pressureTrend" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="procTm" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="relativeHumid" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="skyIconCode" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="snowDepth" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="snowIncrease" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="snowfall1h" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="snowfall6h" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="snowfallMonth" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="snowfallSeason" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="snowfallYear" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="stationName" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="sunrise" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="sunset" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="swellDirection" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="swellHeight" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="swellPeriod" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="temp" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="temp24hMax" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="temp24hMin" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="temp6hMax" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="temp6hMin" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="tempFeelsLike" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="twoLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="twoLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="uvIndex" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="uvIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="uvWarning" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="visibility" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="waterTemp" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="waveHeight" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="wavePeriod" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="windChill" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="windDirValue" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="windDirection" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="windGust" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="windSpeed" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="windWaveHeight" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="windWavePeriod" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="wx" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="wxManCode" dataType="DataPool" />
+        <DataField key="{ref_131}" fieldName="wxManVar" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Location/Location</Path>
+      <FullPath>1/1/1/1/2/4/1/2/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_131}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataImage</PluginName>
+      <Path>skyIconCode</Path>
+      <FullPath>1/1/1/1/2/4/1/2/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_131}" fieldName="skyIconCode" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataCondition</PluginName>
+      <Path>WndGroup/Selector</Path>
+      <FullPath>1/1/1/1/2/4/1/2/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_131}" fieldName="windSpeed" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_131}" fieldName="#misc_1" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>WndGroup/Selector</Path>
+      <FullPath>1/1/1/1/2/4/1/2/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_131}" fieldName="#misc_1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>WndGroup/Selector/0/WndSpeed</Path>
+      <FullPath>1/1/1/1/2/4/1/2/3/1/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_131}" fieldName="windSpeed" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>WndGroup/Selector/0/WndDirection</Path>
+      <FullPath>1/1/1/1/2/4/1/2/3/1/2/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_131}" fieldName="windDirection" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/temp</Path>
+      <FullPath>1/1/1/1/2/4/1/2/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_131}" fieldName="temp" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>L3</Label>
+      <Path>TopNode/Main/LocalObs/Contents/LocalObs/Page1/Page1/L3</Path>
+      <FullPath>1/1/1/1/2/4/1/3</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_132}" fieldName="DayNightIconVar" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="Qual100Text" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="Qual32Text" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="Qual50Text" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="QualSeverity" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="altimeter" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="avgMTDPrecip" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="avgYTDPrecip" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="climoAvgHigh" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="climoAvgLow" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="cloudCeiling" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="cloudCode" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="dayOrNight" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="dewPoint" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="heatIndex" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="iconCodeVar" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="locObsStn" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="oneLineWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="precip1h" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="precip24h" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="precip3hTo6h" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="precipMonth" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="precipYear" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="pressure" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="pressureTrend" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="procTm" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="relativeHumid" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="skyIconCode" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="snowDepth" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="snowIncrease" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="snowfall1h" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="snowfall6h" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="snowfallMonth" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="snowfallSeason" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="snowfallYear" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="stationName" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="sunrise" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="sunset" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="swellDirection" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="swellHeight" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="swellPeriod" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="temp" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="temp24hMax" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="temp24hMin" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="temp6hMax" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="temp6hMin" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="tempFeelsLike" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="twoLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="twoLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="uvIndex" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="uvIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="uvWarning" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="visibility" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="waterTemp" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="waveHeight" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="wavePeriod" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="windChill" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="windDirValue" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="windDirection" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="windGust" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="windSpeed" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="windWaveHeight" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="windWavePeriod" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="wx" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="wxManCode" dataType="DataPool" />
+        <DataField key="{ref_132}" fieldName="wxManVar" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Location/Location</Path>
+      <FullPath>1/1/1/1/2/4/1/3/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_132}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataImage</PluginName>
+      <Path>skyIconCode</Path>
+      <FullPath>1/1/1/1/2/4/1/3/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_132}" fieldName="skyIconCode" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataCondition</PluginName>
+      <Path>WndGroup/Selector</Path>
+      <FullPath>1/1/1/1/2/4/1/3/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_132}" fieldName="windSpeed" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_132}" fieldName="#misc_1" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>WndGroup/Selector</Path>
+      <FullPath>1/1/1/1/2/4/1/3/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_132}" fieldName="#misc_1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>WndGroup/Selector/0/WndSpeed</Path>
+      <FullPath>1/1/1/1/2/4/1/3/3/1/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_132}" fieldName="windSpeed" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>WndGroup/Selector/0/WndDirection</Path>
+      <FullPath>1/1/1/1/2/4/1/3/3/1/2/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_132}" fieldName="windDirection" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/temp</Path>
+      <FullPath>1/1/1/1/2/4/1/3/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_132}" fieldName="temp" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>L4</Label>
+      <Path>TopNode/Main/LocalObs/Contents/LocalObs/Page1/Page1/L4</Path>
+      <FullPath>1/1/1/1/2/4/1/4</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_133}" fieldName="DayNightIconVar" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="Qual100Text" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="Qual32Text" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="Qual50Text" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="QualSeverity" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="altimeter" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="avgMTDPrecip" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="avgYTDPrecip" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="climoAvgHigh" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="climoAvgLow" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="cloudCeiling" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="cloudCode" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="dayOrNight" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="dewPoint" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="heatIndex" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="iconCodeVar" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="locObsStn" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="oneLineWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="precip1h" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="precip24h" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="precip3hTo6h" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="precipMonth" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="precipYear" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="pressure" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="pressureTrend" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="procTm" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="relativeHumid" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="skyIconCode" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="snowDepth" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="snowIncrease" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="snowfall1h" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="snowfall6h" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="snowfallMonth" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="snowfallSeason" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="snowfallYear" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="stationName" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="sunrise" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="sunset" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="swellDirection" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="swellHeight" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="swellPeriod" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="temp" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="temp24hMax" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="temp24hMin" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="temp6hMax" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="temp6hMin" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="tempFeelsLike" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="twoLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="twoLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="uvIndex" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="uvIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="uvWarning" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="visibility" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="waterTemp" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="waveHeight" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="wavePeriod" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="windChill" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="windDirValue" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="windDirection" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="windGust" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="windSpeed" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="windWaveHeight" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="windWavePeriod" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="wx" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="wxManCode" dataType="DataPool" />
+        <DataField key="{ref_133}" fieldName="wxManVar" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Location/Location</Path>
+      <FullPath>1/1/1/1/2/4/1/4/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_133}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataImage</PluginName>
+      <Path>skyIconCode</Path>
+      <FullPath>1/1/1/1/2/4/1/4/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_133}" fieldName="skyIconCode" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataCondition</PluginName>
+      <Path>WndGroup/Selector</Path>
+      <FullPath>1/1/1/1/2/4/1/4/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_133}" fieldName="windSpeed" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_133}" fieldName="#misc_1" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>WndGroup/Selector</Path>
+      <FullPath>1/1/1/1/2/4/1/4/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_133}" fieldName="#misc_1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>WndGroup/Selector/0/WndSpeed</Path>
+      <FullPath>1/1/1/1/2/4/1/4/3/1/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_133}" fieldName="windSpeed" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>WndGroup/Selector/0/WndDirection</Path>
+      <FullPath>1/1/1/1/2/4/1/4/3/1/2/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_133}" fieldName="windDirection" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/temp</Path>
+      <FullPath>1/1/1/1/2/4/1/4/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_133}" fieldName="temp" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>L1</Label>
+      <Path>TopNode/Main/LocalObs/Contents/LocalObs/Page2/Page2/L1</Path>
+      <FullPath>1/1/1/1/2/5/1/1</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_134}" fieldName="DayNightIconVar" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="Qual100Text" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="Qual32Text" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="Qual50Text" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="QualSeverity" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="altimeter" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="avgMTDPrecip" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="avgYTDPrecip" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="climoAvgHigh" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="climoAvgLow" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="cloudCeiling" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="cloudCode" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="dayOrNight" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="dewPoint" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="heatIndex" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="iconCodeVar" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="locObsStn" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="oneLineWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="precip1h" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="precip24h" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="precip3hTo6h" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="precipMonth" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="precipYear" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="pressure" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="pressureTrend" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="procTm" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="relativeHumid" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="skyIconCode" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="snowDepth" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="snowIncrease" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="snowfall1h" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="snowfall6h" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="snowfallMonth" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="snowfallSeason" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="snowfallYear" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="stationName" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="sunrise" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="sunset" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="swellDirection" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="swellHeight" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="swellPeriod" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="temp" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="temp24hMax" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="temp24hMin" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="temp6hMax" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="temp6hMin" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="tempFeelsLike" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="twoLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="twoLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="uvIndex" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="uvIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="uvWarning" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="visibility" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="waterTemp" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="waveHeight" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="wavePeriod" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="windChill" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="windDirValue" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="windDirection" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="windGust" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="windSpeed" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="windWaveHeight" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="windWavePeriod" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="wx" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="wxManCode" dataType="DataPool" />
+        <DataField key="{ref_134}" fieldName="wxManVar" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Location/Location</Path>
+      <FullPath>1/1/1/1/2/5/1/1/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_134}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataImage</PluginName>
+      <Path>skyIconCode</Path>
+      <FullPath>1/1/1/1/2/5/1/1/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_134}" fieldName="skyIconCode" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataCondition</PluginName>
+      <Path>WndGroup/Selector</Path>
+      <FullPath>1/1/1/1/2/5/1/1/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_134}" fieldName="windSpeed" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_134}" fieldName="#misc_1" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>WndGroup/Selector</Path>
+      <FullPath>1/1/1/1/2/5/1/1/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_134}" fieldName="#misc_1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>WndGroup/Selector/0/WndSpeed</Path>
+      <FullPath>1/1/1/1/2/5/1/1/3/1/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_134}" fieldName="windSpeed" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>WndGroup/Selector/0/WndDirection</Path>
+      <FullPath>1/1/1/1/2/5/1/1/3/1/2/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_134}" fieldName="windDirection" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/temp</Path>
+      <FullPath>1/1/1/1/2/5/1/1/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_134}" fieldName="temp" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>L2</Label>
+      <Path>TopNode/Main/LocalObs/Contents/LocalObs/Page2/Page2/L2</Path>
+      <FullPath>1/1/1/1/2/5/1/2</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_135}" fieldName="DayNightIconVar" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="Qual100Text" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="Qual32Text" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="Qual50Text" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="QualSeverity" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="altimeter" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="avgMTDPrecip" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="avgYTDPrecip" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="climoAvgHigh" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="climoAvgLow" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="cloudCeiling" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="cloudCode" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="dayOrNight" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="dewPoint" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="heatIndex" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="iconCodeVar" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="locObsStn" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="oneLineWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="precip1h" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="precip24h" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="precip3hTo6h" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="precipMonth" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="precipYear" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="pressure" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="pressureTrend" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="procTm" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="relativeHumid" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="skyIconCode" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="snowDepth" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="snowIncrease" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="snowfall1h" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="snowfall6h" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="snowfallMonth" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="snowfallSeason" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="snowfallYear" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="stationName" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="sunrise" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="sunset" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="swellDirection" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="swellHeight" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="swellPeriod" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="temp" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="temp24hMax" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="temp24hMin" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="temp6hMax" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="temp6hMin" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="tempFeelsLike" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="twoLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="twoLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="uvIndex" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="uvIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="uvWarning" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="visibility" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="waterTemp" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="waveHeight" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="wavePeriod" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="windChill" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="windDirValue" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="windDirection" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="windGust" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="windSpeed" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="windWaveHeight" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="windWavePeriod" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="wx" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="wxManCode" dataType="DataPool" />
+        <DataField key="{ref_135}" fieldName="wxManVar" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Location/Location</Path>
+      <FullPath>1/1/1/1/2/5/1/2/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_135}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataImage</PluginName>
+      <Path>skyIconCode</Path>
+      <FullPath>1/1/1/1/2/5/1/2/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_135}" fieldName="skyIconCode" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataCondition</PluginName>
+      <Path>WndGroup/Selector</Path>
+      <FullPath>1/1/1/1/2/5/1/2/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_135}" fieldName="windSpeed" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_135}" fieldName="#misc_1" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>WndGroup/Selector</Path>
+      <FullPath>1/1/1/1/2/5/1/2/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_135}" fieldName="#misc_1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>WndGroup/Selector/0/WndSpeed</Path>
+      <FullPath>1/1/1/1/2/5/1/2/3/1/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_135}" fieldName="windSpeed" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>WndGroup/Selector/0/WndDirection</Path>
+      <FullPath>1/1/1/1/2/5/1/2/3/1/2/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_135}" fieldName="windDirection" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/temp</Path>
+      <FullPath>1/1/1/1/2/5/1/2/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_135}" fieldName="temp" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>L3</Label>
+      <Path>TopNode/Main/LocalObs/Contents/LocalObs/Page2/Page2/L3</Path>
+      <FullPath>1/1/1/1/2/5/1/3</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_136}" fieldName="DayNightIconVar" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="Qual100Text" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="Qual32Text" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="Qual50Text" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="QualSeverity" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="altimeter" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="avgMTDPrecip" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="avgYTDPrecip" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="climoAvgHigh" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="climoAvgLow" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="cloudCeiling" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="cloudCode" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="dayOrNight" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="dewPoint" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="heatIndex" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="iconCodeVar" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="locObsStn" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="oneLineWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="precip1h" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="precip24h" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="precip3hTo6h" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="precipMonth" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="precipYear" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="pressure" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="pressureTrend" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="procTm" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="relativeHumid" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="skyIconCode" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="snowDepth" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="snowIncrease" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="snowfall1h" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="snowfall6h" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="snowfallMonth" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="snowfallSeason" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="snowfallYear" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="stationName" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="sunrise" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="sunset" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="swellDirection" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="swellHeight" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="swellPeriod" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="temp" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="temp24hMax" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="temp24hMin" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="temp6hMax" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="temp6hMin" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="tempFeelsLike" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="twoLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="twoLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="uvIndex" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="uvIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="uvWarning" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="visibility" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="waterTemp" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="waveHeight" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="wavePeriod" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="windChill" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="windDirValue" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="windDirection" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="windGust" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="windSpeed" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="windWaveHeight" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="windWavePeriod" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="wx" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="wxManCode" dataType="DataPool" />
+        <DataField key="{ref_136}" fieldName="wxManVar" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Location/Location</Path>
+      <FullPath>1/1/1/1/2/5/1/3/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_136}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataImage</PluginName>
+      <Path>skyIconCode</Path>
+      <FullPath>1/1/1/1/2/5/1/3/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_136}" fieldName="skyIconCode" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataCondition</PluginName>
+      <Path>WndGroup/Selector</Path>
+      <FullPath>1/1/1/1/2/5/1/3/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_136}" fieldName="windSpeed" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_136}" fieldName="#misc_1" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>WndGroup/Selector</Path>
+      <FullPath>1/1/1/1/2/5/1/3/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_136}" fieldName="#misc_1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>WndGroup/Selector/0/WndSpeed</Path>
+      <FullPath>1/1/1/1/2/5/1/3/3/1/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_136}" fieldName="windSpeed" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>WndGroup/Selector/0/WndDirection</Path>
+      <FullPath>1/1/1/1/2/5/1/3/3/1/2/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_136}" fieldName="windDirection" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/temp</Path>
+      <FullPath>1/1/1/1/2/5/1/3/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_136}" fieldName="temp" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataObject</PluginName>
+      <Label>L4</Label>
+      <Path>TopNode/Main/LocalObs/Contents/LocalObs/Page2/Page2/L4</Path>
+      <FullPath>1/1/1/1/2/5/1/4</FullPath>
+      <InputFields />
+      <OutputFields>
+        <DataField key="{ref_137}" fieldName="DayNightIconVar" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="Qual100Text" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="Qual32Text" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="Qual50Text" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="QualSeverity" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="altimeter" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="avgMTDPrecip" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="avgYTDPrecip" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="climoAvgHigh" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="climoAvgLow" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="cloudCeiling" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="cloudCode" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="dayOrNight" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="dewPoint" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="heatIndex" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="iconCodeVar" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="locId" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="locLat" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="locLong" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="locName" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="locName16" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="locName26" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="locObsStn" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="oneLineWxPhrase" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="precip1h" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="precip24h" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="precip3hTo6h" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="precipMonth" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="precipYear" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="pressure" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="pressureTrend" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="procTm" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="relativeHumid" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="skyIconCode" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="skyIconFileName" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="snowDepth" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="snowIncrease" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="snowfall1h" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="snowfall6h" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="snowfallMonth" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="snowfallSeason" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="snowfallYear" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="stationName" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="sunrise" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="sunset" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="swellDirection" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="swellHeight" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="swellPeriod" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="temp" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="temp24hMax" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="temp24hMin" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="temp6hMax" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="temp6hMin" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="tempFeelsLike" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="twoLineWxPhrase1" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="twoLineWxPhrase2" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="uvIndex" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="uvIndexAmt" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="uvWarning" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="visibility" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="waterTemp" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="waveHeight" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="wavePeriod" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="windChill" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="windDirValue" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="windDirection" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="windGust" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="windSpeed" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="windWaveHeight" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="windWavePeriod" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="wx" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="wxManCode" dataType="DataPool" />
+        <DataField key="{ref_137}" fieldName="wxManVar" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Location/Location</Path>
+      <FullPath>1/1/1/1/2/5/1/4/1/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_137}" fieldName="locName16" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataImage</PluginName>
+      <Path>skyIconCode</Path>
+      <FullPath>1/1/1/1/2/5/1/4/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_137}" fieldName="skyIconCode" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataCondition</PluginName>
+      <Path>WndGroup/Selector</Path>
+      <FullPath>1/1/1/1/2/5/1/4/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_137}" fieldName="windSpeed" dataType="DataPool" />
+      </InputFields>
+      <OutputFields>
+        <DataField key="{ref_137}" fieldName="#misc_1" dataType="DataPool" />
+      </OutputFields>
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataSelector</PluginName>
+      <Path>WndGroup/Selector</Path>
+      <FullPath>1/1/1/1/2/5/1/4/3/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_137}" fieldName="#misc_1" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>WndGroup/Selector/0/WndSpeed</Path>
+      <FullPath>1/1/1/1/2/5/1/4/3/1/2/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_137}" fieldName="windSpeed" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>WndGroup/Selector/0/WndDirection</Path>
+      <FullPath>1/1/1/1/2/5/1/4/3/1/2/2</FullPath>
+      <InputFields>
+        <DataField key="{ref_137}" fieldName="windDirection" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+    <DataGraphNode>
+      <PluginName>DataText</PluginName>
+      <Path>Temps/temp</Path>
+      <FullPath>1/1/1/1/2/5/1/4/4/1</FullPath>
+      <InputFields>
+        <DataField key="{ref_137}" fieldName="temp" dataType="DataPool" />
+      </InputFields>
+      <OutputFields />
+    </DataGraphNode>
+  </DataGraphNode>
+</DataGraphOutput>

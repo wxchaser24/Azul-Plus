@@ -1,0 +1,47 @@
+<Config name="default">
+  <Ruleset>
+    <DataRefs>
+      <Ref name="DataSourceI2_system_0" dataType="system" key="system" />
+      <Ref name="DataSourceI2_identity_0" dataType="identity" key="identity" />
+    </DataRefs>
+    <Rule>
+      <Code>
+        <Function name="if" type="Boolean">
+          <Function name="equal" type="Boolean">
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+            <Literal type="Number">
+              <Value>1</Value>
+            </Literal>
+          </Function>
+        </Function>
+      </Code>
+      <ConfigDef name="default" />
+    </Rule>
+  </Ruleset>
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_20" value="{PrimaryLatitudeLongitude}-150" />
+      <ConfigItem key="ref_16_0" value="{LocalRadarCity1}" />
+      <ConfigItem key="ref_16_1" value="{LocalRadarCity2}" />
+      <ConfigItem key="ref_16_2" value="{LocalRadarCity3}" />
+      <ConfigItem key="ref_16_3" value="{LocalRadarCity4}" />
+      <ConfigItem key="ref_16_4" value="{LocalRadarCity5}" />
+      <ConfigItem key="ref_16_5" value="{LocalRadarCity6}" />
+      <ConfigItem key="ref_16_6" value="{LocalRadarCity7}" />
+      <ConfigItem key="ref_16_7" value="{LocalRadarCity8}" />
+      <ConfigItem key="ref_17_0" value="{Airport3}" />
+      <ConfigItem key="ref_17_1" value="{Airport1}" />
+      <ConfigItem key="ref_17_2" value="{Airport2}" />
+      <ConfigItem key="ref_21" value="LocalMapLayout_64414058_f8ec_428d_b1f3_eabf1549a93a" />
+    </ConfigItems>
+    <ConfigRecords>
+      <ConfigRecord key="LocalMapLayout_64414058_f8ec_428d_b1f3_eabf1549a93a">
+        <LocalMapLayout>
+          <maxLabels>15</maxLabels>
+        </LocalMapLayout>
+      </ConfigRecord>
+    </ConfigRecords>
+  </ConfigDef>
+</Config>

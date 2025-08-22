@@ -1,0 +1,13 @@
+<Config name="default">
+  <ConfigDef name="default">
+    <ConfigItems>
+      <ConfigItem key="ref_9" value="" />
+      <ConfigItem key="ref_1" value="" />
+      <ConfigItem key="ref_4" value="" />
+      <ConfigItem key="ref_10" value="" />
+      <ConfigItem key="ref_11" value="" />
+      <ConfigItem key="ref_5" value="" />
+    </ConfigItems>
+    <ConfigRecords />
+  </ConfigDef>
+</Config>

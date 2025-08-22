@@ -1,0 +1,48 @@
+<SceneLayout version="1.2.18" type="viz" screenBoundingBox="1,1,-1,-1" hasErrors="false">
+  <Windows />
+  <DesignAutoLayouts />
+  <Scrollers />
+  <Audio />
+  <PlaylistScrollers />
+  <WarningPolygons />
+  <Maps>
+    <Map path="1/1/1" type="CWMClient" fileName="i2_US_30m_Topo_EC.cmr" />
+  </Maps>
+  <Movies />
+  <RoadLabelManagers>
+    <RoadLabelManager path="1/1/1/4/2/1" />
+  </RoadLabelManagers>
+  <MinMaxControllers />
+  <DataWriters />
+  <ScenePreload />
+  <PausePointControllers />
+  <Timeline name="Default" start="0" duration="40">
+    <Event type="Pause" time="45" duration="150" name="End" direction="Both" />
+    <Animation path="1/1/1/2/1/1" />
+    <Animation path="1/1/1/2/1/2" />
+    <Animation path="1/1/1/4/1/2" />
+    <Animation path="1/1/1/4/1/4" />
+    <Animation path="1/1/1/4/3/1/2/1" />
+    <Animation path="1/1/1/4/3/1/3" />
+    <Animation path="1/1/1/4/3/1/4" />
+    <Animation path="1/1/1/4/4" />
+    <Animation path="1/1/1/4/4/1/2" />
+    <Animation path="2/2/1" />
+    <Animation path="2/2/1/1/1/1" />
+    <Animation path="2/2/1/1/1/2" />
+    <Animation path="2/2/1/1/1/3" />
+    <Animation path="2/2/1/1/1/4" />
+    <Animation path="2/2/1/1/2" />
+    <Animation path="2/2/1/1/2/1" />
+    <Animation path="2/2/1/1/2/1/3" />
+    <Animation path="2/3/2" />
+  </Timeline>
+  <Timeline name="Looping" start="0" duration="88999108">
+    <Animation path="1/1/1/4/3/1/2/2" />
+    <Animation path="2/2/1/1/2/1/4" />
+    <Animation path="2/3" />
+    <Animation path="2/3/3" />
+  </Timeline>
+  <Timeline name="Navigator" start="0" duration="0" />
+  <Export version="7.4.1.19905" user="SYSTEM" host="INTELLISTAR2XD" timestamp="2025-07-02 13:04:51" />
+</SceneLayout>

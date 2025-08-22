@@ -1,0 +1,109 @@
+<SceneRefs resolution="0" version="2.10.6" nextRef="6" hasErrors="false">
+  <Metadata />
+  <Refs>
+    <Ref name="DataObject.1/1/1/1/2/1/2/1/1/2.1/1/1/1/2/1/2/1/1/2/2." key="{ref_0}" dataType="LocalAlmanac" desc="Primary Sun Day 0" sequence="1.0" configurable="true" />
+    <Ref name="DataObject.1/1/1/1/2/1/2/1/1/2.1/1/1/1/2/1/2/1/1/2/3." key="{ref_1}" dataType="LocalAlmanac" desc="Primary Sun Day 1" sequence="1.1" configurable="true" />
+    <Ref name="DataObject.1/1/1/1/2/1/2/1/1/2.1/1/1/1/2/1/2/1/1/2/4." key="{ref_2}" dataType="LocalMoonPhase" desc="Primary Moon 1" sequence="2.0" configurable="true" />
+    <Ref name="DataObject.1/1/1/1/2/1/2/1/1/2.1/1/1/1/2/1/2/1/1/2/5." key="{ref_3}" dataType="LocalMoonPhase" desc="Primary Moon 2" sequence="2.1" configurable="true" />
+    <Ref name="DataObject.1/1/1/1/2/1/2/1/1/2.1/1/1/1/2/1/2/1/1/2/6." key="{ref_4}" dataType="LocalMoonPhase" desc="Primary Moon 3" sequence="2.2" configurable="true" />
+    <Ref name="DataObject.1/1/1/1/2/1/2/1/1/2.1/1/1/1/2/1/2/1/1/2/7." key="{ref_5}" dataType="LocalMoonPhase" desc="Primary Moon 4" sequence="2.3" configurable="true" />
+  </Refs>
+  <StaticAssets>
+    <StaticAsset path="image/domestic/project_specific/Azul/BANNER_SHAPE2_1024x128.peak">
+      <UsedBy>1/1/1/1/1/1/1/1/1</UsedBy>
+      <UsedBy>1/1/1/1/1/1/1/1/2</UsedBy>
+      <UsedBy>1/1/1/1/1/1/1/1/3</UsedBy>
+      <UsedBy>1/1/1/1/1/1/1/1/4</UsedBy>
+      <UsedBy>1/1/1/1/1/1/1/2/2/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/HI_GLOSS.peak">
+      <UsedBy>1/1/1/1/1/1/1/1/5</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/project_specific/Azul/BANR_BLUE_1024x128.peak">
+      <UsedBy>1/1/1/1/1/1/1/2/1/1</UsedBy>
+      <UsedBy>1/1/1/1/1/1/1/2/2/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-BoldCond.peak">
+      <UsedBy>1/1/1/1/1/1/1/2/2/3</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/2/3</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/2/4</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/3/2</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/3/3</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/4/1</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/5/1</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/6/1</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/7/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/FLARE_05_128x64.peak">
+      <UsedBy>1/1/1/1/1/1/1/2/2/4/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/reflect_climo2.peak">
+      <UsedBy>1/1/1/1/2/1/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/crys_metal.peak">
+      <UsedBy>1/1/1/1/2/1/1/2</UsedBy>
+      <UsedBy>1/1/1/1/2/1/1/3</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/1/1/3</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/lightblue.peak">
+      <UsedBy>1/1/1/1/2/1/1/4</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/blu.peak">
+      <UsedBy>1/1/1/1/2/1/2/1/1/1/1/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/glassRef_blueGlow_01.peak">
+      <UsedBy>1/1/1/1/2/1/2/1/1/1/2/1</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/1/3/1</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/1/4/1</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/2/1/1/1/1</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/2/1/2/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/CON_SOFTbluy.peak">
+      <UsedBy>1/1/1/1/2/1/2/1/1/1/2/2</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/1/3/2</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/1/4/2</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/2/1/1/1/2</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/2/1/2/1/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-BoldExt.peak">
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/1/1</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/1/2</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/4/2</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/5/2</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/6/2</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/7/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-HeavyExt.peak">
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/2/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="font/domestic/HelveticaNeue-Condensed.peak">
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/2/2</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/3/1</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/3</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/flare.peak">
+      <UsedBy>1/1/1/1/2/1/2/1/1/3/1/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/project_specific/Azul/sky_w_squareTrans.peak">
+      <UsedBy>1/1/1/1/2/1/2/1/1/3/2/1</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/3/4/1</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/project_specific/Azul/sky_w_warpyFat.peak">
+      <UsedBy>1/1/1/1/2/1/2/1/1/3/2/2</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/3/4/2</UsedBy>
+    </StaticAsset>
+    <StaticAsset path="image/domestic/common/flare_orng.peak">
+      <UsedBy>1/1/1/1/2/1/2/1/1/3/3/1/1</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/3/5/1/1</UsedBy>
+    </StaticAsset>
+  </StaticAssets>
+  <DynamicAssets>
+    <DynamicAsset path="image/domestic/icons/MoonPhases/">
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/4/3</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/5/3</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/6/3</UsedBy>
+      <UsedBy>1/1/1/1/2/1/2/1/1/2/7/3</UsedBy>
+    </DynamicAsset>
+  </DynamicAssets>
+  <Export version="7.4.1.19905" user="SYSTEM" host="DESKTOP-IQMITL9" timestamp="2023-12-16 00:52:32" />
+</SceneRefs>
