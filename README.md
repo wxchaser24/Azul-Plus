@@ -43,7 +43,7 @@ Steps to Get Azul Plus Working Correctly:
    
 10. Road Signs for MetroMap and Regional Observations Map
     
--Road Signs needs to be Moved manually to your locations coordinate on viz due to the Designdestinastion Plugin being turned off. 
+-Road Signs needs to be Moved manually to your locations coordinate on viz due to the Designdestination Plugin being turned off. 
 
 -DesignDestination was Giving issues when using a map width less then about 200 miles or when a "city" is too close to another. 
 
