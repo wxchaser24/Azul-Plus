@@ -1,0 +1,90 @@
+LocalDaypartCompositeFcst = {
+		string locId;		// LFRecord:{0}/LFHdr/locId
+		string locName;		// LFRecord:{0}/LFData/prsntNm
+		string locName16;		// LFRecord:{0}/LFData/wrlsPrsntNm
+		string locName26;		// LFRecord:{0}/LFData/tPrsntNm
+		string locLat;		// LFRecord:{0}/LFData/lat
+		string locLong;		// LFRecord:{0}/LFData/long
+		string locObsStn;		// LFRecord:{0}/LFData/obsStn
+		string procTm;		// DerivedDDRecord:{CoopId}/DDHdr/procTm
+		string stationName;		// DerivedDDRecord:{CoopId}/DDHdr/stnNm
+		string validTime;		// DerivedDDRecord:{CoopId}/DDData[locValDay={1}]/locValTm
+		string dayPart;		// DerivedDDRecord:{CoopId}/DDData[locValDay={1} and locValTm={2}]/dyPrtNm
+		string dayPartLong;		// DerivedDDRecord:{CoopId}/DDData[locValDay={1} and locValTm={2}]/longDyPrt
+		string altDayPart;		// DerivedDDRecord:{CoopId}/DDData[locValDay={1} and locValTm={2}]/altDyPrtNm
+		string forecastHours;		// DerivedDDRecord:{CoopId}/DDData[locValDay={1} and locValTm={2}]/dur
+		string forecast;		// DerivedDDRecord:{CoopId}/DDData[locValDay={1} and locValTm={2}]/shrtCst
+		string forecastLong;		// DerivedDDRecord:{CoopId}/DDData[locValDay={1} and locValTm={2}]/phrase
+		string sensibleFcst;		// DerivedDDRecord:{CoopId}/DDData[locValDay={1} and locValTm={2}]/snsblWx
+		string shortFcst;		// DerivedDDRecord:{CoopId}/DDData[locValDay={1} and locValTm={2}]/tSnsblWx
+		string wxPhrasePart1;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/wxPhrasePart1
+		string wxPhrasePart2;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/wxPhrasePart2
+		string wxPhrasePart3;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/wxPhrasePart3
+		string dayOfWeek;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/dow
+		string DayOrNightVar; //const
+		string dayOrNight;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/dyNght
+		string tempHigh;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/hiTmpF
+		string tempLow;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/loTmpF
+		string sunrise;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/sunrise
+		string sunset;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/sunset
+		string moonrise;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/mnRise
+		string moonset;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/mnSet
+		string precipChance;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/pOP
+		string precipType;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/precipTyp
+		string precipChanceAmt;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/qpf
+		string snowChance;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/cPOS
+		string snowChanceAmt;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/snwQpf
+		string snowAccum;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/snwAccum
+		string severeWxQualifier;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/extQulfr
+		string relativeHumid;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/rH
+		string heatIndex;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/hIF
+		string windChill;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/wCF
+		string windDirection;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/wDirAsc
+		string windDirValue;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/wDir
+		string windSpeed;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/wSpdM
+		string cloudCode;		// DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm={2}]/clds
+		string uvWarning;		// DerivedDDRecord:{CoopId}/DDData[locValDay={1} and locValTm={2}]/uvWrn
+		string uvIndex;		// DerivedDDRecord:{CoopId}/DDData[locValDay={1} and locValTm={2}]/uvDes
+		string uvIndexAmt;		// DerivedDDRecord:{CoopId}/DDData[locValDay={1} and locValTm={2}]/uvIdx
+		string golfIndex;		// DerivedDDRecord:{CoopId}/DDData[locValDay={1} and locValTm={2}]/glfCat
+		string golfIndexAmt;		// DerivedDDRecord:{CoopId}/DDData[locValDay={1} and locValTm={2}]/glfIdx
+		string audioCode;		// DerivedDDRecord:{CoopId}/DDData[locValDay={1} and locValTm={2}]/audioCd
+		string skyIconCode;		// Mapping:{3}/Entry[@key='{iconCode}']/{DayNightIcon}
+		string skyIconFileName;		// Mapping:{3}/Entry[@key='{iconCode}']/{DayNightIconFile}
+		string wxManVar;		// Const
+		string iconCodeVar;		// Const
+		string DayNightIconVar;		// Const
+		string wxManCode;		// Mapping:{4}/Entry[@key='{wxMan}']/DayIcon
+		string oneLineWxPhrase;		// Mapping:{3}/Entry[@key='{iconCode}']/OneLineWxPhrase
+		string twoLineWxPhrase1;		// Mapping:{3}/Entry[@key='{iconCode}']/TwoLineWxPhrase1
+		string twoLineWxPhrase2;		// Mapping:{3}/Entry[@key='{iconCode}']/TwoLineWxPhrase2
+		string threeLineWxPhrase1;		// Mapping:{3}/Entry[@key='{iconCode}']/ThreeLineWxPhrase1
+		string threeLineWxPhrase2;		// Mapping:{3}/Entry[@key='{iconCode}']/ThreeLineWxPhrase2
+		string threeLineWxPhrase3;		// Mapping:{3}/Entry[@key='{iconCode}']/ThreeLineWxPhrase3
+
+		string #misc_1;
+		string #misc_2;
+		string #misc_3;
+		string #misc_4;
+		string #misc_5;
+		string #misc_6;
+		string #misc_7;
+		string #misc_8;
+		string #misc_9;
+		string #misc_10;
+		string #misc_11;
+		string #misc_12;
+		string #misc_13;
+		string #misc_14;
+		string #misc_15;
+		string #misc_16;
+		string #misc_17;
+		string #misc_18;
+		string #misc_19;
+		string #misc_20;
+		string #misc_21;
+		string #misc_22;
+		string #misc_23;
+		string #misc_24;
+		string #misc_25;
+	};

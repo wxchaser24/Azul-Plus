@@ -1,0 +1,492 @@
+<DataViewDescriptor>
+  <Key>
+    <KeyPart>LocKey</KeyPart>
+    <KeyPart>DayPart1</KeyPart>
+  </Key>
+  <PyVar>
+    <Name>FcstNightTm</Name>
+    <Script>FormatFcstDateTm.py</Script>
+    <ScriptParam>
+      <Name>datepart</Name>
+      <Value>{1}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y%m%d%H%M%S</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatFcstNightTm()</EvaluateFunctionName>
+  </PyVar>
+  <ConstField>
+    <Name>FcstDayTmValue</Name>
+    <Value>{FcstDayTm}</Value>
+  </ConstField>
+  <ConstField>
+    <Name>FcstNightTmValue</Name>
+    <Value>{FcstNightTm}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>FcstDayTm</Name>
+    <Script>FormatFcstDateTm.py</Script>
+    <ScriptParam>
+      <Name>datepart</Name>
+      <Value>{1}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y%m%d%H%M%S</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatFcstDayTm()</EvaluateFunctionName>
+  </PyVar>
+  <Var>
+    <Name>CoopId</Name>
+    <Path>LFRecord:{0}/LFData/coopId</Path>
+  </Var>
+  <Var>
+    <Name>CliStn</Name>
+    <Path>LFRecord:{0}/LFData/cliStn</Path>
+  </Var>
+  <Field>
+    <Name>locId</Name>
+    <Path>LFRecord:{0}/LFHdr/locId</Path>
+    <Description>TWC location identifier</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>CoopId</Name>
+    <Path>LFRecord:{0}/LFData/coopId</Path>
+    <Description>TWC co-op ID</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field overridable="true">
+    <Name>locName</Name>
+    <Path>LFRecord:{0}/LFData/prsntNm</Path>
+    <Description>City presentation name (mixed case)</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field overridable="true">
+    <Name>locName16</Name>
+    <Path>LFRecord:{0}/LFData/wrlsPrsntNm</Path>
+    <Description>City presentation name short</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field overridable="true">
+    <Name>locName26</Name>
+    <Path>LFRecord:{0}/LFData/tPrsntNm</Path>
+    <Description>City presentation name long</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>locLat</Name>
+    <Path>LFRecord:{0}/LFData/lat</Path>
+    <Description>Latitude</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>locLong</Name>
+    <Path>LFRecord:{0}/LFData/long</Path>
+    <Description>Longitude</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Var>
+    <Name>locLatVar</Name>
+    <Path>LFRecord:{0}/LFData/lat</Path>
+  </Var>
+  <Var>
+    <Name>locLongVar</Name>
+    <Path>LFRecord:{0}/LFData/long</Path>
+  </Var>
+  <Field>
+    <Name>locObsStn</Name>
+    <Path>LFRecord:{0}/LFData/obsStn</Path>
+    <Description>NWS Observation station</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Var>
+    <Name>FcstValidLocalVar</Name>
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[starts-with(fcst_valid_local,"{FcstDayTm}")]/fcst_valid_local</Path>
+  </Var>
+  <ConstField>
+    <Name>FcstValidLocal</Name>
+    <Value>{FcstValidLocalVar}</Value>
+  </ConstField> 
+   <Field>
+    <Name>date</Name>
+    <Path>DerivedAlmanacRecord:{CoopId}/AlmanacData[@locValDay={1}]/@date</Path>
+    <Description>Date of almanac data</Description>
+    <DataType format="MMddyyyy">date</DataType>
+  </Field>
+  <Var>
+    <Name>sunriseVar</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/sunrise</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/sunrise</Path>
+  </Var>
+  <Var>
+    <Name>sunsetVar</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/sunset</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/sunset</Path>
+  </Var>
+  <PyField>
+    <Name>sunrise</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunriseVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%I:%M:%S %p</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyField>
+  <PyField>
+    <Name>sunset</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunsetVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%I:%M:%S %p</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyField>
+  <Var>
+    <Name>moonriseVar</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/sunrise</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/moonrise</Path>
+  </Var>
+  <Var>
+    <Name>moonsetVar</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/sunset</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/moonset</Path>
+  </Var>
+  <PyVar>
+    <Name>sunriseHourVar</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunriseVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%I</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyVar>
+  <ConstField>
+    <Name>sunriseHour</Name>
+    <Value>{sunriseHourVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>sunriseMinuteVar</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunriseVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%M</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyVar>
+  <ConstField>
+    <Name>sunriseMinute</Name>
+    <Value>{sunriseMinuteVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>sunriseSecondVar</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunriseVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%S</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyVar>
+  <ConstField>
+    <Name>sunriseSecond</Name>
+    <Value>{sunriseSecondVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>sunriseAMPMVar</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunriseVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%p</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyVar>
+  <ConstField>
+    <Name>sunriseAMPM</Name>
+    <Value>{sunriseAMPMVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>sunsetHourVar</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunsetVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%I</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyVar>
+  <ConstField>
+    <Name>sunsetHour</Name>
+    <Value>{sunsetHourVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>sunsetMinuteVar</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunsetVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%M</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyVar>
+  <ConstField>
+    <Name>sunsetMinute</Name>
+    <Value>{sunsetMinuteVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>sunsetSecondVar</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunsetVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%S</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyVar>
+  <ConstField>
+    <Name>sunsetSecond</Name>
+    <Value>{sunsetSecondVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>sunsetAMPMVar</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunsetVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%p</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyVar>
+  <ConstField>
+    <Name>sunsetAMPM</Name>
+    <Value>{sunsetAMPMVar}</Value>
+  </ConstField>
+  <PyField>
+    <Name>moonrise</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{moonriseVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%I:%M:%S %p</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyField>
+  <PyField>
+    <Name>moonset</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{moonsetVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%I:%M:%S %p</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyField>
+  <Field>
+    <Name>stationName</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFHdr/stnNm</Path> -->
+    <Path>DailyForecast:{CoopId}/clientKey</Path>
+    <Description>Station Name</Description>
+    <DataType>string</DataType>
+  </Field>
+  <PyVar>
+    <Name>sunriseTotalMinutesVar</Name>
+    <Code>
+def Result():
+	try:
+		if "{sunriseAMPMVar}" == "PM":
+			sunriseHour = int("{sunriseHourVar}") + 12
+		else:
+			sunriseHour = int("{sunriseHourVar}")
+		totalMins = (sunriseHour*60) + int("{sunriseMinuteVar}")
+		if totalMins &lt; 0:
+			totalMins = 0
+	except ValueError:
+		totalMins = 0
+	return totalMins
+	 </Code>
+    <DataType>number</DataType>
+  </PyVar>
+  <ConstField>
+    <Name>sunriseTotalMinutes</Name>
+    <Value>{sunriseTotalMinutesVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>sunsetTotalMinutesVar</Name>
+    <Code>
+def Result():
+	try:
+		if "{sunsetAMPMVar}" == "PM":
+			sunsetHour = int("{sunsetHourVar}") + 12
+		else:
+			sunsetHour = int("{sunsetHourVar}")
+		totalMins = (sunsetHour*60) + int("{sunsetMinuteVar}")
+		if totalMins &lt; 0:
+			totalMins = 0
+	except ValueError:
+		totalMins = 0
+	return totalMins
+	 </Code>
+    <DataType>number</DataType>
+  </PyVar>
+  <ConstField>
+    <Name>sunsetTotalMinutes</Name>
+    <Value>{sunsetTotalMinutesVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>nowTotalMinutesVar</Name>
+    <Code>
+import time
+def Result():
+	try:
+		h = time.strftime("%H", time.localtime())
+		m = time.strftime("%M", time.localtime())
+		totalMins = (int(h) * 60) + int(m)
+	except ValueError:
+		totalMins = 0
+	return totalMins
+	</Code>
+    <DataType>string</DataType>
+  </PyVar>
+  <ConstField>
+    <Name>nowTotalMinutes</Name>
+    <Value>{nowTotalMinutesVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>nowOffsetVar</Name>
+    <Code>
+def Result():
+	try:
+		offset = int("{nowTotalMinutesVar}") -  int("{sunriseTotalMinutesVar}")
+		if offset &lt; 0:
+			offset = 0
+	except ValueError:
+		offset = 0
+	return offset
+	 </Code>
+    <DataType>number</DataType>
+  </PyVar>
+  <ConstField>
+    <Name>nowOffset</Name>
+    <Value>{nowOffsetVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>sunsetOffsetVar</Name>
+    <Code>
+def Result():
+	try:
+		if "{sunsetAMPMVar}" == "PM":
+			sunsetHour = int("{sunsetHourVar}") + 12
+		else:
+			sunsetHour = int("{sunsetHourVar}")
+		offset = int("{sunsetTotalMinutesVar}") - int("{sunriseTotalMinutesVar}")
+		if offset &lt; 0:
+			offset = 0
+	except ValueError:
+		offset = 0
+	return offset
+	 </Code>
+    <DataType>number</DataType>
+  </PyVar>
+  <ConstField>
+    <Name>sunsetOffset</Name>
+    <Value>{sunsetOffsetVar}</Value>
+  </ConstField>
+</DataViewDescriptor>

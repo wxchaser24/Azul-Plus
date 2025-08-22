@@ -1,0 +1,1219 @@
+<DataViewDescriptor>
+  <Key>
+    <KeyPart>LocKey</KeyPart>
+    <KeyPart>DayPart1</KeyPart>
+    <KeyPart>FcstMapping</KeyPart>
+    <KeyPart>WxManMapping</KeyPart>
+  </Key>
+  <PyVar>
+    <Name>FcstNightTm</Name>
+    <Script>FormatFcstDateTm.py</Script>
+    <ScriptParam>
+      <Name>datepart</Name>
+      <Value>{1}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y%m%d%H%M%S</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatFcstNightTm()</EvaluateFunctionName>
+  </PyVar>
+  <ConstField>
+    <Name>FcstDayTmValue</Name>
+    <Value>{FcstDayTm}</Value>
+  </ConstField>
+  <ConstField>
+    <Name>FcstNightTmValue</Name>
+    <Value>{FcstNightTm}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>FcstDayTm</Name>
+    <Script>FormatFcstDateTm.py</Script>
+    <ScriptParam>
+      <Name>datepart</Name>
+      <Value>{1}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y%m%d%H%M%S</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatFcstDayTm()</EvaluateFunctionName>
+  </PyVar>
+  <Var>
+    <Name>CoopId</Name>
+    <Path>LFRecord:{0}/LFData/coopId</Path>
+  </Var>
+  <Var>
+    <Name>CliStn</Name>
+    <Path>LFRecord:{0}/LFData/cliStn</Path>
+  </Var>
+  <Field>
+    <Name>locId</Name>
+    <Path>LFRecord:{0}/LFHdr/locId</Path>
+    <Description>TWC location identifier</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>CoopId</Name>
+    <Path>LFRecord:{0}/LFData/coopId</Path>
+    <Description>TWC co-op ID</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field overridable="true">
+    <Name>locName</Name>
+    <Path>LFRecord:{0}/LFData/prsntNm</Path>
+    <Description>City presentation name (mixed case)</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field overridable="true">
+    <Name>locName16</Name>
+    <Path>LFRecord:{0}/LFData/wrlsPrsntNm</Path>
+    <Description>City presentation name short</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field overridable="true">
+    <Name>locName26</Name>
+    <Path>LFRecord:{0}/LFData/tPrsntNm</Path>
+    <Description>City presentation name long</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>locLat</Name>
+    <Path>LFRecord:{0}/LFData/lat</Path>
+    <Description>Latitude</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>locLong</Name>
+    <Path>LFRecord:{0}/LFData/long</Path>
+    <Description>Longitude</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Var>
+    <Name>locLatVar</Name>
+    <Path>LFRecord:{0}/LFData/lat</Path>
+  </Var>
+  <Var>
+    <Name>locLongVar</Name>
+    <Path>LFRecord:{0}/LFData/long</Path>
+  </Var>
+  <Field>
+    <Name>locObsStn</Name>
+    <Path>LFRecord:{0}/LFData/obsStn</Path>
+    <Description>NWS Observation station</Description>
+    <DataType>string</DataType>
+  </Field>
+  
+  <Var>
+    <Name>FcstValidLocalVar</Name>
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[starts-with(fcst_valid_local,"{FcstDayTm}")]/fcst_valid_local</Path>
+  </Var>
+  
+  <ConstField>
+    <Name>FcstValidLocal</Name>
+    <Value>{FcstValidLocalVar}</Value>
+  </ConstField>
+  
+  <Field default="N/A">
+    <!-- This field is not available from SUN -->
+    <Name>processTime</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFHdr/procTm</Path> -->
+    <Path>LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()</Path>
+    <Description>PFMS process time in YYYYMMDDHH24MISS</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>stationName</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFHdr/stnNm</Path> -->
+    <Path>DailyForecast:{CoopId}/clientKey</Path>
+    <Description>Station Name</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Var>
+    <Name>dayOfWeekDataVar</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/dow</Path> -->
+    <!-- Proper case Day of the week in local apparent time -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/dow</Path>
+  </Var>
+  <PyVar>
+    <Name>dayOfWeekData</Name>
+    <Code>
+def Result():
+	return str('{dayOfWeekDataVar}').upper()
+	 </Code>
+    <DataType>string</DataType>
+  </PyVar>
+  <ConstField>
+    <Name>dayOfWeek</Name>
+    <Value>{dayOfWeekData}</Value>
+  </ConstField>
+  <Field>
+    <Name>tempHigh</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/hiTmpF</Path> -->
+    <!-- <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/max_temp</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/temp</Path>
+    <Description>High temperature in fahrenheit</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>tempLow</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/loTmpF</Path> -->
+    <!-- <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/min_temp</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/temp</Path>
+    <Description>Low temperature fahrenheit</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Var>
+    <Name>FcstValidNightVar</Name>
+    <Path>DailyForecast:{CoopId}/forecasts/forecast/night[starts-with(fcst_valid_local,"{FcstNightTm}")]/fcst_valid_local</Path>
+  </Var>
+  <ConstField>
+    <Name>FcstValidNightLocal</Name>
+    <Value>{FcstValidNightVar}</Value>
+  </ConstField>
+  <Field>
+    <Name>forecast</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/shrtCst</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/shortcast</Path>
+    <Description>Abbreviated forecast</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>dayForecast</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/shrtCst</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/shortcast</Path>
+    <Description>Abbreviated day forecast</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>nightForecast</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/shrtCst</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/shortcast</Path>
+    <Description>Abbreviated night forecast</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>sensibleFcst</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/snsblWx24</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/phrase_32char</Path>
+    <Description>Sensible weather phrase for period.   Daily is 24 hours, Daypart 12 or 24 hours, hourly one hour</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>sensibleDayFcst</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/snsblWx</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/phrase_32char</Path>
+    <Description>Sensible weather phrase 0 - 12 (daytime)</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>sensibleNightFcst</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/snsblWx</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/phrase_32char</Path>
+    <Description>Sensible weather phrase 12 - 24 (night-time)</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>shortFcst</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/tSnsblWx24</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/phrase_22char</Path>
+    <Description>Short version - Sensible weather phrase for period.   Daily is 24 hours, Daypart 12 or 24 hours, hourly one hour</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>shortDayFcst</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/tSnsblWx</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/phrase_22char</Path>
+    <Description>Short version - Sensible weather phrase 0 - 12 (daytime)</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>shortNightFcst</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/tSnsblWx</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/phrase_22char</Path>
+    <Description>Short version - Sensible weather phrase 12 - 24 (night-time)</Description>
+    <DataType>string</DataType>
+  </Field>
+  
+  <Field>
+    <!-- This field is not available from SUN -->
+    <Name>wxPhrasePart1</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/wxPhrase24Part1</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/subphrase_pt1</Path>
+    <Description>part 1 of 3 part short phrase for DFRecord</Description>
+    <DataType>string</DataType>
+  </Field>
+  
+  <Field>
+    <!-- This field is not available from SUN -->
+    <Name>wxPhrasePart2</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/wxPhrase24Part2</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/subphrase_pt2</Path>
+    <Description>part 2 of 3 part short phrase for DFRecord</Description>
+    <DataType>string</DataType>
+  </Field>
+  
+  <Field>
+    <!-- This field is not available from SUN -->
+    <Name>wxPhrasePart3</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/wxPhrase24Part3</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/subphrase_pt3</Path>
+    <Description>part 3 of 3 part short phrase for DFRecord</Description>
+    <DataType>string</DataType>
+  </Field>
+  
+  <Field>
+    <Name>wxDayPhrasePart1</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/wxPhrasePart1</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/subphrase_pt1</Path>
+    <Description>part 1 of 3 part short phrase for morning forecast in DFRecord</Description>
+    <DataType>string</DataType>
+  </Field>
+  
+  <Field>
+    <Name>wxDayPhrasePart2</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/wxPhrasePart2</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/subphrase_pt2</Path>
+    <Description>part 2 of 3 part short phrase for morning forecast in DFRecord</Description>
+    <DataType>string</DataType>
+  </Field>
+  
+  <Field>
+    <Name>wxDayPhrasePart3</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/wxPhrasePart3</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/subphrase_pt3</Path>
+    <Description>part 3 of 3 part short phrase for morning forecast in DFRecord</Description>
+    <DataType>string</DataType>
+  </Field>
+  
+  <Field>
+    <Name>wxNightPhrasePart1</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/wxPhrasePart1</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/subphrase_pt1</Path>
+    <Description>part 1 of 3 part short phrase for evening forecast in DFRecord</Description>
+    <DataType>string</DataType>
+  </Field>
+  
+  <Field>
+    <Name>wxNightPhrasePart2</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/wxPhrasePart2</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/subphrase_pt2</Path>
+    <Description>part 2 of 3 part short phrase for evening forecast in DFRecord</Description>
+    <DataType>string</DataType>
+  </Field>
+  
+  <Field>
+    <Name>wxNightPhrasePart3</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/wxPhrasePart3</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/subphrase_pt3</Path>
+    <Description>part 3 of 3 part short phrase for evening forecast in DFRecord</Description>
+    <DataType>string</DataType>
+  </Field>
+  
+  <Field>
+    <!-- This field is not available from SUN -->
+    <Name>precipChance</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/pOP24</Path> -->
+    <!-- <Path>LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/pop</Path>
+    <Description>Probability of precipitation for 24 hour period</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>precipChanceDay</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/pOP</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/pop</Path>
+    <Description>Probability of precipitation for daytime</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>precipChanceNight</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/pOP</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/pop</Path>
+    <Description>Probability of precipitation for night-time</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field default="N/A">
+    <!-- This field is not available from SUN -->
+    <Name>precipType</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/precipTyp24</Path> -->
+    <!-- <Path>LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/precip_type</Path>
+    <Description> precip24 - daily forecast -precipitation for 24 hour period</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>precipTypeDay</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/precipTyp</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/precip_type</Path>
+    <Description>precipTyp12 - daily forecast precipitation type for daytime (7am to 7pm)</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>precipTypeNight</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/precipTyp</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/precip_type</Path>
+    <Description>precipTyp12_24 - daily forecast precipitation for nighttime (7pm to 7am)</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>precipChanceAmt</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/qpf24</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/qpf</Path>
+    <Description>Quantative precipatation forecast for 24 hours in inchesNotes - QPF is associated to the snsblWx and tSnsblWx fields.  Therecan be trace amounts of precipation resulting in 0 qpf while text phrasesdisplay precipation</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>precipChanceDayAmt</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/qpf</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/qpf</Path>
+    <Description>Quantative precipatation forecast 0 - 12 (daytime)in inches.Notes : QPF is associated to the snsblWx and tSnsblWx fields.  Therecan be trace amounts of precipation resulting in 0 qpf while text phrasesdisplay precipation</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>precipChanceNightAmt</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/qpf</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/qpf</Path>
+    <Description>Quantative precipatation forecast 12 - 24 (nightime) in inchesNotes : QPF is associated to the snsblWx and tSnsblWx fields.  Therecan be trace amounts of precipation resulting in 0 qpf while text phrasesdisplay precipation</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field default="N/A">
+    <!-- This field is not available from SUN -->
+    <Name>snowChanceDay</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/cPOS</Path> -->
+    <Path>LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()</Path>
+    <Description>Conditional probability of snow for daytime</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field default="N/A">
+    <!-- This field is not available from SUN -->
+    <Name>snowChanceNight</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/cPOS</Path> -->
+    <Path>LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()</Path>
+    <Description>Conditional probability of snow for nighttime</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>snowChanceDayAmt</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/snwQpf</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/snow_qpf</Path>
+    <Description>Snow quantative precipatation forecast 0 - 12 (daytime)in inches</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>snowChanceNightAmt</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/snwQpf</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/snow_qpf</Path>
+    <Description>Snow quantative precipatation forecast 12 - 24 (night-time)in inches</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>snowAccum</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/snwAccum24</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/snow_code</Path>
+    <Description>snowAccum24 - daily forecast - snow accumulation for 24 hour period</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>snowAccumDay</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/snwAccum</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/snow_code</Path>
+    <Description>snowAccum12 - snow accumulation forecast for daytime (7am to 7pm)</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>snowAccumNight</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/snwAccum</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/snow_code</Path>
+    <Description>snowAccum12_24 - snow accumulation forecast for nighttime (7pm to 7am)</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>severeWxQualifier</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/extQulfr</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/qualifier_code</Path>
+    <Description>extQulfr24 - daily forecast - severe weather forecast for 24 hour period</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>severeWxQualifierDay</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/extQulfr</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/qualifier_code</Path>
+    <Description>extQulfr12 - severe weather forecast for daytime (7am to 7pm)</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>severeWxQualifierNight</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/extQulfr</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/qualifier_code</Path>
+    <Description>extQulfr12_24 - severe weather forecast for nighttime (7pm to 7am)</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>relativeHumidDay</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/rH</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/rh</Path>
+    <Description>Relative humidity for daytime</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>relativeHumidNight</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/rH</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/rh</Path>
+    <Description>Relative humidity for nighttime</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>heatIndex</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/hIF</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/hi</Path>
+    <Description>Heat index Fahrenheit - only usable above 70 degrees F</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field default="N/A">
+    <!-- This field is not available from SUN -->
+    <Name>windChill</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/wCF</Path> -->
+    <Path>LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()</Path>
+    <Description>Wind chill in Fahrenheit - only use below 40 F - 24 hour value</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>windChillDay</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/wCF</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/wc</Path>
+    <Description>Wind chill in Fahrenheit - only use below 40 F - 24 hour value</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>windChillNight</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/wCF</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/wc</Path>
+    <Description>Wind chill in fahrenheit - only use below 40 F - 24 hour value</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>windDirectionDay</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/wDirAsc</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/wdir_cardinal</Path>
+    <Description>Wind direction in text (ascii) for daytime</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>windDirectionNight</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/wDirAsc</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/wdir_cardinal</Path>
+    <Description>Wind direction in text (ascii) for nighttime</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>windDirValueDay</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/wDir</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/wdir</Path>
+    <Description>Wind direction for daytime</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>windDirValueNight</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/wDir</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/wdir</Path>
+    <Description>Wind direction for nighttime</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>windSpeedDay</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/wSpdM</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/wspd</Path>
+    <Description>Wind speed miles per hour for daytime</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>windSpeedNight</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/wSpdM</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/wspd</Path>
+    <Description>Wind speed miles per hour for daytime</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>cloudCodeDay</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/clds</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/clds</Path>
+    <Description>Clouds for daytime - percentage of cloud cover</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>cloudCodeNight</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/clds</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/clds</Path>
+    <Description>Clouds for nighttime - percentage of cloud cover</Description>
+    <DataType>number</DataType>
+  </Field>
+  <!-- IF the 'day' section of DailyForecast is not populated (happens after 3pm) 
+       we set the default for uv fields to the corresponding 'night' values so that
+	   we don't think we have a problem when there is no 'day' to get data from -->
+  <Field default="0">
+    <Name>uvWarning</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/uvWrn</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/uv_warning</Path>
+    <Description>UV warning</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field default="Low">
+    <Name>uvIndex</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/uvDes</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/uv_desc</Path>
+    <Description>UV index description</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field default="0">
+    <Name>uvIndexAmt</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/uvIdx</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/uv_index</Path>
+    <Description>UV index</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>golfIndex</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/glfCat</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/golf_category</Path>
+    <Description>Golf Category</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>golfIndexAmt</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/glfIdx</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/golf_index</Path>
+    <Description>Golf index</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Var>
+    <Name>iconCode</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/skyX24</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/icon_extd</Path>
+  </Var>
+  <Var>
+    <Name>iconCodeDay</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/skyX</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/icon_extd</Path>
+  </Var>
+  <Var>
+    <Name>iconCodeNight</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/skyX</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/icon_extd</Path>
+  </Var>
+  
+  <CondVar>
+    <Name>DayNightIcon</Name>
+    <Case>
+      <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day</Path>
+      <Result>DayIcon</Result>
+    </Case>
+    <Case>
+      <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night</Path>
+      <Result>NightIcon</Result>
+    </Case>
+    <Default>
+      <Result>XXX</Result>
+    </Default>
+  </CondVar>
+  
+  <Field default="Blank">
+    <Name>skyIconCode</Name>
+    <Path>Mapping:{2}/Entry[@key='{iconCode}']/{DayNightIcon}</Path>
+    <Description>Icon file name (no path or extension)</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field default="Blank">
+    <Name>skyIconCodeDay</Name>
+    <Path>Mapping:{2}/Entry[@key='{iconCodeDay}']/DayIcon</Path>
+    <Description>Icon file name (no path or extension)</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field default="Blank">
+    <Name>skyIconCodeNight</Name>
+    <Path>Mapping:{2}/Entry[@key='{iconCodeNight}']/NightIcon</Path>
+    <Description>Icon file name (no path or extension)</Description>
+    <DataType>string</DataType>
+  </Field>
+  <CondVar>
+    <Name>DayNightIconFile</Name>
+    <Case>
+      <Path>DailyForecast:{CoopId}/forecasts/forecast/day[fcst_valid_local="{FcstDayTm}"]</Path>
+      <Result>DayIconFile</Result>
+    </Case>
+    <Case>
+      <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night</Path>
+      <Result>NightIconFile</Result>
+    </Case>
+    <Default>
+      <Result>XXX</Result>
+    </Default>
+  </CondVar>
+  <Field default="Blank">
+    <Name>skyIconFileName</Name>
+    <Path>Mapping:{2}/Entry[@key='{iconCode}']/{DayNightIconFile}</Path>
+    <Description>Sky icon file name (no path or extension)</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field default="Blank">
+    <Name>skyIconFileNameDay</Name>
+    <Path>Mapping:{2}/Entry[@key='{iconCodeDay}']/DayIconFile</Path>
+    <Description>Sky icon file name (no path or extension)</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field default="Blank">
+    <Name>skyIconFileNameNight</Name>
+    <Path>Mapping:{2}/Entry[@key='{iconCodeNight}']/NightIconFile</Path>
+    <Description>Sky icon file name (no path or extension)</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Var>
+    <Name>wxMan</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/wxMan24</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/wxman</Path>
+  </Var>
+  <Var>
+    <Name>wxManDay</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='070000']/wxMan</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/wxman</Path>
+  </Var>
+  <Var>
+    <Name>wxManNight</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1} and locValTm='190000']/wxMan</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/wxman</Path>
+  </Var>
+  <!--Test Block -->
+  <ConstField>
+    <Name>iconCodeVar</Name>
+    <Value>{iconCode}</Value>
+  </ConstField>
+  <ConstField>
+    <Name>DayNightIconVar</Name>
+    <Value>{DayNightIcon}</Value>
+  </ConstField>
+  <!--End test block -->
+  <Field default="Blank">
+    <Name>wxManCode</Name>
+    <Path>Mapping:{3}/Entry[@key='{wxMan}']/DayIcon</Path>
+    <Description>Code used to enable wxMan animation in MORecord, DHRecord, and DerivedDDRecord</Description>
+    <DataType>string</DataType>
+  </Field>  
+  <Field default="Blank">
+    <Name>wxManCodeDay</Name>
+    <Path>Mapping:{3}/Entry[@key='{wxManDay}']/DayIcon</Path>
+    <Description>Code used to enable wxMan animation in MORecord, DHRecord, and DFRecord</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field default="Blank">
+    <Name>wxManCodeNight</Name>
+    <Path>Mapping:{3}/Entry[@key='{wxManNight}']/DayIcon</Path>
+    <Description>Code used to enable wxMan animation in MORecord, DHRecord, and DFRecord</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>climoAvgHigh</Name>
+    <Path>ClimatologyRecord:{CliStn}/ClimoRec[@month=substring('{1}',5,2) and @day=substring('{1}',7,2)]/@avgHigh</Path>
+    <Description>Historical average high temperature for the day in deg F</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field>
+    <Name>climoAvgLow</Name>
+    <Path>ClimatologyRecord:{CliStn}/ClimoRec[@month=substring('{1}',5,2) and @day=substring('{1}',7,2)]/@avgLow</Path>
+    <Description>Historical average low temperature for the day in deg F</Description>
+    <DataType>number</DataType>
+  </Field>
+  <Field default="N/A">
+    <!-- This field is not available from SUN -->
+    <Name>oneLineWxPhrase</Name>
+    <!-- <Path>Mapping:{2}/Entry[@key='{iconCode}']/OneLineWxPhrase</Path> -->
+    <Path>LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()</Path>
+    <Description>One-line weather phrase lookup based on sky icon code</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>oneLineDayWxPhrase</Name>
+    <Path>Mapping:{2}/Entry[@key='{iconCodeDay}']/OneLineWxPhrase</Path>
+    <Description>First line of two-line weather phrase lookup based on sky icon code</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>oneLineNightWxPhrase</Name>
+    <Path>Mapping:{2}/Entry[@key='{iconCodeNight}']/OneLineWxPhrase</Path>
+    <Description>First line of two-line weather phrase lookup based on sky icon code</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field default="N/A">
+    <!-- This field is not available from SUN -->
+    <Name>twoLineWxPhrase1</Name>
+    <!-- <Path>Mapping:{2}/Entry[@key='{iconCode}']/TwoLineWxPhrase1</Path> -->
+    <Path>LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()</Path>
+    <Description>First line of two-line weather phrase lookup based on sky icon code</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>twoLineDayWxPhrase1</Name>
+    <Path>Mapping:{2}/Entry[@key='{iconCodeDay}']/TwoLineWxPhrase1</Path>
+    <Description>First line of two-line weather phrase lookup based on sky icon code</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>twoLineNightWxPhrase1</Name>
+    <Path>Mapping:{2}/Entry[@key='{iconCodeNight}']/TwoLineWxPhrase1</Path>
+    <Description>First line of two-line weather phrase lookup based on sky icon code</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field default="N/A">
+    <!-- This field is not available from SUN -->
+    <Name>twoLineWxPhrase2</Name>
+    <!-- <Path>Mapping:{2}/Entry[@key='{iconCode}']/TwoLineWxPhrase2</Path> -->
+    <Path>LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()</Path>
+    <Description>Second line of two-line weather phrase lookup based on sky icon code</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>twoLineDayWxPhrase2</Name>
+    <Path>Mapping:{2}/Entry[@key='{iconCodeDay}']/TwoLineWxPhrase2</Path>
+    <Description>Second line of two-line weather phrase lookup based on sky icon code</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>twoLineNightWxPhrase2</Name>
+    <Path>Mapping:{2}/Entry[@key='{iconCodeNight}']/TwoLineWxPhrase2</Path>
+    <Description>Second line of two-line weather phrase lookup based on sky icon code</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field default="N/A">
+    <!-- This field is not available from SUN -->
+    <Name>threeLineWxPhrase1</Name>
+    <!-- <Path>Mapping:{2}/Entry[@key='{iconCode}']/ThreeLineWxPhrase1</Path> -->
+    <Path>LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()</Path>
+    <Description>First line of three-line weather phrase lookup based on sky icon code</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>threeLineDayWxPhrase1</Name>
+    <Path>Mapping:{2}/Entry[@key='{iconCodeDay}']/ThreeLineWxPhrase1</Path>
+    <Description>First line of three-line weather phrase lookup based on sky icon code</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>threeLineNightWxPhrase1</Name>
+    <Path>Mapping:{2}/Entry[@key='{iconCodeNight}']/ThreeLineWxPhrase1</Path>
+    <Description>First line of three-line weather phrase lookup based on sky icon code</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field default="N/A">
+    <!-- This field is not available from SUN -->
+    <Name>threeLineWxPhrase2</Name>
+    <!-- <Path>Mapping:{2}/Entry[@key='{iconCode}']/ThreeLineWxPhrase2</Path> -->
+    <Path>LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()</Path>
+    <Description>Second line of three-line weather phrase lookup based on sky icon code</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>threeLineDayWxPhrase2</Name>
+    <Path>Mapping:{2}/Entry[@key='{iconCodeDay}']/ThreeLineWxPhrase2</Path>
+    <Description>Second line of three-line weather phrase lookup based on sky icon code</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>threeLineNightWxPhrase2</Name>
+    <Path>Mapping:{2}/Entry[@key='{iconCodeNight}']/ThreeLineWxPhrase2</Path>
+    <Description>Second line of three-line weather phrase lookup based on sky icon code</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field default="N/A">
+    <!-- This field is not available from SUN -->
+    <Name>threeLineWxPhrase3</Name>
+    <!-- <Path>Mapping:{2}/Entry[@key='{iconCode}']/ThreeLineWxPhrase3</Path> -->
+    <Path>LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()</Path>
+    <Description>Third line of three-line weather phrase lookup based on sky icon code</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>threeLineDayWxPhrase3</Name>
+    <Path>Mapping:{2}/Entry[@key='{iconCodeDay}']/ThreeLineWxPhrase3</Path>
+    <Description>Third line of three-line weather phrase lookup based on sky icon code</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Field>
+    <Name>threeLineNightWxPhrase3</Name>
+    <Path>Mapping:{2}/Entry[@key='{iconCodeNight}']/ThreeLineWxPhrase3</Path>
+    <Description>Third line of three-line weather phrase lookup based on sky icon code</Description>
+    <DataType>string</DataType>
+  </Field>
+  <Var>
+    <Name>sunriseVar</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/sunrise</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/sunrise</Path>
+  </Var>
+  <Var>
+    <Name>sunsetVar</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/sunset</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/sunset</Path>
+  </Var>
+  <PyField>
+    <Name>sunrise</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunriseVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%I:%M:%S %p</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyField>
+  <PyField>
+    <Name>sunset</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunsetVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%I:%M:%S %p</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyField>
+  <Var>
+    <Name>moonriseVar</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/sunrise</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/moonrise</Path>
+  </Var>
+  <Var>
+    <Name>moonsetVar</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFData[locValDay={1}]/sunset</Path> -->
+    <Path>DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/moonset</Path>
+  </Var>
+  <PyVar>
+    <Name>sunriseHourVar</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunriseVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%I</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyVar>
+  <ConstField>
+    <Name>sunriseHour</Name>
+    <Value>{sunriseHourVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>sunriseMinuteVar</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunriseVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%M</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyVar>
+  <ConstField>
+    <Name>sunriseMinute</Name>
+    <Value>{sunriseMinuteVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>sunriseSecondVar</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunriseVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%S</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyVar>
+  <ConstField>
+    <Name>sunriseSecond</Name>
+    <Value>{sunriseSecondVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>sunriseAMPMVar</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunriseVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%p</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyVar>
+  <ConstField>
+    <Name>sunriseAMPM</Name>
+    <Value>{sunriseAMPMVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>sunsetHourVar</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunsetVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%I</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyVar>
+  <ConstField>
+    <Name>sunsetHour</Name>
+    <Value>{sunsetHourVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>sunsetMinuteVar</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunsetVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%M</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyVar>
+  <ConstField>
+    <Name>sunsetMinute</Name>
+    <Value>{sunsetMinuteVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>sunsetSecondVar</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunsetVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%S</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyVar>
+  <ConstField>
+    <Name>sunsetSecond</Name>
+    <Value>{sunsetSecondVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>sunsetAMPMVar</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{sunsetVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%p</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyVar>
+  <ConstField>
+    <Name>sunsetAMPM</Name>
+    <Value>{sunsetAMPMVar}</Value>
+  </ConstField>
+  <PyField>
+    <Name>moonrise</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{moonriseVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%I:%M:%S %p</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyField>
+  <PyField>
+    <Name>moonset</Name>
+    <Script>FormatTime.py</Script>
+    <ScriptParam>
+      <Name>time</Name>
+      <Value>{moonsetVar}</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>outputFmt</Name>
+      <Value>%I:%M:%S %p</Value>
+    </ScriptParam>
+    <ScriptParam>
+      <Name>inputFmt</Name>
+      <Value>%Y-%m-%dT%H:%M:%S-%z</Value>
+    </ScriptParam>
+    <EvaluateFunctionName>FormatTime()</EvaluateFunctionName>
+  </PyField>
+  <Field>
+    <Name>stationName</Name>
+    <!-- <Path>DerivedDFRecord:{CoopId}/DFHdr/stnNm</Path> -->
+    <Path>DailyForecast:{CoopId}/clientKey</Path>
+    <Description>Station Name</Description>
+    <DataType>string</DataType>
+  </Field>
+  <PyVar>
+    <Name>sunriseTotalMinutesVar</Name>
+    <Code>
+def Result():
+	try:
+		if "{sunriseAMPMVar}" == "PM":
+			sunriseHour = int("{sunriseHourVar}") + 12
+		else:
+			sunriseHour = int("{sunriseHourVar}")
+		totalMins = (sunriseHour*60) + int("{sunriseMinuteVar}")
+		if totalMins &lt; 0:
+			totalMins = 0
+	except ValueError:
+		totalMins = 0
+	return totalMins
+	 </Code>
+    <DataType>number</DataType>
+  </PyVar>
+  <ConstField>
+    <Name>sunriseTotalMinutes</Name>
+    <Value>{sunriseTotalMinutesVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>sunsetTotalMinutesVar</Name>
+    <Code>
+def Result():
+	try:
+		if "{sunsetAMPMVar}" == "PM":
+			sunsetHour = int("{sunsetHourVar}") + 12
+		else:
+			sunsetHour = int("{sunsetHourVar}")
+		totalMins = (sunsetHour*60) + int("{sunsetMinuteVar}")
+		if totalMins &lt; 0:
+			totalMins = 0
+	except ValueError:
+		totalMins = 0
+	return totalMins
+	 </Code>
+    <DataType>number</DataType>
+  </PyVar>
+  <ConstField>
+    <Name>sunsetTotalMinutes</Name>
+    <Value>{sunsetTotalMinutesVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>nowTotalMinutesVar</Name>
+    <Code>
+import time
+def Result():
+	try:
+		h = time.strftime("%H", time.localtime())
+		m = time.strftime("%M", time.localtime())
+		totalMins = (int(h) * 60) + int(m)
+	except ValueError:
+		totalMins = 0
+	return totalMins
+	</Code>
+    <DataType>string</DataType>
+  </PyVar>
+  <ConstField>
+    <Name>nowTotalMinutes</Name>
+    <Value>{nowTotalMinutesVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>nowOffsetVar</Name>
+    <Code>
+def Result():
+	try:
+		offset = int("{nowTotalMinutesVar}") -  int("{sunriseTotalMinutesVar}")
+		if offset &lt; 0:
+			offset = 0
+	except ValueError:
+		offset = 0
+	return offset
+	 </Code>
+    <DataType>number</DataType>
+  </PyVar>
+  <ConstField>
+    <Name>nowOffset</Name>
+    <Value>{nowOffsetVar}</Value>
+  </ConstField>
+  <PyVar>
+    <Name>sunsetOffsetVar</Name>
+    <Code>
+def Result():
+	try:
+		if "{sunsetAMPMVar}" == "PM":
+			sunsetHour = int("{sunsetHourVar}") + 12
+		else:
+			sunsetHour = int("{sunsetHourVar}")
+		offset = int("{sunsetTotalMinutesVar}") - int("{sunriseTotalMinutesVar}")
+		if offset &lt; 0:
+			offset = 0
+	except ValueError:
+		offset = 0
+	return offset
+	 </Code>
+    <DataType>number</DataType>
+  </PyVar>
+  <ConstField>
+    <Name>sunsetOffset</Name>
+    <Value>{sunsetOffsetVar}</Value>
+  </ConstField>
+</DataViewDescriptor>

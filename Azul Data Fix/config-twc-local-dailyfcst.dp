@@ -1,0 +1,149 @@
+LocalDailyFcst = {
+		string FcstDayTmValue;		// Const
+		string FcstNightTmValue;		// Const
+		string locId;		// LFRecord:{0}/LFHdr/locId
+		string locName;		// LFRecord:{0}/LFData/prsntNm
+		string locName16;		// LFRecord:{0}/LFData/wrlsPrsntNm
+		string locName26;		// LFRecord:{0}/LFData/tPrsntNm
+		string locLat;		// LFRecord:{0}/LFData/lat
+		string locLong;		// LFRecord:{0}/LFData/long
+		string locObsStn;		// LFRecord:{0}/LFData/obsStn
+		string FcstValidLocal;		// Const
+		string processTime;		// LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()
+		string stationName;		// DailyForecast:{CoopId}/clientKey
+		string dayOfWeek;		// Const
+		string tempHigh;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/temp
+		string tempLow;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/temp
+		string FcstValidNightLocal;		// Const
+		string forecast;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/shortcast
+		string dayForecast;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/shortcast
+		string nightForecast;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/shortcast
+		string sensibleFcst;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/phrase_32char
+		string sensibleDayFcst;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/phrase_32char
+		string sensibleNightFcst;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/phrase_32char
+		string shortFcst;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/phrase_22char
+		string shortDayFcst;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/phrase_22char
+		string shortNightFcst;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/phrase_22char
+		string wxPhrasePart1;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/subphrase_pt1
+		string wxPhrasePart2;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/subphrase_pt2
+		string wxPhrasePart3;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/subphrase_pt3
+		string wxDayPhrasePart1;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/subphrase_pt1
+		string wxDayPhrasePart2;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/subphrase_pt2
+		string wxDayPhrasePart3;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/subphrase_pt3
+		string wxNightPhrasePart1;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/subphrase_pt1
+		string wxNightPhrasePart2;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/subphrase_pt2
+		string wxNightPhrasePart3;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/subphrase_pt3
+		string precipChance;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/pop
+		string precipChanceDay;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/pop
+		string precipChanceNight;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/pop
+		string precipType;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/precip_type
+		string precipTypeDay;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/precip_type
+		string precipTypeNight;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/precip_type
+		string precipChanceAmt;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/qpf
+		string precipChanceDayAmt;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/qpf
+		string precipChanceNightAmt;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/qpf
+		string snowChanceDay;		// LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()
+		string snowChanceNight;		// LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()
+		string snowChanceDayAmt;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/snow_qpf
+		string snowChanceNightAmt;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/snow_qpf
+		string snowAccum;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/snow_code
+		string snowAccumDay;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/snow_code
+		string snowAccumNight;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/snow_code
+		string severeWxQualifier;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/qualifier_code
+		string severeWxQualifierDay;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/qualifier_code
+		string severeWxQualifierNight;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/qualifier_code
+		string relativeHumidDay;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/rh
+		string relativeHumidNight;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/rh
+		string heatIndex;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/hi
+		string windChill;		// LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()
+		string windChillDay;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/wc
+		string windChillNight;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/wc
+		string windDirectionDay;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/wdir_cardinal
+		string windDirectionNight;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/wdir_cardinal
+		string windDirValueDay;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/wdir
+		string windDirValueNight;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/wdir
+		string windSpeedDay;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/wspd
+		string windSpeedNight;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/wspd
+		string cloudCodeDay;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/clds
+		string cloudCodeNight;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/night/clds
+		string uvWarning;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/uv_warning
+		string uvIndex;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/uv_desc
+		string uvIndexAmt;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/uv_index
+		string golfIndex;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/golf_category
+		string golfIndexAmt;		// DailyForecast:{CoopId}/forecasts/forecast[fcst_valid_local="{FcstValidLocalVar}"]/day/golf_index
+		string skyIconCode;		// Mapping:{2}/Entry[@key='{iconCode}']/{DayNightIcon}
+		string skyIconCodeDay;		// Mapping:{2}/Entry[@key='{iconCodeDay}']/DayIcon
+		string skyIconCodeNight;		// Mapping:{2}/Entry[@key='{iconCodeNight}']/NightIcon
+		string skyIconFileName;		// Mapping:{2}/Entry[@key='{iconCode}']/{DayNightIconFile}
+		string skyIconFileNameDay;		// Mapping:{2}/Entry[@key='{iconCodeDay}']/DayIconFile
+		string skyIconFileNameNight;		// Mapping:{2}/Entry[@key='{iconCodeNight}']/NightIconFile
+		string iconCodeVar;		// Const
+		string DayNightIconVar;		// Const
+		string wxManCode;		// Mapping:{3}/Entry[@key='{wxManDay}']/DayIcon		
+		string wxManCodeDay;		// Mapping:{3}/Entry[@key='{wxManDay}']/DayIcon
+		string wxManCodeNight;		// Mapping:{3}/Entry[@key='{wxManNight}']/DayIcon
+		string climoAvgHigh;		// ClimatologyRecord:{CliStn}/ClimoRec[@month=substring('{1}',5,2) and @day=substring('{1}',7,2)]/@avgHigh
+		string climoAvgLow;		// ClimatologyRecord:{CliStn}/ClimoRec[@month=substring('{1}',5,2) and @day=substring('{1}',7,2)]/@avgLow
+		string oneLineWxPhrase;		// LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()
+		string oneLineDayWxPhrase;		// Mapping:{2}/Entry[@key='{iconCodeDay}']/OneLineWxPhrase
+		string oneLineNightWxPhrase;		// Mapping:{2}/Entry[@key='{iconCodeNight}']/OneLineWxPhrase
+		string twoLineWxPhrase1;		// LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()
+		string twoLineDayWxPhrase1;		// Mapping:{2}/Entry[@key='{iconCodeDay}']/TwoLineWxPhrase1
+		string twoLineNightWxPhrase1;		// Mapping:{2}/Entry[@key='{iconCodeNight}']/TwoLineWxPhrase1
+		string twoLineWxPhrase2;		// LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()
+		string twoLineDayWxPhrase2;		// Mapping:{2}/Entry[@key='{iconCodeDay}']/TwoLineWxPhrase2
+		string twoLineNightWxPhrase2;		// Mapping:{2}/Entry[@key='{iconCodeNight}']/TwoLineWxPhrase2
+		string threeLineWxPhrase1;		// LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()
+		string threeLineDayWxPhrase1;		// Mapping:{2}/Entry[@key='{iconCodeDay}']/ThreeLineWxPhrase1
+		string threeLineNightWxPhrase1;		// Mapping:{2}/Entry[@key='{iconCodeNight}']/ThreeLineWxPhrase1
+		string threeLineWxPhrase2;		// LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()
+		string threeLineDayWxPhrase2;		// Mapping:{2}/Entry[@key='{iconCodeDay}']/ThreeLineWxPhrase2
+		string threeLineNightWxPhrase2;		// Mapping:{2}/Entry[@key='{iconCodeNight}']/ThreeLineWxPhrase2
+		string threeLineWxPhrase3;		// LFRecord:{0}/LFData/coopId//*[text() = 'XXXXXX']/text()
+		string threeLineDayWxPhrase3;		// Mapping:{2}/Entry[@key='{iconCodeDay}']/ThreeLineWxPhrase3
+		string threeLineNightWxPhrase3;		// Mapping:{2}/Entry[@key='{iconCodeNight}']/ThreeLineWxPhrase3
+		string sunrise;		// Python-generated
+		string sunset;		// Python-generated
+		string sunriseHour;		// Const
+		string sunriseMinute;		// Const
+		string sunriseSecond;		// Const
+		string sunriseAMPM;		// Const
+		string sunsetHour;		// Const
+		string sunsetMinute;		// Const
+		string sunsetSecond;		// Const
+		string sunsetAMPM;		// Const
+		string moonrise;		// Python-generated
+		string moonset;		// Python-generated
+		string stationName;		// DailyForecast:{CoopId}/clientKey
+		string sunriseTotalMinutes;		// Const
+		string sunsetTotalMinutes;		// Const
+		string nowTotalMinutes;		// Const
+		string nowOffset;		// Const
+		string sunsetOffset;		// Const
+
+		string #misc_1;
+		string #misc_2;
+		string #misc_3;
+		string #misc_4;
+		string #misc_5;
+		string #misc_6;
+		string #misc_7;
+		string #misc_8;
+		string #misc_9;
+		string #misc_10;
+		string #misc_11;
+		string #misc_12;
+		string #misc_13;
+		string #misc_14;
+		string #misc_15;
+		string #misc_16;
+		string #misc_17;
+		string #misc_18;
+		string #misc_19;
+		string #misc_20;
+		string #misc_21;
+		string #misc_22;
+		string #misc_23;
+		string #misc_24;
+		string #misc_25;
+	};
