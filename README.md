@@ -6,6 +6,7 @@
 WxChaser's Custom Azul as Seen on Youtube.
 
 Whats Included.
+
 Metro Forecast and Observation Map
 
 Regional Observation Map
@@ -50,3 +51,5 @@ Steps to Get Azul Plus Working Correctly:
 - Roads and Borders Remain Working, Its just for the Road Signs. Sorry:/ but its easily fixable if it annoys you.
 
 11. I also Added The original Metro maps If you just prefer that one. With full icon speed
+
+Note: Metro's and Regional Map Mile Width (zoom level) Can be Adjusted in Regmetromap_DftCfg.xml and NowMetroMap_DftCg.xml etc just incase you want to change it.
