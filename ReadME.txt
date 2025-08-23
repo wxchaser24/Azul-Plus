@@ -29,3 +29,7 @@ Steps to Get Azul Plus Working Correctly:
 -Road Signs needs to be Moved manually to your locations coordinate on viz due to the Designdestinastion Plugin being turned off. 
 -DesignDestination was Giving issues when using a map width less then about 200 miles or when a "city" is too close to another. 
 - Roads and Borders Remain Working, Its just for the Road Signs. Sorry:/ but its easily fixable if it annoys you.
+
+7. I also Added The original Metro maps If you just prefer that one. With full icon speed
+
+Note: Metro's and Regional Map Mile Width (zoom level) Can be Adjusted in Regmetromap_DftCfg.xml and NowMetroMap_DftCg.xml etc just incase you want to change it.
