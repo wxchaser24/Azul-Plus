@@ -15,6 +15,7 @@ Regional Observation Map
 
 Full Speed Radar and Weather Icons on Maps.
 
+Azul Data Fixes
 
 Steps to Get Azul Plus Working Correctly:
 
