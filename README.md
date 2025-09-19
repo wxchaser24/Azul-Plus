@@ -6,7 +6,7 @@
 WxChaser's Custom Azul as Seen on Youtube.
 
 >[!WARNING]
-> This Viz design **must** be run on an IntelliStar 2 Jr.
+> This Viz design **must** be run on an IntelliStar 2 xD.
 
 >You need Vizrt/i2 Experience to properly configure this for your location.
 
